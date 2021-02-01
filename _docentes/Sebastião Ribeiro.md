@@ -25,24 +25,3 @@ lab_coordinator: true
 
 ---
 
-{% contentfor br %}
-
-Engenheiro químico, mestre, doutor, Pós-doutorado e Livre-Docência em Engenharia de Materiais.
-Principal área de Pesquisa - Materiais Cerâmicos: Sínteses, Processamento e Caracterização (Concretos, carbetos, nitreto, alumina, zircônia, espinélios e argilas).
-Orientador de Iniciação Científica, Trabalhos de Graduação, Mestrado e Doutorado.
-Assessor Ad Hoc do CNPq, FAPESP e CAPES.
-Referee de várias revistas nacionais e Internacionais.    
-Parceria com Universidades, Institutos de Pesquisa e Empresas do ramo de cerâmica.
-
-{% endcontentfor %}
-
-{% contentfor en %}
-
-Chemical Engineer, Master, Doctor and Pos-doctor Materials Engineer.
-Mainly Research Area: Ceramics Materials- Synthesis, Processing and Characterization (Concrete, Castables, Carbides, Nitrides, Alumina, Zirconia, Spinels and Clays).
-Supervisor: Cientific Initiation, Graduation Work, Master and Doutorate.
-Assessor Ad Hoc: CNPq, FAPESP e CAPES.
-Referee of many national and international cientic magazines.    
-Partnership with many Universities, Research Instituts and Companies.
-
-{% endcontentfor %}
