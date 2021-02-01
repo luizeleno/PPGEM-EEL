@@ -1,0 +1,72 @@
+# Site settings
+title: "PPGEM-EEL | USP"
+description: "Programa de Pós-Graduação em Engenharia de Materiais da Escola de Engenharia da Universidade de São Paulo"
+baseurl: "/PPGEM-EEL" # the subpath of your site, e.g. /blog
+url: "" # the name of your domain
+logo_url: img/logo.png
+
+destination: docs/ 
+
+# Hero
+hero:
+    hero_img: hero.jpg
+    hero_title: PPGEM-EEL
+    hero_description: "Pós-Graduação em Engenharia de Materiais da EEL/USP"
+
+# Contact form
+# api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
+
+# Contact info
+contact:
+    phone: (12) 3159-9904
+    # whatsapp: 5511986882944
+    # email: tavania@usp.br
+    email: ppgem.eel@usp.br
+    address_line1: "Pólo Urbo-Industrial Gleba AI-6"
+    address_line2: "Fazenda Mondezir (Estrada Santa Lucrécia)"
+    address_line3: "CEP: 12.600-970 - Caixa Postal: 116"
+    address_line4: "Lorena/SP"
+
+# Opening hours
+monday_friday: "8h30-11h30 e 14h30-17h30"
+#saturday: 10:00 – 17:00
+#sunday: 10:00 – 15:00
+
+# Testimonials
+testimonials:
+    testimonials_img: parallax.jpg
+
+# Social settings
+facebook: https://www.facebook.com/ppgem.eelusp
+# twitter: https://twitter.com/OliveiraAlvesA2
+# instagram: https://www.instagram.com/oliveiraealvesadvocacia/
+# youtube: https://www.youtube.com/channel/UCKEmedjENq6KfUKG2NbUS0w/
+# whatsapp: 5511986882944
+# skype:
+feed: no
+
+# Footer
+copyright: © Prof. Luiz T. F. Eleno & Demar::EEL::USP
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    package-lock.json,
+    Gruntfile.js,
+    .sass-cache,
+    .gitignore,
+    Rakefile,
+    README.md,
+    LICENSE.md
+]
+
+# Theme Settings
+analytics:
+google_verification:
+
+collections:
+  docentes:
+    output: true
+    permalink: /docentes/:name.html
