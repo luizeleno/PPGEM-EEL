@@ -1,30 +1,27 @@
-# Auto publish
-# Change your GitHub reponame
-GITHUB_REPONAME = "username/username.github.io"
-
-desc "Generate blog files"
-task :generate do
-  Jekyll::Site.new(Jekyll.configuration({
-    "source"      => ".",
-    "destination" => "_site"
-  })).process
+desc "Build jekyll - production"
+task :build do
+  puts "\n## Buildind jekyll on production environment"
+  status = system("JEKYLL_ENV=production bundle exec jekyll build")
+  puts status ? "Success" : "Failed"
 end
 
-desc "Generate and publish blog to gh-pages"
-task :publish => [:generate] do
-  Dir.mktmpdir do |tmp|
-    cp_r "_site/.", tmp
+desc "Build jekyll - development"
+task :build_dev do
+  puts "\n## Buildind jekyll on development environment"
+  status = system("bundle exec jekyll build")
+  puts status ? "Success" : "Failed"
+end
 
-    pwd = Dir.pwd
-    Dir.chdir tmp
-
-    system "git init"
-    system "git add ."
-	message = "Site updated at #{Time.now.utc}"
-	system "git commit -m #{message.inspect}"
-    system "git remote add origin https://github.com/#{GITHUB_REPONAME}.git"
-    system "git push origin master --force"
-
-    Dir.chdir pwd
-  end
+desc "Commit _site/"
+task :commit do
+  puts "\n## Staging modified files"
+  status = system("git add -A")
+  puts status ? "Success" : "Failed"
+  puts "\n## Committing a site build at #{Time.now.utc}"
+  message = "Build site at #{Time.now.utc}"
+  status = system("git commit -m \"#{message}\"")
+  puts status ? "Success" : "Failed"
+  puts "\n## Pushing commits to remote"
+  status = system("git push origin main")
+  puts status ? "Success" : "Failed"
 end
