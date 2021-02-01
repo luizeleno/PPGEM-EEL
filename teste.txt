@@ -25,3 +25,33 @@
     </div>
 </div>
 <!-- End Our team -->
+
+<!-- Start Testimonials -->
+<h2 class="section-title">Última defesas</h2>
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+    <div class="overlay-container">
+        <div class="overlay"></div>
+        <div class="container-fluid">
+            <div id="testimonial-carousel">
+                {% for testimonial in site.data.testimonials %}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        <blockquote>
+                            <p>{{ testimonial.titulo }}</p>
+                            <p>{{testimonial.tipo}}</p>
+                            <footer>
+                                {{ testimonial.aluno }}
+                                <small>
+                                    Orientador: {{ testimonial.orientador }}
+                                    <br>
+                                    {{ testimonial.data }}
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Testimonials -->

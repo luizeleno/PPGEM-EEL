@@ -187,7 +187,6 @@ layout: default
 <!-- End Treatments -->
 
 <!-- Start Testimonials -->
-<h2 class="section-title">Última defesas</h2>
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
@@ -195,17 +194,12 @@ layout: default
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
-                        <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
                         <blockquote>
-                            <p>{{ testimonial.titulo }}</p>
-                            <p>{{testimonial.tipo}}</p>
+                            <p>{{ testimonial.description }}</p>
                             <footer>
-                                {{ testimonial.aluno }}
-                                <small>
-                                    Orientador: {{ testimonial.orientador }}
-                                    <br>
-                                    {{ testimonial.data }}
-                                </small>
+                                {{ testimonial.name }}
+                                <small>{{ testimonial.title }}</small>
                             </footer>
                         </blockquote>
                     </div>
@@ -215,6 +209,8 @@ layout: default
     </div>
 </div>
 <!-- End Testimonials -->
+
+
 
 <!-- Start Gallery -->
 <div id="gallery" class="gallery">
