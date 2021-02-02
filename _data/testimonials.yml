@@ -1,41 +1,17 @@
-- name: Constituição Federal
-  description: 'Art. 5º. Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade (...)'
-  title: 1988
+- aluno: Luciano Braga Alkmin
+  orientador: Carlos Angelo Nunes
+  titulo: 'Modificação da superliga MAR-M246 por adição de nióbio: estabilidade de fases e comportamento mecânico'
+  data: 21/08/2020
+  tipo: Tese de Doutorado
 
-- name: Constituição Federal
-  description: 'Art. 7º São direitos dos trabalhadores urbanos e rurais, além de outros que visem à melhoria de sua condição social:
-I - relação de emprego protegida contra despedida arbitrária ou sem justa causa, nos termos de lei complementar, que preverá indenização compensatória, dentre outros direitos; (...)
-VII - garantia de salário, nunca inferior ao mínimo, para os que percebem remuneração variável; '
-  title: 1988
+- aluno: Marcus Vinícius da Silva Salgado
+  orientador: Carlos Angelo Nunes
+  titulo: 'Processamento, caracterização microestrutural, mecânica e de desgaste de ferramentas de liga à base de cobalto aplicadas ao processo friction stir welding'
+  data: 05/06/2020
+  tipo: Tese de Doutorado
 
-- name: Constituição Federal
-  description: 'Art. 194. A seguridade social compreende um conjunto integrado de ações de iniciativa dos Poderes Públicos e da sociedade, destinadas a assegurar os direitos relativos à saúde, à previdência e à assistência social. '
-  title: 1988
-
-- name: Constituição Federal
-  description: 'Art. 203. A assistência social será prestada a quem dela necessitar, independentemente de contribuição à seguridade social, e tem por objetivos:
-I - a proteção à família, à maternidade, à infância, à adolescência e à velhice;
-II - o amparo às crianças e adolescentes carentes;
-III - a promoção da integração ao mercado de trabalho;
-IV - a habilitação e reabilitação das pessoas portadoras de deficiência e a promoção de sua integração à vida comunitária;
-V - a garantia de um salário mínimo de benefício mensal à pessoa portadora de deficiência e ao idoso que comprovem não possuir meios de prover à própria manutenção ou de tê-la provida por sua família, conforme dispuser a lei.'
-  title: 1988
-
-
-# - aluno: Luciano Braga Alkmin
-#   orientador: Carlos Angelo Nunes
-#   titulo: 'Modificação da superliga MAR-M246 por adição de nióbio: estabilidade de fases e comportamento mecânico'
-#   data: 21/08/2020
-#   tipo: Tese de Doutorado
-
-# - aluno: Marcus Vinícius da Silva Salgado
-#   orientador: Carlos Angelo Nunes
-#   titulo: 'Processamento, caracterização microestrutural, mecânica e de desgaste de ferramentas de liga à base de cobalto aplicadas ao processo friction stir welding'
-#   data: 05/06/2020
-#   tipo: Tese de Doutorado
-
-# - aluno: Jorge Juárez Trujillo
-#   orientador: Fernando Vernilli Junior
-#   titulo: 'Aceleração da secagem de refratários monolíticos assistida por simulação numérica'
-#   data: 05/03/2020
-#   tipo: Tese de Doutorado
+- aluno: Jorge Juárez Trujillo
+  orientador: Fernando Vernilli Junior
+  titulo: 'Aceleração da secagem de refratários monolíticos assistida por simulação numérica'
+  data: 05/03/2020
+  tipo: Tese de Doutorado

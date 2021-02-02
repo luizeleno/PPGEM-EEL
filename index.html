@@ -141,28 +141,22 @@ layout: default
 <!-- Start Our team -->
 <div id="team" class="team">
     <h2 class="section-title">Docentes</h2>
-    <!-- <h4 class="section-title"><i>Clique na especialidade desejada e fale diretamente com o especialista</i></h4> -->
-    <div id="team-carousel">
+    <!-- <h4 class="section-title"><i>Clique na foto do docente para mais informações</i></h4> -->
+    <ul id="team-slider">
     {% for member in site.docentes %}
-        <div class="expandable-box">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:120px">
-                <h4>{{ member.nome }}</h4>
-                <p><b>Área de pesquisa: </b>
-                    {% for tema in member.pesquisa.br %}
-                        {{tema}}{% if forloop.last %}.{% else %},{% endif %}
-                    {% endfor %}
-                </p>
+    <li>
+        
+        <div class="container-slider">
+                <img src="{{ site.baseurl }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" class="image-slider">
+            <div class="middle-slider">
+              <div class="text-slider"><h4>
+                <a href="{{site.baseurl}}{{member.url}}">{{ member.nome }}</div>
+                </a></h4>
             </div>
-            <div class="expandable-box-bottom">
-                <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-                </a>
-                <a href="tel:{{ member.fone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.fone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-                </a>
-            </div>
-        </div>
+          </div>
+        </li>
     {% endfor %}
-    </div>
+    </ul>
 </div>
 <!-- End Our team -->
 
@@ -170,7 +164,6 @@ layout: default
 <div id="treatments" class="treatments">
     <div class="container-fluid">
         <h2 class="section-title">Informações</h2>
-
         <div class="row">
             {% for treatment in site.data.treatments %}
                 <div class="col-sm-6 col-md-4" >
@@ -187,19 +180,25 @@ layout: default
 <!-- End Treatments -->
 
 <!-- Start Testimonials -->
+<h2 class="section-title">Última defesas</h2>
 <div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
     <div class="overlay-container">
         <div class="overlay"></div>
         <div class="container-fluid">
-            <div id="testimonial-carousel">
+            <div id="testimonial-slider">
                 {% for testimonial in site.data.testimonials %}
                     <div class="testimonial-item">
-                        <svg class="icon icon-quote-left"><use xlink:href="#icon-quote-left"></use></svg>
+                        <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
-                            <p>{{ testimonial.description }}</p>
+                            <p>{{ testimonial.titulo }}</p>
+                            <p>{{testimonial.tipo}}</p>
                             <footer>
-                                {{ testimonial.name }}
-                                <small>{{ testimonial.title }}</small>
+                                {{ testimonial.aluno }}
+                                <small>
+                                    Orientador: {{ testimonial.orientador }}
+                                    <br>
+                                    {{ testimonial.data }}
+                                </small>
                             </footer>
                         </blockquote>
                     </div>
