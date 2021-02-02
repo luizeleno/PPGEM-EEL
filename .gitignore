@@ -8,6 +8,6 @@ _site/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
-docs/
+# docs/
 
 # End of https://www.toptal.com/developers/gitignore/api/jekyll
