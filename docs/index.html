@@ -11,6 +11,27 @@
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais da Escola de Engenharia da Universidade de São Paulo">
     <link rel="alternate" type="application/rss+xml" href="/PPGEM-EEL/feed.xml">
 
+     <!-- JS -->
+    <script src="/PPGEM-EEL/js/jquery.min.js"></script>
+    <script src="/PPGEM-EEL/js//popper.min.js"></script>
+    <script src="/PPGEM-EEL/js/bootstrap.min.js"></script>
+    <script>
+    
+    var elements = document.querySelectorAll('p');
+    Array.prototype.forEach.call(elements, function(el, i){
+        if(el.innerHTML=='[expand]') {
+            var parentcontent = el.parentNode.innerHTML.replace('<p>[expand]</p>','<div class="expand" style="display: none; height: 0; overflow: hidden;">').replace('<p>[/expand]</p>','</div>');
+            el.parentNode.innerHTML = parentcontent;
+        }
+    });
+
+    var elements = document.querySelectorAll('div.expand');
+    Array.prototype.forEach.call(elements, function(el, i){
+        el.previousElementSibling.innerHTML = el.previousElementSibling.innerHTML + '<span>..&nbsp; <a href="#" style="cursor: pointer;" onclick="this.parentNode.parentNode.nextElementSibling.style.display = \'block\'; this.parentNode.parentNode.nextElementSibling.style.height = \'auto\'; this.parentNode.style.display = \'none\';">read&nbsp;more&nbsp;&rarr;</a></span>';
+    });
+
+</script>
+
     <!-- Stylesheet -->
     <!-- <link rel="stylesheet" href="/PPGEM-EEL/css/main.css"> -->
 
@@ -20,6 +41,7 @@
 
     <!-- Light Gallery -->
     <link type="text/css" rel="stylesheet" href="/PPGEM-EEL/js/lightslider/css/lightslider.min.css" />
+    <script src="/PPGEM-EEL/js/lightslider/js/lightslider.js"></script>
     <link type="text/css" rel="stylesheet" href="/PPGEM-EEL/css/text-over-image.css" />
 
     <!-- Favicon -->
@@ -700,10 +722,10 @@
     
 
     <!-- <script src="/PPGEM-EEL/js/jquery.min.js"></script> -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> -->
     <!-- <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script> -->
     <!-- <script src="/PPGEM-EEL/js/all.min.js"></script> -->
-    <script src="/PPGEM-EEL/js/lightslider/js/lightslider.min.js"></script>
+    <!-- <script src="/PPGEM-EEL/js/lightslider/js/lightslider.min.js"></script> -->
     
     <script type="text/javascript">
 

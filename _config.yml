@@ -70,3 +70,9 @@ collections:
   docentes:
     output: true
     permalink: /docentes/:name.html
+
+sass:
+  load_paths:
+    - css
+    - js
+  style: compressed
