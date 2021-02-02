@@ -30,7 +30,6 @@
         autoPlay: 5000, //Set AutoPlay to 5 seconds
 
         items : 4,
-        itemsDesktopSmall : [979,3],
         stopOnHover: true
  
     });
@@ -41,8 +40,7 @@
  
         autoPlay: 6000, //Set AutoPlay to 6 seconds
         
-        singleItem: true,
-        pagination: true,
+        items: 1,
         stopOnHover: true
  
     });
