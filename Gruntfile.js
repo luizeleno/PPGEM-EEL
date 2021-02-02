@@ -8,7 +8,7 @@ module.exports = function (grunt) {
                 separator: "\n\n"
             },
             dist: {
-                src: ['js/bootstrap.js', 'js/jquery.magnific-popup.js', 'js/gmap3.js', 'js/custom.js'],
+                src: ['js/bootstrap.js', 'js/owl.carousel.js', 'js/jquery.magnific-popup.js', 'js/gmap3.js', 'js/custom.js'],
                 dest: 'js/all.js'
             }
         },
@@ -41,11 +41,11 @@ module.exports = function (grunt) {
 
         shell : {
             jekyllServe : {
-                command : 'bundle exec jekyll serve'
+                command : 'jekyll serve'
             },
 
             jekyllBuild : {
-                command : 'bundle exec jekyll build'
+                command : 'jekyll build'
             }
         },
 
