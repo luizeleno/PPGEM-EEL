@@ -1,5 +1,6 @@
 <!-- Start Header -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<div class="navbar-fixed-top">
+<nav class="navbar navbar-default">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -24,8 +25,8 @@
                 <li><a class="scroll" href="#gallery">{% t nav.noticias %}</a></li>
                 <li><a class="scroll" href="#location">{% t nav.local %}</a></li>
                 <li><a class="scroll" href="#contact">{% t nav.contatos %}</a></li>
-                
-                <div class="navbar-text">
+
+                <div class="navbar-text" style="margin-left:20px">
                     {% if site.lang == "br" %}
                         {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
                         <a href="{{ link1 }}" >
@@ -60,4 +61,8 @@
         </div>
     </div>
 </nav>
+<hr class="top-color-bar" style="background-color:#fcb421;">
+<hr class="top-color-bar" style="background-color:#64c4d2;">
+<hr class="top-color-bar" style="background-color:#1094ab;">
+</div>
 <!-- End Header -->
