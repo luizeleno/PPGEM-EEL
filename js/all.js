@@ -8523,9 +8523,9 @@ $.fn.gmap3 = function () {
     $("#testimonial-carousel").owlCarousel({
  
         autoPlay: 6000, //Set AutoPlay to 6 seconds
- 
+        
         singleItem: true,
-        pagination : true,
+        pagination: true,
         stopOnHover: true
  
     });
