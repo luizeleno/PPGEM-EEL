@@ -1,11 +1,17 @@
 # Site settings
 title: "PPGEM-EEL | USP"
 description: "Programa de Pós-Graduação em Engenharia de Materiais da Escola de Engenharia da Universidade de São Paulo"
-baseurl: "/PPGEM-EEL" # the subpath of your site, e.g. /blog
-url: "" # the name of your domain
+baseurl: "/PPGEM-EEL"
+url: ""
 logo_url: img/logo.png
 
 destination: docs/ 
+
+sass:
+  load_paths:
+    - css
+    - js
+  style: compressed
 
 plugins:
   - jekyll-multiple-languages-plugin
@@ -77,8 +83,22 @@ collections:
     output: true
     sort_by: date
 
-sass:
-  load_paths:
-    - css
-    - js
-  style: compressed
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: docentes
+    values:
+      layout: page
+      PPGEM: permanente
+  -
+    scope:
+      path: ""
+      type: noticias
+    values:
+      img: "/img/parallax.jpg"
