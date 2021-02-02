@@ -41,4 +41,8 @@
             @extend %align-right;
         }
     }
+    img {
+        @extend %align-left;
+        width: 100%;
+    }
 }

@@ -1,0 +1,56 @@
+global:
+  tagline: English
+  maisnoticias: See more news
+  maisdefesas: See more defenses
+  orientador: Advisor
+
+langs:
+  br: br
+  en: en
+  es: es
+
+nav:
+  inicio: Home
+  programa: The Program
+  docentes: Faculty
+  info: Information
+  defesas: Defenses
+  noticias: News
+  local: Location
+  contatos: Contacts
+
+secoes:
+  programa: PPGEM at EEL/USP
+  docentes: Faculty
+  info: Information
+  defesas: Recent defenses
+  noticias: News
+  contato: Contacts
+  endereco: Address
+  atendimento: Business hours
+
+info:
+  - 
+    icon: icon-calendar
+    title: Forms
+    link: 
+  - 
+    icon: icon-group
+    title: Registration
+    link: 
+  - 
+    icon: icon-flask
+    title: Research lines
+    link: 
+  - 
+    icon: icon-globe
+    title: Cooperation
+    link: 
+  - 
+    icon: icon-envelope
+    title: Rules, Regulations and Standards
+    link: 
+  - 
+    icon: icon-briefcase
+    title: Classes
+    link: 

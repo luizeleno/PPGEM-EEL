@@ -1,0 +1,56 @@
+global:
+  tagline: Português
+  maisnoticias: Ver mais notícias
+  maisdefesas: Ver mais defesas
+  orientador: Orientador
+
+  langs:
+  br: br
+  en: en
+  es: es
+
+nav:
+  inicio: Início
+  programa: O Programa
+  docentes: Docentes
+  info: Informação
+  defesas: Defesas
+  noticias: Notícias
+  local: Localização
+  contatos: Contatos
+
+secoes:
+  programa: O PPGEM da EEL/USP
+  docentes: Docentes
+  info: Informação
+  defesas: Últimas defesas
+  noticias: Notícias
+  contato: Contato
+  endereco: Endereço
+  atendimento: Horário de Atendimento
+
+info:
+  - 
+    icon: icon-calendar
+    title: Formulários
+    link: 
+  - 
+    icon: icon-group
+    title: Inscrições
+    link: 
+  - 
+    icon: icon-flask
+    title: Linhas de pesquisa
+    link: 
+  - 
+    icon: icon-globe
+    title: Cooperações
+    link: 
+  - 
+    icon: icon-envelope
+    title: Regimento, Regulamentos e Normas
+    link: 
+  - 
+    icon: icon-briefcase
+    title: Disciplinas
+    link: 

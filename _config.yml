@@ -7,6 +7,13 @@ logo_url: img/logo.png
 
 destination: docs/ 
 
+plugins:
+  - jekyll-multiple-languages-plugin
+
+
+languages: ["br", "en", "es"]
+exclude_from_localizations: ["js", "img", "css", "svg", "docs" ]
+
 # Hero
 hero:
     hero_img: hero.jpg
@@ -31,10 +38,6 @@ contact:
 monday_friday: "8h30-11h30 e 14h30-17h30"
 #saturday: 10:00 – 17:00
 #sunday: 10:00 – 15:00
-
-# Testimonials
-testimonials:
-    testimonials_img: parallax.jpg
 
 # Social settings
 facebook: https://www.facebook.com/ppgem.eelusp
@@ -70,6 +73,9 @@ collections:
   docentes:
     output: true
     permalink: /docentes/:name.html
+  noticias:
+    output: true
+    sort_by: date
 
 sass:
   load_paths:

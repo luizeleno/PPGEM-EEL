@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Start Hero -->
-<div class="hero" style="background: url('{{ site.baseurl }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
+<div class="hero" style="background: url('{{ site.baseurl_root }}/img/{{ site.hero.hero_img }}') no-repeat; background-size: cover;">
     <div class="hero-content">
         <div class="container-fluid">
             <div class="hero-content-inner">
@@ -15,85 +15,24 @@ layout: default
 
     <div class="container-fluid">
 
-        <div class="col-sm-6 col-sm-offset-6 col-md-4 col-md-offset-8 form">
-            <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>Contato</h3>
-            <form method="POST" action="https://formspree.io/oliveiraealvesadvocacia@gmail.com">
-                <div class="form-field">
-                    <input name="name" type="text" placeholder="Nome*" required>
-                </div>
-                <div class="form-field">
-                    <input name="phone" type="tel" placeholder="Telefone com DDD">
-                </div>
-                <div class="form-field">
-                    <input name="whatsapp" type="tel" placeholder="WhatsApp com DDD">
-                </div>
-                <div class="form-field">
-                    <input name="email" type="email" placeholder="E-mail*" required>
-                </div>
-                <div class="form-field">
-                    <textarea name="comments" placeholder="Escreva aqui a sua mensagem" required></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Enviar">
-            </form>
+        <div class="col-sm-6 col-sm-offset-6 col-md-6 col-md-offset-6">
+            <img src="{{site.baseurl_root}}/img/logo-only.png" style="width:100%">
         </div>
 
     </div>
+
 </div>
 <!-- End Hero -->
-
-<!-- Start 3 columns -->
-<div class="three-shade-col">
-    <div class="col-sm-4">
-        <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-        <h3>Contato</h3>
-        <ul>
-            {% if site.contact.phone %}<li><img width='18px' src='{{site.baseurl}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.whatsapp %}<li><a href="https://wa.me/{{site.contact.whatsapp}}"><img width='18px' src='{{site.baseurl}}/img/redes/whatsapp.png'></a> <strong>WhatsApp:</strong> {{ site.contact.whatsapp }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong><img width='18px' src='{{site.baseurl}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
-        </ul>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-        <h3>Endereço</h3>
-            <p>
-                {{ site.contact.address_line1 }}<br />
-                {{ site.contact.address_line2 }}<br />
-                {{ site.contact.address_line3 }}<br />
-                {{ site.contact.address_line4 }}
-            </p>
-    </div>
-    <div class="col-sm-4">
-        <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-        <h3>Horário de Atendimento</h3>
-        <table>
-            <tbody>
-                <tr>
-                    <td>Segunda à Sexta</td>
-                    <td>{{ site.monday_friday }}</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>{{ site.saturday }}</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>{{ site.sunday }}</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
-</div>
-<!-- End 3 columns -->
 
 <!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
-        <h2 class="section-title">O PPGEM-EEL</h2>
+        <h2 class="section-title"> </h2>
 
         <div class="row">
             <div class="col-sm-6">
-                <h3>PPGEM-EEL-USP</h3>
-                <p>O Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP).  
+                <h3>{% t secoes.programa %}</h3>
+                <p>O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP).  
 
                 <p> As atividades de pesquisa são bem abrangentes em assuntos envolvendo processamento, caracterização e aplicações de metais/ligas metálicas, cerâmicas, polímeros e compósitos.</p>
 
@@ -130,9 +69,33 @@ layout: default
                     </div>
                 </div>
             </div>
+            
             <div class="col-sm-6">
-                <img src="img/about.jpg" alt="...">
+                <div class="container-fluid">
+                    <div class=" form">
+                        <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg> {% t secoes.contato %}</h3>
+                        <form method="POST" action="https://formspree.io/oliveiraealvesadvocacia@gmail.com">
+                            <div class="form-field">
+                                <input name="name" type="text" placeholder="Nome*" required>
+                            </div>
+                            <div class="form-field">
+                                <input name="phone" type="tel" placeholder="Telefone com DDD">
+                            </div>
+                            <div class="form-field">
+                                <input name="whatsapp" type="tel" placeholder="WhatsApp com DDD">
+                            </div>
+                            <div class="form-field">
+                                <input name="email" type="email" placeholder="E-mail*" required>
+                            </div>
+                            <div class="form-field">
+                                <textarea name="comments" placeholder="Escreva aqui a sua mensagem*" required></textarea>
+                            </div>
+                            <input type="submit" class="btn btn-default" value="Enviar">
+                        </form>
+                    </div>
+                </div>
             </div>
+
         </div>
     </div>
 </div>
@@ -140,14 +103,14 @@ layout: default
 
 <!-- Start Our team -->
 <div id="team" class="team">
-    <h2 class="section-title">Docentes</h2>
+    <h2 class="section-title">{% t secoes.docentes %}</h2>
     <!-- <h4 class="section-title"><i>Clique na foto do docente para mais informações</i></h4> -->
     <div id="team-carousel">
     {% for member in site.docentes %}
     <div class="expandable-box">
         <div class="expandable-box-top">
             <a href="{{site.baseurl}}{{member.url}}">
-                <img src="{{ site.baseurl }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
+                <img src="{{ site.baseurl_root }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
             </a>
             <h4>{{ member.nome }}</h4>
             <p><b>Áreas de pesquisa:</b>
@@ -165,30 +128,31 @@ layout: default
     </div>
 </div>
 <!-- End Our team -->
-<!-- Start Treatments -->
+
+<!-- Start Info -->
 <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Informações</h2>
+        <h2 class="section-title">{% t secoes.info %}</h2>
         <div class="row">
-            {% for treatment in site.data.treatments %}
+            {% for info in site.translations[site.lang].info %}
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <svg class="icon {{ treatment.icon }}"><use xlink:href="#{{ treatment.icon }}"></use></svg>
-                        <h4>{{ treatment.title }}</h4>
-                        <p>{{ treatment.description | markdownify }}</p>
+                        <svg class="icon {{ info.icon }}"><use xlink:href="#{{ info.icon }}"></use></svg>
+                        <h4>{{ info.title }}</h4>
                     </div>
                 </div>
             {% endfor %}
         </div>
     </div>
 </div>
-<!-- End Treatments -->
+<!-- End Info -->
 
-<!-- Start Testimonials -->
-<h2 class="section-title">Última defesas</h2>
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl }}/img/{{ site.testimonials.testimonials_img }}');">
+<!-- Start Defesas -->
+<h2 class="section-title">{% t secoes.defesas %}</h2>
+<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl_root }}/img/about.jpg');">
     <div class="overlay-container">
-        <div class="overlay"></div>
+        <div class="overlay">
+        </div>
         <div class="container-fluid">
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
@@ -200,7 +164,7 @@ layout: default
                             <footer>
                                 {{ testimonial.aluno }}
                                 <small>
-                                    Orientador: {{ testimonial.orientador }}
+                                    {% t global.orientador %}: {{ testimonial.orientador }}
                                     <br>
                                     {{ testimonial.data }}
                                 </small>
@@ -211,28 +175,30 @@ layout: default
             </div>
         </div>
     </div>
+    <a class="btn btn-primary btn-lg btn-block" href="" role="button">{% t global.maisdefesas %}</a>
 </div>
-<!-- End Testimonials -->
+<!-- End Defesas -->
 
-<!-- Start Gallery -->
+<!-- Start News -->
 <div id="gallery" class="gallery">
-
-    <h2 class="section-title">Notícias</h2>
-
-    {% for noticia in site.posts limit:3 %}
-        <a href="{{ site.baseurl }}{{ noticia.url }}" class="gallery-item expandable-box">
+    <div id="team" class="team">
+    <h2 class="section-title">{% t secoes.noticias %}</h2>
+    {% assign novas=site.noticias | reverse  %}
+    {% for noticia in novas limit:4 %}
+        <a href="{{ site.baseurl }}/{{ noticia.url }}" class="gallery-item expandable-box ">
             <div class="expandable-box-top">
-                <img src="{{ site.baseurl }}/img/noticias/{{ noticia.img }}" alt="{{ noticia.titulo }}" style="height:250px">
+                <img src="{{ site.baseurl_root }}/img/noticias/{{ noticia.img }}" alt="{{ noticia.titulo_br }}">
             </div>
             <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg> {{noticia.titulo_br}}</span>
+                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
+                <span>{{noticia.titulo_br}}</span>
             </div>
         </a>
     {% endfor %}
-<p>&nbsp;</p>
-<p><button class='btn btn-default'>Mais notícias</button></p>
 </div>
-<!-- End Gallery -->
+<a class="btn btn-primary btn-lg btn-block" href="" role="button">{% t global.maisnoticias %}</a>
+</div>
+<!-- End News -->
 
 <!-- Start Map -->
 <div id="location">
@@ -268,26 +234,25 @@ layout: default
   <div class="three-shade-col">
       <div class="col-sm-4">
           <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-          <h3>Contato</h3>
+          <h3>{% t secoes.contato %}</h3>
           <ul>
-            {% if site.contact.phone %}<li><img width='18px' src='{{site.baseurl}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.whatsapp %}<li><a href="https://wa.me/{{site.contact.whatsapp}}"><img width='18px' src='{{site.baseurl}}/img/redes/whatsapp.png'></a> <strong>WhatsApp:</strong> {{ site.contact.whatsapp }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong><img width='18px' src='{{site.baseurl}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
-          </ul>
-      </div>
+            {% if site.contact.phone %}<li><img width='18px' src='{{site.baseurl_root}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
+            {% if site.contact.whatsapp %}<li><a href="https://wa.me/{{site.contact.whatsapp}}"><img width='18px' src='{{site.baseurl_root}}/img/redes/whatsapp.png'></a> <strong>WhatsApp:</strong> {{ site.contact.whatsapp }}</li>{% endif %}
+            {% if site.contact.email %}<li><strong><img width='18px' src='{{site.baseurl_root}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
+          </ul></div>
       <div class="col-sm-4">
           <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-          <h3>Endereço</h3>
+          <h3>{% t secoes.endereco %}</h3>
               <p>
                   {{ site.contact.address_line1 }}<br />
                   {{ site.contact.address_line2 }}<br />
                   {{ site.contact.address_line3 }}<br />
-                  * {{ site.contact.address_line4 }}
+                  {{ site.contact.address_line4 }}
               </p>
       </div>
       <div class="col-sm-4">
           <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-          <h3>Horário de Atendimento</h3>
+          <h3>{% t secoes.atendimento %}</h3>
           <table>
               <tbody>
                   <tr>
