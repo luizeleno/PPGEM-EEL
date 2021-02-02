@@ -11,19 +11,15 @@
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais da Escola de Engenharia da Universidade de São Paulo">
     <link rel="alternate" type="application/rss+xml" href="/PPGEM-EEL/feed.xml">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/PPGEM-EEL/css/main.css">
 
     <!-- Google Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'>
+    <!-- <link href='https://fonts.googleapis.com/css?family=Nunito:400,700' rel='stylesheet' type='text/css'> -->
+    <!-- <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic' rel='stylesheet' type='text/css'> -->
 
     <!-- Light Gallery -->
-    <link type="text/css" rel="stylesheet" href="/PPGEM-EEL/js/lightslider/css/lightslider.css" />
-    <script src="/PPGEM-EEL/js/lightslider/js/lightslider.js"></script>
-
+    <link type="text/css" rel="stylesheet" href="/PPGEM-EEL/js/lightslider/css/lightslider.min.css" />
     <link type="text/css" rel="stylesheet" href="/PPGEM-EEL/css/text-over-image.css" />
 
     <!-- Favicon -->
@@ -155,7 +151,7 @@
                 Pólo Urbo-Industrial Gleba AI-6<br />
                 Fazenda Mondezir (Estrada Santa Lucrécia)<br />
                 CEP: 12.600-970 - Caixa Postal: 116<br />
-                * Lorena/SP
+                Lorena/SP
             </p>
     </div>
     <div class="col-sm-4">
@@ -704,55 +700,57 @@
     
 
     <!-- <script src="/PPGEM-EEL/js/jquery.min.js"></script> -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script src="/PPGEM-EEL/js/all.min.js"></script>
+    <script src="/PPGEM-EEL/js/lightslider/js/lightslider.min.js"></script>
     
     <script type="text/javascript">
 
-$(document).ready(function() {        
-    $('#team-slider').lightSlider({
-        // autoWidth:true,
-        item:6,
-        loop:true,
-        auto:true,
-        pause: 2000,
-        // slideMove:1,
-        pauseOnHover: true,
-        easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-        // speed:600,
-        responsive : [
-            {
-                breakpoint:800,
-                settings: {
-                    item:3,
-                    slideMove:1,
-                    slideMargin:6,
+    $(document).ready(function() {        
+        $('#team-slider').lightSlider({
+            // autoWidth:true,
+            item:6,
+            loop:true,
+            auto:true,
+            pause: 2000,
+            // slideMove:1,
+            pauseOnHover: true,
+            easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+            // speed:600,
+            responsive : [
+                {
+                    breakpoint:800,
+                    settings: {
+                        item:3,
+                        slideMove:1,
+                        slideMargin:6,
+                    }
+                },
+                {
+                    breakpoint:480,
+                    settings: {
+                        item:2,
+                        slideMove:1
+                    }
                 }
-            },
-            {
-                breakpoint:480,
-                settings: {
-                    item:2,
-                    slideMove:1
-                }
-            }
-        ]
-    });
-});  
-
-$(document).ready(function() {        
-    $('#testimonial-slider').lightSlider({
-        // autoWidth:true,
-        item:1,
-        loop:true,
-        auto:true,
-        pause: 2000,
-        // slideMove:1,
-        pauseOnHover: true,
-        // easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
-        // speed:600,
+            ]
+        });
     });  
-});
+
+    $(document).ready(function() {        
+        $('#testimonial-slider').lightSlider({
+            // autoWidth:true,
+            item:1,
+            loop:true,
+            auto:true,
+            pause: 2000,
+            // slideMove:1,
+            pauseOnHover: true,
+            // easing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+            // speed:600,
+        });  
+    });
 
 </script>
 
