@@ -127,11 +127,10 @@ home: true
 <!-- End Info -->
 
 <!-- Start Defesas -->
+<div id="testimonials"></div>
 <h2 class="section-title">{% t secoes.defesas %}</h2>
-<div id="testimonials" class="testimonials parallax" style="background-image: url('{{ site.baseurl_root }}/img/about.jpg');">
+<div class="testimonials parallax" style="background-image: url('{{ site.baseurl_root }}/img/about.jpg');">
     <div class="overlay-container">
-        <div class="overlay">
-        </div>
         <div class="container-fluid">
             <div id="testimonial-carousel">
                 {% for testimonial in site.data.testimonials %}
