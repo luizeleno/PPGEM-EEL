@@ -1,8 +1,12 @@
 global:
-  tagline: Português
+
+  tagline: "Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP"
+
   maisnoticias: Ver mais notícias
   maisdefesas: Ver mais defesas
   orientador: Orientador
+
+  title: 
 
   langs:
   br: br
@@ -54,3 +58,6 @@ info:
     icon: icon-briefcase
     title: Disciplinas
     link: 
+
+about:
+  text1: "O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP)."

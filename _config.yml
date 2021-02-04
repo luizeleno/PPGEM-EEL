@@ -1,9 +1,15 @@
 # Site settings
-title: "PPGEM-EEL | USP"
-description: "Programa de Pós-Graduação em Engenharia de Materiais da Escola de Engenharia da Universidade de São Paulo"
+
+languages: ["br", "en", "es"]
+exclude_from_localizations: ["js", "img", "css", "svg", "docs" ]
+
+title: "PPGEM EEL/USP"
+tagline: Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP
+description: "Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)"
+
 baseurl: "/PPGEM-EEL"
 url: ""
-logo_url: img/logo.png
+logo: img/logo.png
 
 destination: docs/ 
 
@@ -15,16 +21,7 @@ sass:
 
 plugins:
   - jekyll-multiple-languages-plugin
-
-
-languages: ["br", "en", "es"]
-exclude_from_localizations: ["js", "img", "css", "svg", "docs" ]
-
-# Hero
-hero:
-    hero_img: hero.jpg
-    hero_title: PPGEM-EEL
-    hero_description: "Pós-Graduação em Engenharia de Materiais da EEL/USP"
+  - jekyll-seo-tag
 
 # Contact form
 # api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
