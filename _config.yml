@@ -76,9 +76,8 @@ collections:
   docentes:
     output: true
     permalink: /docentes/:name.html
-  noticias:
-    output: true
-    sort_by: date
+  defesas:
+    output: false
 
 defaults:
   -
@@ -93,9 +92,3 @@ defaults:
     values:
       layout: page
       PPGEM: permanente
-  -
-    scope:
-      path: ""
-      type: noticias
-    values:
-      img: "/img/parallax.jpg"

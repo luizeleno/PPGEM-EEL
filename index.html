@@ -51,6 +51,7 @@ home: true
 </div>
 <!-- End Info -->
 
+{% assign hoje = 'now' | date: '%s' %}
 <!-- Start Defesas -->
 <div id="testimonials"></div>
 <h2 class="section-title">{% t secoes.defesas %}</h2>
@@ -58,18 +59,29 @@ home: true
     <div class="overlay-container">
         <div class="container-fluid">
             <div id="testimonial-carousel">
-                {% for testimonial in site.data.defesas %}
+                {% for defesa in site.defesas %}
+                    <!-- Start Código das datas -->
+                    {% assign dia = defesa.dia | prepend: '00' | slice: -2, 2 %}
+                    {% assign mes = defesa.mes | prepend: '00' | slice: -2, 2 %}
+                    {% capture data %} {{dia}}/{{mes}}/{{defesa.ano}} {% endcapture %}
+                    {% capture defesaISOdata%}{{defesa.ano}}-{{mes}}-{{dia}}{%endcapture%}
+                    {% assign defesaISOdata = defesaISOdata | date: '%s' %}
+                    <!-- End Código das datas -->
                     <div class="testimonial-item">
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
-                            <p>{{ testimonial.titulo }}</p>
-                            <p>{{testimonial.tipo}}</p>
+                            <p>{{ defesa.titulo }}</p>
+                            <p>{{defesa.tipo}}</p>
                             <footer>
-                                {{ testimonial.aluno }}
+                                {{ defesa.aluno }}
                                 <small>
-                                    {% t global.orientador %}: {{ testimonial.orientador }}
-                                    <br>
-                                    {{ testimonial.data }}
+                                    {% t global.orientador %}: {{ defesa.orientador }}
+                                    <br><br>
+                                    {{data}}, {{defesa.horario}}
+                                    {% if defesaISOdata >= hoje %}
+                                        <br>
+                                        <span class="badge" style="margin-top:5px; background-color:blue">NÃO PERCA!</span>
+                                    {% endif %}
                                 </small>
                             </footer>
                         </blockquote>
