@@ -59,14 +59,8 @@ home: true
     <div class="overlay-container">
         <div class="container-fluid">
             <div id="testimonial-carousel">
-                {% for defesa in site.defesas %}
-                    <!-- Start Código das datas -->
-                    {% assign dia = defesa.dia | prepend: '00' | slice: -2, 2 %}
-                    {% assign mes = defesa.mes | prepend: '00' | slice: -2, 2 %}
-                    {% capture data %} {{dia}}/{{mes}}/{{defesa.ano}} {% endcapture %}
-                    {% capture defesaISOdata%}{{defesa.ano}}-{{mes}}-{{dia}}{%endcapture%}
-                    {% assign defesaISOdata = defesaISOdata | date: '%s' %}
-                    <!-- End Código das datas -->
+                {% assign defesas = site.defesas | sort: 'data' | reverse %}
+                {% for defesa in defesas limit: 3%}
                     <div class="testimonial-item">
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
@@ -77,10 +71,15 @@ home: true
                                 <small>
                                     {% t global.orientador %}: {{ defesa.orientador }}
                                     <br><br>
-                                    {{data}}, {{defesa.horario}}
+                                    {% if site.lang == 'en' %}
+                                        {{ defesa.data | date: '%m/%d/%Y' }}, {{defesa.horario}}
+                                    {% else %}
+                                        {{ defesa.data | date: '%d/%m/%Y' }}, {{defesa.horario}}
+                                    {% endif %}
+                                    {% assign defesaISOdata = defesa.data | date: '%s' %}
                                     {% if defesaISOdata >= hoje %}
                                         <br>
-                                        <span class="badge" style="margin-top:5px; background-color:blue">NÃO PERCA!</span>
+                                        <span class="badge" style="margin-top:5px; background-color:blue">{% t global.naoperca %}</span>
                                     {% endif %}
                                 </small>
                             </footer>
