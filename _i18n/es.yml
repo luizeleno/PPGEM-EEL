@@ -3,6 +3,7 @@ global:
   maisnoticias: Ver más notícias
   maisdefesas: Ver más defensas
   orientador: Asesor
+  click: Haz click para ampliar
 
   tagline: "Programa de Postgrado en Ingeniería de Materiales de EEL/USP"
 
@@ -25,7 +26,7 @@ secoes:
   programa: El PPGEM de la EEL/USP
   docentes: Docentes
   info: Información
-  defesas: Ultimas defensas
+  defesas: Defensas
   noticias: Noticias
   endereco: Ubicación
   contato: Contactos

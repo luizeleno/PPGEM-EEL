@@ -58,7 +58,7 @@ home: true
     <div class="overlay-container">
         <div class="container-fluid">
             <div id="testimonial-carousel">
-                {% for testimonial in site.data.testimonials %}
+                {% for testimonial in site.data.defesas %}
                     <div class="testimonial-item">
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
@@ -86,20 +86,26 @@ home: true
 <div id="gallery" class="gallery">
     <div id="team" class="team">
     <h2 class="section-title">{% t secoes.noticias %}</h2>
-    {% assign novas=site.noticias | reverse  %}
-    {% for noticia in novas limit:4 %}
-        <a href="{{ site.baseurl }}/{{ noticia.url }}" class="gallery-item expandable-box ">
-            <div class="expandable-box-top">
-                <img src="{{ site.baseurl_root }}/img/noticias/{{ noticia.img }}" alt="{{ noticia.titulo_br }}">
-            </div>
-            <div class="expandable-box-bottom">
-                <span><svg class="icon icon-chain"><use xlink:href="#icon-chain"></use></svg></span>
-                <span>{{noticia.titulo_br}}</span>
-            </div>
-        </a>
+    {% capture path %}/img/noticias/{% endcapture %}
+    {% assign novidades = site.static_files | reverse  %}
+    {% for file in novidades %}
+        {% if file.path contains '/img/noticias/' %}
+        {% unless file.path contains 'docs/' %}
+            <a href="{{site.baseurl_root}}/{{ file.path }}" class="gallery-item expandable-box image-link">
+                <div class="expandable-box-top">
+                    <img src="{{site.baseurl_root}}/{{ file.path }}" /> 
+                </div>
+                <div class="expandable-box-bottom">
+                    <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
+                    <span>{% t global.click %}</span>
+                </div>
+            </a>
+            {% endunless %}
+        {% endif %}
     {% endfor %}
 </div>
 <a class="btn btn-primary btn-lg btn-block" href="" role="button">{% t global.maisnoticias %}</a>
+
 </div>
 <!-- End News -->
 

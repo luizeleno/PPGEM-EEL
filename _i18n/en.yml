@@ -3,6 +3,7 @@ global:
   maisnoticias: See more news
   maisdefesas: See more defenses
   orientador: Advisor
+  click: Click to enlarge
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
 
@@ -25,7 +26,7 @@ secoes:
   programa: PPGEM at EEL/USP
   docentes: Faculty
   info: Information
-  defesas: Recent defenses
+  defesas: Defenses
   noticias: News
   contato: Contacts
   endereco: Address

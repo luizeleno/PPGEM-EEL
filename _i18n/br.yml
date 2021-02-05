@@ -5,6 +5,7 @@ global:
   maisnoticias: Ver mais notícias
   maisdefesas: Ver mais defesas
   orientador: Orientador
+  click: Clique para ampliar
 
   title: 
 
@@ -27,7 +28,7 @@ secoes:
   programa: O PPGEM da EEL/USP
   docentes: Docentes
   info: Informação
-  defesas: Últimas defesas
+  defesas: Defesas
   noticias: Notícias
   contato: Contato
   endereco: Endereço
