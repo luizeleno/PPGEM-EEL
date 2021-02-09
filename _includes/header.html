@@ -10,7 +10,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand scroll" href="#top"><img src="{{site.baseurl_root}}/{{ site.logo }}" alt="{{ site.title }}"></a>
+            <a class="navbar-brand scroll" href="{{site.baseurl}}"><img src="{{site.baseurl_root}}/{{ site.logo }}" alt="{{ site.title }}"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -21,7 +21,7 @@
                     {% if site.lang == "br" %}
                         {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
                         <a href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:15px">
+                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px">
                         </a>
                         {% capture link1 %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
                         <!-- <a href="{{ link1 }}" > -->
@@ -30,7 +30,7 @@
                     {% elsif site.lang == "en" %}
                         {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
                         <a href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:15px">
+                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:20px">
                         </a>
                         <!-- {% capture link1 %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %} -->
                         <!-- <a href="{{ link1 }}" > -->
@@ -39,11 +39,11 @@
                     {% elsif site.lang == "es" %}
                         {% capture link1 %}{{ site.baseurl_root }}{{ page.url}}{% endcapture %}
                         <a href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:15px">
+                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:20px">
                         </a>
                         {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
                         <a href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:15px">
+                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px">
                         </a>
                     {% endif %}
                 </div>

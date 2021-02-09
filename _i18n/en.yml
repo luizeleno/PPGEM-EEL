@@ -5,6 +5,8 @@ global:
   orientador: Advisor
   click: Click to enlarge
   naoperca: "DON'T MISS!"
+  monday_friday: "Monday-Friday"
+
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
 
@@ -61,3 +63,6 @@ info:
 
 about:
   text1: "The <b>Postgraduate Program in Materials Engineering</b> (PPGEM) is one of the stricto-sensual graduate programs of the <b>Lorena School of Engineering</b> at <b>University of São Paulo</b> (USP)."
+
+docentes:
+  areas: "Research interests:"

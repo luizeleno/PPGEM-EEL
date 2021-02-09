@@ -21,9 +21,6 @@ pesquisa:
   en: [Research in crystal structures of intermetallic compounds of ternary systems, Research in methodologies of science teaching]
 
 lab_coordinator: true
-
-PPGEM: colaborador
-
 ---
 
 {% contentfor br %}

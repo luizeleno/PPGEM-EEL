@@ -23,3 +23,10 @@ pesquisa:
 
 ---
 
+{% contentfor br %}
+Possui graduação em Engenharia Metalúrgica pela Universidade Federal de Ouro Preto (1988), mestrado em Engenharia Mecânica pela Universidade Estadual de Campinas (1992), doutorado em Ciência dos Materiais - Universitat Stuttgart - Alemanha conduzido no Max-Planck Institut für Metallforschung (1997) e pós-doutorado na Universidade de Nancy I - França (2005). Atualmente é professor da Escola de Engenharia de Lorena - EEL/USP; revisor dos periódicos Calphad, Journal of Alloys and Compounds, Journal of Phase Equilibria and Diffusion, Materials Research, Metallurgical and Materials Transactions A, International Journal of Materials Research (ex Zeitschrift fuer Metallkunde) e Thermochimica Acta e assessor ad hoc da Fapesp e do CNPq. Tem experiência na área de Engenharia de Materiais e Metalúrgica, com ênfase em Estrutura dos Metais e Ligas, atuando principalmente nos seguintes temas: diagrama de fases, boretos, silicetos, termodinâmica computacional, intermetálicos, superligas e materiais estruturais para aplicação em altas temperaturas.
+{% endcontentfor %}
+
+{% contentfor en %}
+a
+{% endcontentfor %}

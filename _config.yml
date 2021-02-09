@@ -1,6 +1,6 @@
 # Site settings
 
-languages: ["br", "en", "es"]
+languages: ["br", "en"]
 exclude_from_localizations: ["js", "img", "css", "svg", "docs" ]
 
 title: "PPGEM EEL/USP"
@@ -22,6 +22,7 @@ sass:
 plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-seo-tag
+  - jemoji
 
 # Contact form
 # api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
@@ -38,7 +39,7 @@ contact:
     address_line4: "Lorena/SP"
 
 # Opening hours
-monday_friday: "8h30-11h30 e 14h30-17h30"
+monday_friday: "8h30-11h30 &mdash; 14h30-17h30"
 #saturday: 10:00 – 17:00
 #sunday: 10:00 – 15:00
 
@@ -52,7 +53,7 @@ facebook: https://www.facebook.com/ppgem.eelusp
 feed: no
 
 # Footer
-copyright: © Prof. Luiz T. F. Eleno & Demar::EEL::USP
+copyright: © Demar::EEL::USP
 
 # Build settings
 markdown: kramdown
@@ -90,5 +91,5 @@ defaults:
       path: ""
       type: docentes
     values:
-      layout: page
+      layout: docente
       PPGEM: permanente

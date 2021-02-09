@@ -17,8 +17,13 @@ home: true
                 <img src="{{ site.baseurl_root }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
             </a>
             <h4>{{ member.nome }}</h4>
-            <p><b>Áreas de pesquisa:</b>
-                {% for area in member.pesquisa.br %}
+            <p><b>{% t docentes.areas %}:</b>
+                {% if page.lang == 'br' %}
+                    {% assign areas = member.pesquisa.br %}
+                {% else %}
+                {% assign areas = member.pesquisa.en %}
+                {% endif %}
+                {% for area in areas %}
                     {{area}}{% if forloop.last %}.{% else %}, {% endif %}
                 {% endfor %}
             </p>
@@ -176,7 +181,7 @@ home: true
           <table>
               <tbody>
                   <tr>
-                      <td>Segunda à Sexta</td>
+                      <td>{% t global.monday_friday %}</td>
                       <td>{{ site.monday_friday }}</td>
                   </tr>
                   <tr>
