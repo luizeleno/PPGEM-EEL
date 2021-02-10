@@ -28,5 +28,4 @@ Possui graduação em Engenharia Metalúrgica pela Universidade Federal de Ouro 
 {% endcontentfor %}
 
 {% contentfor en %}
-a
 {% endcontentfor %}

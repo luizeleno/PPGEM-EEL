@@ -12,7 +12,7 @@ layout: default
           <img src="{{site.baseurl_root}}/img{% if page.image %}/docentes/{{ page.image }}.jpg{% else %}/unknown-person.png{% endif %}" title="{{page.nome}}" alt="{{page.nome}}">
         </div>
     
-        <div class="col-md-9 my-auto">
+        <div class="col-md-9" style="margin-bottom: 20px;">
             <h3>
                 {% if page.Lattes %}
                 <a id="no-ext-link" href="http://lattes.cnpq.br/{{page.Lattes}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/lattes.jpg" title="Lattes" ></a>
@@ -63,8 +63,22 @@ layout: default
             </p>
 
             {% if site.lang == 'br' %}
+                <p><b>{% t docentes.areas %}</b>
+                        {% assign areas = page.pesquisa.br %}
+                    {% for area in areas %}
+                        {{area}}{% if forloop.last %}.{% else %}, {% endif %}
+                    {% endfor %}
+                </p>
+                <h5>Info:</h5>
                 {% contentblock  br %}
             {% else %}
+                <p><b>{% t docentes.areas %}</b>
+                    {% assign areas = page.pesquisa.en %}
+                {% for area in areas %}
+                    {{area}}{% if forloop.last %}.{% else %}, {% endif %}
+                {% endfor %}
+                </p>
+                <h5>Info:</h5>
                 {% contentblock  en %}
             {% endif %}
 

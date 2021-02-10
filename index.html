@@ -17,7 +17,7 @@ home: true
                 <img src="{{ site.baseurl_root }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
             </a>
             <h4>{{ member.nome }}</h4>
-            <p><b>{% t docentes.areas %}:</b>
+            <p><b>{% t docentes.areas %}</b>
                 {% if page.lang == 'br' %}
                     {% assign areas = member.pesquisa.br %}
                 {% else %}
