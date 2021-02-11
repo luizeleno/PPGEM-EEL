@@ -43,11 +43,13 @@ home: true
     <div class="container-fluid">
         <h2 class="section-title">{% t secoes.info %}</h2>
         <div class="row">
-            {% for info in site.translations[site.lang].info %}
+            {% for info in site.data.info %}
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
+                        <a href="{{info.link}}" id="no-ext-link" {% if info.ext==true%}target="_blank"{%endif%}>
                         <svg class="icon {{ info.icon }}"><use xlink:href="#{{ info.icon }}"></use></svg>
-                        <h4>{{ info.title }}</h4>
+                        <h4>{% t info.title %}</h4>
+                        </a>
                     </div>
                 </div>
             {% endfor %}

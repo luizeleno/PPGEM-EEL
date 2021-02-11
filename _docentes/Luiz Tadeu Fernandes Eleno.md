@@ -1,4 +1,5 @@
 ---
+excerpt_separator: <!--more-->
 
 # Dados de contato:
 nome: Luiz Tadeu Fernandes Eleno
@@ -69,11 +70,6 @@ image: eleno
 profile_style: description
 
 lab_coordinator: true
-
-###########################
-# Complete abaixo com informações sobre seu perfil,
-# em português e inglês
-##########################
 ---
 
 {% contentfor br %}

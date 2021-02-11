@@ -36,30 +36,12 @@ secoes:
   atendimento: Business hours
 
 info:
-  - 
-    icon: icon-calendar
-    title: Forms
-    link: 
-  - 
-    icon: icon-group
-    title: Registration
-    link: 
-  - 
-    icon: icon-flask
-    title: Research lines
-    link: 
-  - 
-    icon: icon-globe
-    title: Cooperation
-    link: 
-  - 
-    icon: icon-envelope
-    title: Rules, Regulations and Standards
-    link: 
-  - 
-    icon: icon-briefcase
-    title: Classes
-    link: 
+  normas: Rules, Regulations and Standards (CPG)
+  disciplinas: Classes
+  forms: Forms (CPG)
+  inscricoes: Registration
+  linhas: Research Lines
+  coop: Cooperation
 
 about:
   text1: "The <b>Postgraduate Program in Materials Engineering</b> (PPGEM) is one of the stricto-sensual graduate programs of the <b>Lorena School of Engineering</b> at <b>University of São Paulo</b> (USP)."

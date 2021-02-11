@@ -1,0 +1,26 @@
+- 
+  icon: icon-calendar
+  title: info.forms
+  link: "http://cpg.eel.usp.br/formulario-cpg"
+  ext: true
+- 
+  icon: icon-group
+  title: info.inscricoes
+  link: 
+- 
+  icon: icon-flask
+  title: info.linhas
+  link: 
+- 
+  icon: icon-globe
+  title: info.coop
+  link: 
+- 
+  icon: icon-envelope
+  title: info.normas
+  link: "http://cpg.eel.usp.br/normas_regimento"
+  ext: true
+- 
+  icon: icon-briefcase
+  title: info.disciplinas
+  link: 
