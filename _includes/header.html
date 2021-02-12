@@ -17,12 +17,12 @@
         <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 {% include navigation.html %}
-                <div class="navbar-text" style="margin-left:20px">
+                <!-- <div class="navbar-text" style="margin-left:20px"> -->
                     {% if site.lang == "br" %}
                         {% capture link1 %}{{ site.baseurl_root }}/en{{ page.url}}{% endcapture %}
-                        <a href="{{ link1 }}" >
+                        <li><a class="scroll" href="{{ link1 }}" >
                             <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px">
-                        </a>
+                        </a></li>
                         {% capture link1 %}{{ site.baseurl_root }}/es{{ page.url}}{% endcapture %}
                         <!-- <a href="{{ link1 }}" > -->
                             <!-- <img src="{{site.baseurl_root}}/img/lang/es.svg" style="height:15px"> -->
@@ -46,7 +46,7 @@
                             <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px">
                         </a>
                     {% endif %}
-                </div>
+                <!-- </div> -->
             </ul>
 
         </div>
