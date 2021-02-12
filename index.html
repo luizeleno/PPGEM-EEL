@@ -18,7 +18,7 @@ home: true
             </a>
             <h4>{{ member.nome }}</h4>
             <p><b>{% t docentes.areas %}</b>
-                {% if page.lang == 'br' %}
+                {% if site.lang == 'br' %}
                     {% assign areas = member.pesquisa.br %}
                 {% else %}
                 {% assign areas = member.pesquisa.en %}
