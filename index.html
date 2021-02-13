@@ -58,46 +58,8 @@ home: true
 </div>
 <!-- End Info -->
 
-{% assign hoje = 'now' | date: '%s' %}
 <!-- Start Defesas -->
-<div id="testimonials"></div>
-<h2 class="section-title">{% t secoes.defesas %}</h2>
-<div class="testimonials parallax" style="background-image: url('{{ site.baseurl_root }}/img/about.jpg');">
-    <div class="overlay-container">
-        <div class="container-fluid">
-            <div id="testimonial-carousel">
-                {% assign defesas = site.defesas | sort: 'data' | reverse %}
-                {% for defesa in defesas limit: 3%}
-                    <div class="testimonial-item">
-                        <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        <blockquote>
-                            <p>{{ defesa.titulo }}</p>
-                            <p>{{defesa.tipo}}</p>
-                            <footer>
-                                {{ defesa.aluno }}
-                                <small>
-                                    {% t global.orientador %}: {{ defesa.orientador }}
-                                    <br><br>
-                                    {% if site.lang == 'en' %}
-                                        {{ defesa.data | date: '%m/%d/%Y' }}, {{defesa.horario}}
-                                    {% else %}
-                                        {{ defesa.data | date: '%d/%m/%Y' }}, {{defesa.horario}}
-                                    {% endif %}
-                                    {% assign defesaISOdata = defesa.data | date: '%s' %}
-                                    {% if defesaISOdata >= hoje %}
-                                        <br>
-                                        <span class="badge" style="margin-top:5px; background-color:blue">{% t global.naoperca %}</span>
-                                    {% endif %}
-                                </small>
-                            </footer>
-                        </blockquote>
-                    </div>
-                {% endfor %}
-            </div>
-        </div>
-    </div>
-    <a class="btn btn-primary btn-lg btn-block" href="" role="button">{% t global.maisdefesas %}</a>
-</div>
+{% include defesas.html %}
 <!-- End Defesas -->
 
 <!-- Start News -->

@@ -8,6 +8,7 @@ global:
   click: Clique para ampliar
   naoperca: "NÃO PERCA!"
   monday_friday: "Segunda à sexta"
+  fechar: Fechar
 
 
   title: 
@@ -50,3 +51,12 @@ about:
 
 docentes:
   areas: "Áreas de pesquisa:"
+
+defesas:
+  nav: Defesas
+  doutorado: Teses de Doutorado
+  mestrado: Dissertações de Mestrado
+  titulo: Título
+  aluno: Aluno
+  orientador: Orientador
+  data: Data

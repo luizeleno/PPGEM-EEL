@@ -6,6 +6,7 @@ global:
   click: Click to enlarge
   naoperca: "DON'T MISS!"
   monday_friday: "Monday-Friday"
+  fechar: Close
 
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
@@ -48,3 +49,13 @@ about:
 
 docentes:
   areas: "Research interests:"
+
+defesas:
+  nav: Defenses
+  doutorado: PhD Theses
+  mestrado: Master dissertations
+  titulo: Title
+  aluno: Student
+  orientador: Advisor
+  data: Date
+
