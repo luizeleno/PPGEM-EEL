@@ -1,0 +1,49 @@
+---
+
+permalink: /defesas/
+
+---
+
+{% assign teses = site.data.teses | sort: 'data' | reverse %}
+{% assign dissertacoes = site.data.dissertacoes | sort: 'data' | reverse %}
+
+ <div class="container-fluid" style="margin-bottom:10px">
+
+<h1 style="margin-top: 10px;">{% t defesas.nav %}</h1>
+
+<div class="btn-group" role="group" aria-label="Basic example">
+  <button type="button" id="tese-btn" class="btn btn-lg btn-primary" disabled onclick="altera()" style="margin-right: 5px;">{% t defesas.doutorado %}</button>
+  <button type="button" id="diss-btn" class="btn btn-lg btn-primary" onclick="altera()">{% t defesas.mestrado %}</button>
+</div>
+
+<div id="tese">
+  <h3 style="margin: 10px;">{% t defesas.doutorado %}</h3>
+  {% include tabs-defesas.html teses=teses %}
+</div>
+<div id="diss" hidden>
+  <h3 style="margin: 10px;">{% t defesas.mestrado %}</h3>
+  {% include tabs-defesas.html teses=dissertacoes %}
+</div>
+
+</div>
+
+<script>
+  function altera() {
+    tese = document.getElementById("tese");
+    diss = document.getElementById("diss");
+    tese_btn = document.getElementById("tese-btn");
+    diss_btn = document.getElementById("diss-btn");
+    if(tese.hidden == true) {
+      tese.hidden = false;
+      diss.hidden = true;
+      tese_btn.disabled = true;
+      diss_btn.disabled = false;
+    }
+    else {
+      tese.hidden = true;
+      diss.hidden = false;
+      tese_btn.disabled = false;
+      diss_btn.disabled = true;
+    }
+  }
+</script>
