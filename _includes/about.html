@@ -1,15 +1,11 @@
-<!-- Start About -->
 <div id="about" class="about">
     <div class="container-fluid">
         <h2 class="section-title"> </h2>
-
         <div class="row">
             <div class="col-sm-6">
                 <h3>{% t secoes.programa %}</h3>
                 <p>{% t about.text1 %}</p>
-
-                <p> As atividades de pesquisa são bem abrangentes em assuntos envolvendo processamento, caracterização e aplicações de metais/ligas metálicas, cerâmicas, polímeros e compósitos.</p>
-
+                <p>{% t about.text2 %}</p>
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
@@ -17,10 +13,9 @@
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>As atividades de ensino e pesquisa associadas ao programa são desenvolvidas principalmente na Área II da EEL/USP, localizado na cidade de Lorena (São Paulo).</p>
+                        <p>A{% t about.text3 %}</p>
                     </div>
                 </div>
-
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
@@ -28,10 +23,9 @@
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>Contamos atualmente com 19 professores doutores com formação nas áreas de Engenharia de Materiais, Engenharia Mecânica, Engenharia Química, Engenharia Aeroespacial, Eletroquímica e Física.</p>
+                        <p>{% t about.text4 %}</p>
                     </div>
                 </div>
-
                 <div class="media">
                     <div class="media-left">
                         <div class="boxed-icon">
@@ -39,38 +33,35 @@
                         </div>
                     </div>
                     <div class="media-body">
-                        <p>O Programa foi criado em 1988 e até setembro/2017 foram defendidas 235 Dissertações de Mestrado e 111 Teses de Doutorado.</p></p>
+                        <p>{% t about.text5 %}</p>
                     </div>
                 </div>
             </div>
-            
             <div class="col-sm-6">
                 <div class="container-fluid">
                     <div class=" form">
                         <h3><svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg> {% t secoes.contato %}</h3>
                         <form method="POST" action="https://formspree.io/oliveiraealvesadvocacia@gmail.com">
                             <div class="form-field">
-                                <input name="name" type="text" placeholder="Nome*" required>
+                                <input name="name" type="text" placeholder="{% t form.nome %}" required>
                             </div>
                             <div class="form-field">
-                                <input name="phone" type="tel" placeholder="Telefone com DDD">
+                                <input name="phone" type="tel" placeholder="{% t form.telefone %}">
                             </div>
                             <div class="form-field">
-                                <input name="whatsapp" type="tel" placeholder="WhatsApp com DDD">
+                                <input name="whatsapp" type="tel" placeholder="{% t form.whatsapp %}">
                             </div>
                             <div class="form-field">
-                                <input name="email" type="email" placeholder="E-mail*" required>
+                                <input name="email" type="email" placeholder="{% t form.email %}" required>
                             </div>
                             <div class="form-field">
-                                <textarea name="comments" placeholder="Escreva aqui a sua mensagem*" required></textarea>
+                                <textarea name="comments" placeholder="{% t form.mensagem %}" required></textarea>
                             </div>
-                            <input type="submit" class="btn btn-default" value="Enviar">
+                            <input type="submit" class="btn btn-default" value="{% t form.enviar %}">
                         </form>
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
-<!-- End About -->

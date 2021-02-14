@@ -9,9 +9,8 @@ global:
   naoperca: "NÃO PERCA!"
   monday_friday: "Segunda à sexta"
   fechar: Fechar
-
-
-  title: 
+  telefone: Telefone
+  form: Formulário para contato
 
   langs:
   br: br
@@ -48,6 +47,10 @@ info:
 
 about:
   text1: "O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP)."
+  text2: "As atividades de pesquisa são bem abrangentes em assuntos envolvendo processamento, caracterização e aplicações de metais/ligas metálicas, cerâmicas, polímeros e compósitos."
+  text3: "As atividades de ensino e pesquisa associadas ao programa são desenvolvidas principalmente na Área II da EEL/USP, localizado na cidade de Lorena (São Paulo)"
+  text4: "Contamos atualmente com 17 professores doutores com formação nas áreas de Engenharia de Materiais, Engenharia Mecânica, Engenharia Química, Engenharia Aeroespacial, Eletroquímica e Física."
+  text5: "O Programa foi criado em 1988 e até setembro/2017 foram defendidas 235 Dissertações de Mestrado e 111 Teses de Doutorado."
 
 docentes:
   areas: "Áreas de pesquisa:"
@@ -60,3 +63,11 @@ defesas:
   aluno: Aluno
   orientador: Orientador
   data: Data
+
+form:
+  nome: "Nome*"
+  telefone: Telefone
+  whatsapp: WhatsApp
+  email: "E-mail*"
+  mensagem: "Escreva aqui a sua mensagem*"
+  enviar: Enviar

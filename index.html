@@ -3,7 +3,9 @@ layout: default
 home: true
 ---
 
+<!-- Start About -->
 {% include about.html %}
+<!-- End About -->
 
 <!-- Start Our team -->
 <div id="team" class="team">
@@ -85,13 +87,11 @@ home: true
     {% endfor %}
 </div>
 <a class="btn btn-primary btn-lg btn-block" href="" role="button">{% t global.maisnoticias %}</a>
-
 </div>
 <!-- End News -->
 
 <!-- Start Map -->
 <div id="location">
-
   <style>
       .google-maps {
           position: relative;
@@ -107,59 +107,12 @@ home: true
           width: 100% !important;
       }
   </style>
-
-
-
-<div class="google-maps">
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.9470956479527!2d-45.103713884634445!3d-22.76734453863496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cccee8f52ac92d%3A0x3fb4f2c6db979ce6!2sEscola%20de%20Engenharia%20de%20Lorena%20-%20%C3%81rea%20II!5e0!3m2!1sen!2sbr!4v1612183822510!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    <div class="google-maps">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.9470956479527!2d-45.103713884634445!3d-22.76734453863496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cccee8f52ac92d%3A0x3fb4f2c6db979ce6!2sEscola%20de%20Engenharia%20de%20Lorena%20-%20%C3%81rea%20II!5e0!3m2!1sen!2sbr!4v1612183822510!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
 </div>
 <!-- End Map -->
 
-</div>
-
-<div id='contact'>
-
-  <!-- Start 3 columns -->
-  <div class="three-shade-col">
-      <div class="col-sm-4">
-          <svg class="icon icon-envelope-o"><use xlink:href="#icon-envelope-o"></use></svg>
-          <h3>{% t secoes.contato %}</h3>
-          <ul>
-            {% if site.contact.phone %}<li><img style="width:18px" src='{{site.baseurl_root}}/img/redes/phone.png'> <strong>Telefone:</strong> {{ site.contact.phone }}</li>{% endif %}
-            {% if site.contact.whatsapp %}<li><a href="https://wa.me/{{site.contact.whatsapp}}"><img style="width:18px" src='{{site.baseurl_root}}/img/redes/whatsapp.png'></a> <strong>WhatsApp:</strong> {{ site.contact.whatsapp }}</li>{% endif %}
-            {% if site.contact.email %}<li><strong><img style="width:20px" src='{{site.baseurl_root}}/img/redes/email.png'> Email:</strong> {{ site.contact.email }}</li>{% endif %}
-          </ul></div>
-      <div class="col-sm-4">
-          <svg class="icon icon-map-marker"><use xlink:href="#icon-map-marker"></use></svg>
-          <h3>{% t secoes.endereco %}</h3>
-              <p>
-                  {{ site.contact.address_line1 }}<br />
-                  {{ site.contact.address_line2 }}<br />
-                  {{ site.contact.address_line3 }}<br />
-                  {{ site.contact.address_line4 }}
-              </p>
-      </div>
-      <div class="col-sm-4">
-          <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
-          <h3>{% t secoes.atendimento %}</h3>
-          <table>
-              <tbody>
-                  <tr>
-                      <td>{% t global.monday_friday %}</td>
-                      <td>{{ site.monday_friday }}</td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td>{{ site.saturday }}</td>
-                  </tr>
-                  <tr>
-                      <td></td>
-                      <td>{{ site.sunday }}</td>
-                  </tr>
-              </tbody>
-          </table>
-      </div>
-  </div>
-  <!-- End 3 columns -->
-
-</div>
+<!-- Start Contact -->
+{% include contact.html %}
+<!-- End Contact -->
