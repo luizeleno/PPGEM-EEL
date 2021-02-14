@@ -31,7 +31,11 @@ plugins:
 contact:
     phone: (12) 3159-9904
     # whatsapp: 5511986882944
-    # email: tavania@usp.br
+    secretaria:
+      email: tavania@usp.br
+      nome: "Tavânia Mara da Silva Ferreira Cavasso"
+      telefone: (12) 3159-9904
+      img: tavania.png
     email: ppgem.eel@usp.br
     address_line1: "Pólo Urbo-Industrial Gleba AI-6"
     address_line2: "Fazenda Mondezir (Estrada Santa Lucrécia)"

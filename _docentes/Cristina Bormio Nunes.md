@@ -13,6 +13,8 @@ Facebook: cristina.bormionunes
 Twitter:
 Instagram: bormionunes
 
+abrev: Profa. Dra.
+
 disciplinas:
   lom: [LOM3223, LOM3230, LOB1054, LOM3096, LOM3253]
 

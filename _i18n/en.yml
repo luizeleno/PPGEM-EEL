@@ -9,7 +9,9 @@ global:
   fechar: Close
   telefone: Phone
   form: Contact Form
-
+  secretaria: Secretary
+  coordenador: Coordinator
+  vice-coordenador: Vice-Coordinator
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
 
@@ -45,6 +47,10 @@ info:
   inscricoes: Registration
   linhas: Research Lines
   coop: Cooperation
+  alunoespecial: Aluno especial
+  CCP: Coordinating Committee
+  editais: Editais
+  oportunidades: Opportunities
 
 about:
   text1: "The <b>Postgraduate Program in Materials Engineering</b> (PPGEM) is one of the stricto-sensual graduate programs of the <b>Lorena School of Engineering</b> at <b>University of São Paulo</b> (USP)."

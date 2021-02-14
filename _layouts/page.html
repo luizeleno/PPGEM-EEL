@@ -2,4 +2,16 @@
 layout: default
 ---
 
-{% contentblock br %}
+<div class="container-fluid" style="margin-bottom: 5px;">
+
+    <h1 class="alert" style="text-align:left">{%t page.title %}</h1>
+
+    {% if site.lang == 'br' %}
+        {% contentblock br %}
+    {% else %}
+        {% contentblock en %}
+    {% endif %}
+
+    {{ content }}
+
+</div>

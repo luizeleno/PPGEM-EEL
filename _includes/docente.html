@@ -1,0 +1,4 @@
+<!-- usando dummy variable names to avoid possible clashes -->
+{% assign xcxcxcxc = site.docentes | where:'short_name', {{include.docente}} %}
+{% assign cxcxcxcx = xcxcxcxc[0] %}
+<a href="{{site.baseurl}}{{cxcxcxcx.url}}">{{cxcxcxcx.abrev}} {{cxcxcxcx.nome}}</a>

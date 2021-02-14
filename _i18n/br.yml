@@ -11,6 +11,9 @@ global:
   fechar: Fechar
   telefone: Telefone
   form: Formulário para contato
+  secretaria: Secretária
+  coordenador: Coordenador
+  vice-coordenador: Vice-coordenador
 
   langs:
   br: br
@@ -44,6 +47,10 @@ info:
   inscricoes: Inscrições
   linhas: Linhas de Pesquisa
   coop: Cooperações
+  alunoespecial: Aluno especial
+  CCP: Comissão de Coordenação
+  editais: Editais
+  oportunidades: Oportunidades
 
 about:
   text1: "O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP)."
