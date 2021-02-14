@@ -3879,22 +3879,12 @@
 
 <script>
   function altera() {
-    tese = document.getElementById("tese");
-    diss = document.getElementById("diss");
-    tese_btn = document.getElementById("tese-btn");
-    diss_btn = document.getElementById("diss-btn");
-    if(tese.hidden == true) {
-      tese.hidden = false;
-      diss.hidden = true;
-      tese_btn.disabled = true;
-      diss_btn.disabled = false;
-    }
-    else {
-      tese.hidden = true;
-      diss.hidden = false;
-      tese_btn.disabled = false;
-      diss_btn.disabled = true;
-    }
+    var ids = ["tese", "diss", "tese-btn", "diss-btn"];
+    ids.forEach(function(id) {
+      el = document.getElementById(id);
+      el.hidden = !el.hidden;
+      el.disabled = !el.disabled;
+    });
   }
 </script>
            
