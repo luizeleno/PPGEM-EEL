@@ -9,43 +9,43 @@ coord:
 
 vice:
     nome: clodoaldo
-
 ---
+
+{% assign coord = site.docentes | where:'short_name', page.coord.nome %}
+{% assign coord = coord[0] %} 
+{% assign vice = site.docentes | where:'short_name', page.vice.nome %}
+{% assign vice = vice[0] %} 
 
 <div class="row">
     <div class="col-sm-4">
-        <div class="card">
+        <div class="card" style="margin-bottom: 10px;">
             <div class="card-body">
-                <h5 class="card-title">{% t global.coordenador%}{% if site.lang=='br' and page.coord.female==true %}a{% endif %}</h5>
-                {% assign xcxcxcxc = site.docentes | where:'short_name', page.coord.nome %}
-                {% assign cxcxcxcx = xcxcxcxc[0] %} 
-                <img src="{{site.baseurl_root}}/img/docentes/{{cxcxcxcx.image}}.jpg" style="max-width: 50%;">
+                <h3 class="card-title">{% t global.coordenador%}{% if site.lang=='br' and page.coord.female==true %}a{% endif %}</h3>
+                <img src="{{site.baseurl_root}}/img/docentes/{{coord.image}}.jpg" style="max-width: 60%;">
                 <br />
                 <strong>{%t global.coordenador%}{% if site.lang=='br' and page.coord.female==true %}a{% endif %}:</strong> {% include docente.html docente=page.coord.nome %}<br />
-                <strong>E-mail:</strong> <a href="mailto:{{cxcxcxcx.email}}" target="_blank">{{cxcxcxcx.email}}</a><br />
-                <strong>{% t global.telefone %}:</strong> {{cxcxcxcx.fone}}
+                <strong>E-mail:</strong> <a href="mailto:{{coord.email}}" target="_blank">{{cxcxcxcx.email}}</a><br />
+                <strong>{% t global.telefone %}:</strong> {{coord.fone}}
             </div>
         </div>
     </div>
     <div class="col-sm-4">
-      <div class="card">
+      <div class="card" style="margin-bottom: 10px;">
         <div class="card-body">
-            <h5 class="card-title">{% t global.vice-coordenador%}{% if site.lang=='br' and page.vice.female==true %}a{% endif %}</h5>
-            {% assign xcxcxcxc = site.docentes | where:'short_name', page.vice.nome %}
-            {% assign cxcxcxcx = xcxcxcxc[0] %} 
-            <img src="{{site.baseurl_root}}/img/docentes/{{cxcxcxcx.image}}.jpg" style="max-width: 50%;">
+            <h3 class="card-title">{% t global.vice-coordenador%}{% if site.lang=='br' and page.vice.female==true %}a{% endif %}</h3>
+            <img src="{{site.baseurl_root}}/img/docentes/{{vice.image}}.jpg" style="max-width: 60%;">
             <br />
             <strong>{%t global.vice-coordenador%}{% if site.lang=='br' and page.vice.female==true %}a{% endif %}:</strong> {% include docente.html docente=page.vice.nome %}<br />
-            <strong>E-mail:</strong> <a href="mailto:{{cxcxcxcx.email}}" target="_blank">{{cxcxcxcx.email}}</a><br />
-            <strong>{% t global.telefone %}:</strong> {{cxcxcxcx.fone}}
+            <strong>E-mail:</strong> <a href="mailto:{{vice.email}}" target="_blank">{{vice.email}}</a><br />
+            <strong>{% t global.telefone %}:</strong> {{vice.fone}}
         </div>
       </div>
     </div>
     <div class="col-sm-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">{% t global.secretaria%}</h5>
-            <img src="{{site.baseurl_root}}/img/docentes/{{site.contact.secretaria.img}}" style="max-width: 50%;">
+            <h3 class="card-title">{% t global.secretaria%}</h3>
+            <img src="{{site.baseurl_root}}/img/docentes/{{site.contact.secretaria.img}}" style="max-width: 60%;">
             <br />
             <strong>{%t global.secretaria%}:</strong> {{ site.contact.secretaria.nome }}<br />
             <strong>E-mail:</strong> <a href="mailto:{{site.contact.secretaria.email}}" target="_blank">{{site.contact.secretaria.email}}</a><br />
