@@ -26,3 +26,17 @@ nor links with id="no-ext-link" */
     background-size: 100%;
     margin-left: .1em;
   }
+
+  .oportunidade-item {
+    position: relative;
+    float: left;
+    @include breakpoint(lsmall) {
+        width: 100%;
+    }
+    @include breakpoint(small) {
+        width: 100%;
+    }
+    .icon {
+        font-size: 2rem;
+    }
+}

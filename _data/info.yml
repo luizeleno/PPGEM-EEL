@@ -19,7 +19,7 @@
 - 
   icon: icon-briefcase
   title: info.disciplinas
-  link: 
+  link: disciplinas/
 - 
   icon: icon-group
   title: info.CCP
@@ -27,11 +27,11 @@
 - 
   icon: icon-star
   title: info.oportunidades
-  link: 
+  link: oportunidades/
 - 
   icon: icon-calendar
   title: info.inscricoes
-  link: 
+  link: inscricoes/
 #- 
 # - 
 #   icon: icon-leaf
