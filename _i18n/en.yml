@@ -41,16 +41,19 @@ secoes:
   atendimento: Business hours
 
 info:
-  normas: Rules, Regulations and Standards (CPG)
   disciplinas: Classes
-  forms: Forms (CPG)
   inscricoes: Registration
   linhas: Research Lines
   coop: Cooperation
-  alunoespecial: Aluno especial
   CCP: Coordinating Committee
-  editais: Editais
   oportunidades: Opportunities
+
+inscricoes:
+  regimento: Rules (CPG)
+  forms: Forms (CPG)
+  alunoespecial: Aluno especial
+  editais: Editais
+  inscricao: "Register"
 
 about:
   text1: "The <b>Postgraduate Program in Materials Engineering</b> (PPGEM) is one of the stricto-sensual graduate programs of the <b>Lorena School of Engineering</b> at <b>University of São Paulo</b> (USP)."

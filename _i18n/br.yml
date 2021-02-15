@@ -41,16 +41,19 @@ secoes:
   atendimento: Horário de Atendimento
 
 info:
-  normas: Regimento, Regulamentos e Normas (CPG)
   disciplinas: Disciplinas
-  forms: Formulários (CPG)
   inscricoes: Inscrições
   linhas: Linhas de Pesquisa
   coop: Cooperações
-  alunoespecial: Aluno especial
   CCP: Comissão de Coordenação
-  editais: Editais
   oportunidades: Oportunidades
+
+inscricoes:
+  regimento: Regimento (CPG)
+  forms: Formulários (CPG)
+  alunoespecial: Aluno especial
+  editais: Editais
+  inscricao: "Inscreva-se"
 
 about:
   text1: "O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP)."
