@@ -30,6 +30,11 @@ nav:
   local: Localização
   contatos: Contatos
 
+defesa:
+  tipo:
+    mestrado: Dissertação de Mestrado
+    doutorado: Tese de Doutorado
+
 secoes:
   programa: O PPGEM da EEL/USP
   docentes: Docentes
@@ -52,7 +57,7 @@ inscricoes:
   regimento: Regimento (CPG)
   forms: Formulários (CPG)
   alunoespecial: Aluno especial
-  editais: Editais
+  editais: Editais (CPG)
   inscricao: "Inscreva-se"
 
 about:
@@ -81,3 +86,27 @@ form:
   email: "E-mail*"
   mensagem: "Escreva aqui a sua mensagem*"
   enviar: Enviar
+
+disciplina:
+  area: Área de concentração
+  criacao: Criação
+  ativacao: Ativação
+  creditos: Créditos
+  carga:
+    nome: Carga Horária
+    teorica: Teórica
+    pratica: Prática
+    estudos: Estudos
+    duracao: Duração
+    total: Total
+    semanas: semanas
+    horas: horas
+    horasporsemana: "h/sem"
+  janus: Ver no Janus
+  docente: Docente Responsável
+  objetivos: Objetivos
+  justificativa: Justificativa
+  conteudo: Conteúdo
+  avaliacao: Forma de Avaliação
+  observacao: Observação
+  bibliografia: Referências bibliográficas

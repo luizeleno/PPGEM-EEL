@@ -1,5 +1,7 @@
 ---
-nome: Carlos Antonio Reis Pereira Baptista
+nome: &nome Carlos Antonio Reis Pereira Baptista
+title: *nome
+
 NUSP: 471420
 fone: +55 12 3159 9914
 email: carlos.baptista@usp.br

@@ -1,5 +1,7 @@
 ---
-nome: Robson Rocha
+nome: &nome Robson Rocha
+title: *nome
+
 # NUSP: 1922320
 fone: +55 12 3159 5090
 email: robson.rocha@usp.br

@@ -1,5 +1,7 @@
 ---
-nome: Fernando Vernilli Junior
+nome: &nome Fernando Vernilli Junior
+title: *nome
+
 NUSP: 5983729
 fone: +55 12 3159 9913
 email: fernando.vernilli@usp.br

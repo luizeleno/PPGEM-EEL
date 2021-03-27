@@ -10,8 +10,17 @@
                     <div class="testimonial-item">
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
-                            <p>{{ defesa.titulo }}</p>
-                            <p>{{defesa.tipo}}</p>
+                            {% if site.lang == 'en' %}
+                                <p>Traduzir: {{ defesa.titulo }}{{ defesa.titulo_en }}</p>
+                            {% else %}
+                                <p>{{ defesa.titulo }}</p>
+                            {% endif %}
+                            <p>{% if defesa.tipo=='M' %}
+                                    {% t defesa.tipo.mestrado %}
+                                {% elsif defesa.tipo=='D' or defesa.tipo=='DD' %}
+                                    {% t defesa.tipo.doutorado %}
+                                {% endif %}
+                            </p>
                             <footer>
                                 {{ defesa.aluno }}
                                 <small>

@@ -1,5 +1,7 @@
 ---
-nome: Miguel Justino Ribeiro Barboza
+nome: &nome Miguel Justino Ribeiro Barboza
+title: *nome
+
 NUSP:  5840622
 fone: +55 12 3159 9914
 email: mbarbosa@demar.eel.usp.br

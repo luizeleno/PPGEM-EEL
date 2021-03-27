@@ -1,5 +1,7 @@
 ---
-nome: Durval Rodrigues Junior
+nome: &nome Durval Rodrigues Junior
+title: *nome
+
 NUSP: 6495737
 
 fone: +55 12 3159 9926

@@ -1,5 +1,7 @@
 ---
-nome: Celia Regina Tomachuk dos Santos Catuogno
+nome: &nome Celia Regina Tomachuk dos Santos Catuogno
+title: *nome
+
 # NUSP: 1922320
 fone: +55 12 3159 5330
 email: celiatomachuk@usp.br

@@ -1,5 +1,7 @@
 ---
-nome: Fábio Herbst Florenzano
+nome: &nome Fábio Herbst Florenzano
+title: *nome
+
 NUSP: 1033242
 fone: +55 12 3159 9965
 email: fhfloren@usp.br

@@ -1,5 +1,7 @@
 ---
-nome: Cristina Bormio Nunes
+nome: &nome Cristina Bormio Nunes
+title: *nome
+
 email: cristina.bormio@usp.br
 fone: +55 12 3159 9918
 Lattes: 3609359076373713

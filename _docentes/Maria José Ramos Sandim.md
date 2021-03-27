@@ -1,5 +1,7 @@
 ---
-nome: Maria José Ramos Sandim
+nome: &nome Maria José Ramos Sandim
+title: *nome
+
 NUSP:
 fone: +55 12 3159 9918
 email: msandim@usp.br

@@ -1,5 +1,7 @@
 ---
-nome: Gilberto Carvalho Coelho
+nome: &nome Gilberto Carvalho Coelho
+title: *nome
+
 NUSP:
 fone: +55 12 3159 9912
 email: gilberto.coelho@usp.br

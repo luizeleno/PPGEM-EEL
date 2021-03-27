@@ -1,5 +1,7 @@
 ---
-nome: Paulo Atsushi Suzuki
+nome: &nome Paulo Atsushi Suzuki
+title: *nome
+
 NUSP: 1643715
 email: psuzuki@demar.eel.usp.br
 fone: +55 12 3159 9916

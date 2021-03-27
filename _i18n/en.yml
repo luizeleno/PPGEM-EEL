@@ -30,6 +30,11 @@ nav:
   local: Location
   contatos: Contacts
 
+defesa:
+  tipo:
+    mestrado: Master Dissertation
+    doutorado: PhD Thesis
+
 secoes:
   programa: PPGEM at EEL/USP
   docentes: Faculty
@@ -52,7 +57,7 @@ inscricoes:
   regimento: Rules (CPG)
   forms: Forms (CPG)
   alunoespecial: Aluno especial
-  editais: Editais
+  editais: Open position calls (CPG)
   inscricao: "Register"
 
 about:
@@ -81,3 +86,27 @@ form:
   email: "E-mail*"
   mensagem: "Write here your message*"
   enviar: Send
+
+disciplina:
+  area: Concentration area
+  criacao: Criation
+  ativacao: Activation
+  creditos: Credits
+  carga:
+    nome: Workload
+    teorica: Theoretical
+    pratica: Practical
+    estudos: Study
+    duracao: Duration
+    total: Total
+    semanas: weeks
+    horas: hours
+    horasporsemana: "hours/week"
+  janus: See on Janus (pt-br)
+  docente: Form professor
+  objetivos: Objectives
+  justificativa: Motivation
+  conteudo: Syllabus
+  avaliacao: Evaluation criteria
+  observacao: Observations
+  bibliografia: References

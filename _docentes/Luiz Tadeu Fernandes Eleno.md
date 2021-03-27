@@ -2,7 +2,9 @@
 excerpt_separator: <!--more-->
 
 # Dados de contato:
-nome: Luiz Tadeu Fernandes Eleno
+nome: &nome Luiz Tadeu Fernandes Eleno
+title: *nome
+
 NUSP: 1176388
 email: luizeleno@usp.br
 fone: +55 12 3159 9810

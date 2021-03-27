@@ -1,5 +1,7 @@
 ---
-nome: Carlos Angelo Nunes
+nome: &nome Carlos Angelo Nunes
+title: *nome
+
 NUSP: 3577649
 email: cnunes@usp.br
 fone: +55 12 3159 9912

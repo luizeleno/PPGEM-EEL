@@ -1,5 +1,7 @@
 ---
-nome: Clodoaldo Saron
+nome: &nome Clodoaldo Saron
+title: *nome
+
 email: saron@usp.br
 fone: +55 12 3159 9920
 Lattes: 2716101594216445

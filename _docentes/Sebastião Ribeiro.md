@@ -1,5 +1,7 @@
 ---
-nome: Sebastião Ribeiro
+nome: &nome Sebastião Ribeiro
+title: *nome
+
 NUSP: 1922320
 fone: +55 12 3159 9803
 email: sebastiao@demar.eel.usp.br
