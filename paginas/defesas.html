@@ -57,7 +57,11 @@ permalink: /defesas/
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{site.baseurl_root}}/search.json',
-    searchResultTemplate: '<li class="list-group-item">{aluno} ({orientador}), {titulo}. {tipo} ({data})</li>',
+    {% if site.lang=='en' %}
+      searchResultTemplate: '<li class="list-group-item">{aluno} ({orientador}), {titulo_en}. {tipo_en} ({data})</li>',
+    {% else %}
+      searchResultTemplate: '<li class="list-group-item">{aluno} ({orientador}), {titulo}. {tipo} ({data})</li>',
+    {% endif %}
     noResultsText: 'No results found',
     limit: 20,
     fuzzy: false,
