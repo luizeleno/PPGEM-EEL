@@ -14,7 +14,13 @@
     {% for tese in include.teses %}
         <tr>
             {% if site.lang == 'en' %}
-                <td>Traduzir: {{tese.titulo}}{{tese.titulo_en}}</td>
+                <td>
+                    {% if tese.titulo_en %}
+                        {{tese.titulo_en}}
+                    {% else %}
+                        {{tese.titulo}}
+                    {% endif %}
+                </td>
             {% else %}
                 <td>{{tese.titulo}}</td>
             {% endif %}

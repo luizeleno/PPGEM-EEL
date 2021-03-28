@@ -1,14 +1,6 @@
 [
   
     {
-      "titulo"    : "Obtenção de madeira plástica a partir do polietileno de baixa densidade reciclado com fibra natural de capim elefante",
-      "aluno"    : "Camila Cezar Grillo",
-      "orientador"    : "Clodoaldo Saron",
-      "data"    : "2021/04/30",
-      "tipo"    : "Tese de Doutorado"
-    } ,
-  
-    {
       "titulo"    : "Desenvolvimento de Capacitores Eletrolíticos de Ligas Aluminotérmicas do Sistema Nb-Ta-Al.",
       "aluno"    : "José Nilson França Holanda",
       "orientador"    : "Kurt Strecker",
@@ -57,16 +49,16 @@
     } ,
   
     {
-      "titulo"    : "Efeitos da Substituição com Pr e da Corrente Elétrica nos Compostos Bi 2 Sr 2 CaCu 2 O 8+  e YBa 2 Cu 3 O 7-  Próximo da Transição Supercondutor-Isolante.",
-      "aluno"    : "Carlos Alberto Moreira dos Santos",
+      "titulo"    : "Síntese de Filmes Supercondutores do Sistema Y-Ba-Cu-O, Via Eletrodeposição.",
+      "aluno"    : "Antonio Jefferson da Silva Machado",
       "orientador"    : "Sergio Moehlecke",
       "data"    : "2000/01/10",
       "tipo"    : "Tese de Doutorado"
     } ,
   
     {
-      "titulo"    : "Síntese de Filmes Supercondutores do Sistema Y-Ba-Cu-O, Via Eletrodeposição.",
-      "aluno"    : "Antonio Jefferson da Silva Machado",
+      "titulo"    : "Efeitos da Substituição com Pr e da Corrente Elétrica nos Compostos Bi 2 Sr 2 CaCu 2 O 8+  e YBa 2 Cu 3 O 7-  Próximo da Transição Supercondutor-Isolante.",
+      "aluno"    : "Carlos Alberto Moreira dos Santos",
       "orientador"    : "Sergio Moehlecke",
       "data"    : "2000/01/10",
       "tipo"    : "Tese de Doutorado"
@@ -513,18 +505,18 @@
     } ,
   
     {
-      "titulo"    : "Tratamentos para redução de metais alcalinos, enxofre e cloreto em celulignina destinada à obtenção de gás de síntese como substituto do gás natural para geração de energia termoelétrica em turbinas a gás”.",
-      "aluno"    : "Érica Leonor Romão",
-      "orientador"    : "Rosa Ana Conte",
-      "data"    : "2011/03/02",
-      "tipo"    : "Tese de Doutorado"
-    } ,
-  
-    {
       "titulo"    : "Biovidros e vitrocerâmicos bioativos do sistema 3CaO.P2O5-SiO2-MgO para aplicações biomédicas: processamento e caracterizações estruturais, mecânicas e biológicas”.",
       "aluno"    : "Juliana K M de F Daguano",
       "orientador"    : "Claudinei dos Santos",
       "data"    : "2011/01/27",
+      "tipo"    : "Tese de Doutorado"
+    } ,
+  
+    {
+      "titulo"    : "Tratamentos para redução de metais alcalinos, enxofre e cloreto em celulignina destinada à obtenção de gás de síntese como substituto do gás natural para geração de energia termoelétrica em turbinas a gás”.",
+      "aluno"    : "Érica Leonor Romão",
+      "orientador"    : "Rosa Ana Conte",
+      "data"    : "2011/03/02",
       "tipo"    : "Tese de Doutorado"
     } ,
   
@@ -657,18 +649,18 @@
     } ,
   
     {
-      "titulo"    : "Estudo dos fenômenos da fluência, corrosão e oxidação isotérmica na liga Ti-6Al-4V submetida aos revestimentos de TiN e TiAlN depositados pela técnica de PVD assistida por plasma",
-      "aluno"    : "Verônica Mara Cortez Alves de Oliveira",
-      "orientador"    : "Miguel Justino Ribeiro Barbosa",
-      "data"    : "2014/07/11",
-      "tipo"    : "Tese de Doutorado"
-    } ,
-  
-    {
       "titulo"    : "Avaliação da estabilidade microestrutural do aço Eurofer-97 recozido isotermicamente até 1350°C",
       "aluno"    : "Verona Biancardi Oliveira",
       "orientador"    : "Hugo Ricardo Zschommler Sandim",
       "data"    : "2014/06/30",
+      "tipo"    : "Tese de Doutorado"
+    } ,
+  
+    {
+      "titulo"    : "Estudo dos fenômenos da fluência, corrosão e oxidação isotérmica na liga Ti-6Al-4V submetida aos revestimentos de TiN e TiAlN depositados pela técnica de PVD assistida por plasma",
+      "aluno"    : "Verônica Mara Cortez Alves de Oliveira",
+      "orientador"    : "Miguel Justino Ribeiro Barbosa",
+      "data"    : "2014/07/11",
       "tipo"    : "Tese de Doutorado"
     } ,
   
@@ -745,6 +737,22 @@
     } ,
   
     {
+      "titulo"    : "Refratários magnesianos de panela de aciaria: redução da oxidação inicial, formação da fase espinélio MgAl 2 O 4 e resistência ao dano por choque térmico",
+      "aluno"    : "Bruno Vidal de Almeida",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2016/01/25",
+      "tipo"    : "Tese de Doutorado"
+    } ,
+  
+    {
+      "titulo"    : "Syntesis of nanocomposites with anisotropic properties by controlled radical emulsion polymerization",
+      "aluno"    : "Thaíssa de Camargo Chaparro",
+      "orientador"    : "Amilton Martins dos Santos",
+      "data"    : "2016/03/29",
+      "tipo"    : "Tese de Doutorado"
+    } ,
+  
+    {
       "titulo"    : "Caracterização microestrutural e mecânica de juntas soldadas a laser em um aço ARBL",
       "aluno"    : "Henrique Varella Ribeiro",
       "orientador"    : "Carlos Antonio Reis Pereira Baptista",
@@ -785,6 +793,14 @@
     } ,
   
     {
+      "titulo"    : "Estudo Post Mortem em revestimento refratário de panela de aciaria elétrica",
+      "aluno"    : "Rejane Carneiro Mota",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2017/08/11",
+      "tipo"    : "Tese de Doutorado"
+    } ,
+  
+    {
       "titulo"    : "Otimização de propriedades piezomagnéticas de ligas de Fe-Al-B para utilização como atuador e sensor de força",
       "aluno"    : "Mateus Botani de Souza Dias",
       "orientador"    : "Cristima Bormio Nunes",
@@ -793,10 +809,10 @@
     } ,
   
     {
-      "titulo"    : "Estudo Post Mortem em revestimento refratário de panela de aciaria elétrica",
-      "aluno"    : "Rejane Carneiro Mota",
-      "orientador"    : "Fernando Vernilli Junior",
-      "data"    : "2017/08/11",
+      "titulo"    : "Crescimento de monocristais e investigação experimental de propriedades físicas de calcogenetos de nióbio",
+      "aluno"    : "Bruno Sanches de Lima",
+      "orientador"    : "Antonio Jefferson da Silva Machado",
+      "data"    : "2017/12/13",
       "tipo"    : "Tese de Doutorado"
     } ,
   
@@ -817,10 +833,10 @@
     } ,
   
     {
-      "titulo"    : "Estudo do comportamento em fadiga de alto ciclo da liga Ti-35Nb-7Zr para aplicações biomédicas",
-      "aluno"    : "Beatriz Zuleika de Macedo",
-      "orientador"    : "Sandra Giacomin Schneider",
-      "data"    : "2018/10/19",
+      "titulo"    : "Processamento e caracterização de ligas Al-Ti-V-Zr-Nb e Al-Ti-V-Cr-Nb (ligas com elementos multiprincipais) para aplicação aeroespacial",
+      "aluno"    : "José Mauro Moraes Junior",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2018/06/21",
       "tipo"    : "Tese de Doutorado"
     } ,
   
@@ -833,10 +849,10 @@
     } ,
   
     {
-      "titulo"    : "Processamento e caracterização de ligas Al-Ti-V-Zr-Nb e Al-Ti-V-Cr-Nb (ligas com elementos multiprincipais) para aplicação aeroespacial",
-      "aluno"    : "José Mauro Moraes Junior",
-      "orientador"    : "Carlos Angelo Nunes",
-      "data"    : "2018/06/21",
+      "titulo"    : "Estudo do comportamento em fadiga de alto ciclo da liga Ti-35Nb-7Zr para aplicações biomédicas",
+      "aluno"    : "Beatriz Zuleika de Macedo",
+      "orientador"    : "Sandra Giacomin Schneider",
+      "data"    : "2018/10/19",
       "tipo"    : "Tese de Doutorado"
     } ,
   
@@ -873,17 +889,17 @@
     } ,
   
     {
-      "titulo"    : "Estudo das protusões na recristalização do Nióbio Oligocristalino",
-      "aluno"    : "Tamires Brekailo",
-      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "titulo"    : "Compósitos compatilizados de argamassa e borracha de pneus",
+      "aluno"    : "Diego David Pinzon Moreno",
+      "orientador"    : "Clodoaldo Saron Coorientador: Sebastiao Ribeiro",
       "data"    : "2019/06/28",
       "tipo"    : "Tese de Doutorado"
     } ,
   
     {
-      "titulo"    : "Compósitos compatilizados de argamassa e borracha de pneus",
-      "aluno"    : "Diego David Pinzon Moreno",
-      "orientador"    : "Clodoaldo Saron Coorientador: Sebastiao Ribeiro",
+      "titulo"    : "Estudo das protusões na recristalização do Nióbio Oligocristalino",
+      "aluno"    : "Tamires Brekailo",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
       "data"    : "2019/06/28",
       "tipo"    : "Tese de Doutorado"
     } ,
@@ -985,26 +1001,10 @@
     } ,
   
     {
-      "titulo"    : "Refratários magnesianos de panela de aciaria: redução da oxidação inicial, formação da fase espinélio MgAl 2 O 4 e resistência ao dano por choque térmico",
-      "aluno"    : "Bruno Vidal de Almeida",
-      "orientador"    : "Fernando Vernilli Junior",
-      "data"    : "2016/01/25",
-      "tipo"    : "Tese de Doutorado"
-    } ,
-  
-    {
-      "titulo"    : "Syntesis of nanocomposites with anisotropic properties by controlled radical emulsion polymerization",
-      "aluno"    : "Thaíssa de Camargo Chaparro",
-      "orientador"    : "Amilton Martins dos Santos",
-      "data"    : "2016/03/29",
-      "tipo"    : "Tese de Doutorado"
-    } ,
-  
-    {
-      "titulo"    : "Crescimento de monocristais e investigação experimental de propriedades físicas de calcogenetos de nióbio",
-      "aluno"    : "Bruno Sanches de Lima",
-      "orientador"    : "Antonio Jefferson da Silva Machado",
-      "data"    : "2017/12/13",
+      "titulo"    : "Obtenção de madeira plástica a partir do polietileno de baixa densidade reciclado com fibra natural de capim elefante",
+      "aluno"    : "Camila Cezar Grillo",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2021/04/30",
       "tipo"    : "Tese de Doutorado"
     } 
   
@@ -1371,18 +1371,18 @@
     } ,
   
     {
-      "titulo"    : "Processamento e Caracterização de Supercondutores Metálicos de Nb 3 Sn com Centros de Aprisionamento Artificiais de Cu(Sn)",
-      "aluno"    : "Carlos Alberto Rodrigues",
-      "orientador"    : "Durval Rodrigues Junior",
-      "data"    : "2000/08/17",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Estudo de Modificações de Superfícies de Aço Inoxidável 304 com Filmes Poliméricos e de Titânio para Melhorar a Aderência de Filmes Diamante CVD.",
       "aluno"    : "Rogério de Almeida Vieira",
       "orientador"    : "Maria do Carmo de Andrade Nono",
       "data"    : "2000/08/10",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Processamento e Caracterização de Supercondutores Metálicos de Nb 3 Sn com Centros de Aprisionamento Artificiais de Cu(Sn)",
+      "aluno"    : "Carlos Alberto Rodrigues",
+      "orientador"    : "Durval Rodrigues Junior",
+      "data"    : "2000/08/17",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -1619,17 +1619,17 @@
     } ,
   
     {
-      "titulo"    : "Produção e Caracterização de Pós da Liga Nb-20%Ta (peso) Obtidos pela Técnica de Hidrogenação-Desidrogenação.",
-      "aluno"    : "Kátia Cristiane Gandolpho Candioto",
-      "orientador"    : "Carlos Angelo Nunes",
+      "titulo"    : "Produção de Placas Cerâmicas com a Adição de Cinzas e Resíduos Sólidos do Programa BEM: Biomassa-Energia-Materiais.",
+      "aluno"    : "Benedito Celso dos Santos",
+      "orientador"    : "Daltro Garcia Pinatti",
       "data"    : "2002/09/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
     {
-      "titulo"    : "Produção de Placas Cerâmicas com a Adição de Cinzas e Resíduos Sólidos do Programa BEM: Biomassa-Energia-Materiais.",
-      "aluno"    : "Benedito Celso dos Santos",
-      "orientador"    : "Daltro Garcia Pinatti",
+      "titulo"    : "Produção e Caracterização de Pós da Liga Nb-20%Ta (peso) Obtidos pela Técnica de Hidrogenação-Desidrogenação.",
+      "aluno"    : "Kátia Cristiane Gandolpho Candioto",
+      "orientador"    : "Carlos Angelo Nunes",
       "data"    : "2002/09/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
@@ -1803,17 +1803,17 @@
     } ,
   
     {
-      "titulo"    : "Reciclagem de Pneu: Argamassa modificada com Látex e Borracha de pneu",
-      "aluno"    : "Fátima Cristina T. de Souza",
-      "orientador"    : "Herman Jacobus Cornelis Voorwald",
+      "titulo"    : "Oxidação de Etanol sobre Paládio Suportado – Influência dos Óxidos Redutíveis",
+      "aluno"    : "Aline Ponte Brússolo",
+      "orientador"    : "Gilberto Marques da Cruz",
       "data"    : "2004/09/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
     {
-      "titulo"    : "Oxidação de Etanol sobre Paládio Suportado – Influência dos Óxidos Redutíveis",
-      "aluno"    : "Aline Ponte Brússolo",
-      "orientador"    : "Gilberto Marques da Cruz",
+      "titulo"    : "Reciclagem de Pneu: Argamassa modificada com Látex e Borracha de pneu",
+      "aluno"    : "Fátima Cristina T. de Souza",
+      "orientador"    : "Herman Jacobus Cornelis Voorwald",
       "data"    : "2004/09/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
@@ -1955,16 +1955,16 @@
     } ,
   
     {
-      "titulo"    : "Estudo da deterioração do rolo terra da seção de limpeza alcalina na linha de cromagem eletrolítica da Companhia Siderúrgica Nacional - Simulação em planta piloto",
-      "aluno"    : "Vilmar Alves de Souza",
+      "titulo"    : "Investigação sobre o defeito madeira em folhas de Flandres produzidas em linhas industriais de estanhamento eletrolítico",
+      "aluno"    : "Alfredo Moisés Sarkis",
       "orientador"    : "Alain Laurent Marie Robin",
       "data"    : "2006/11/30",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
     {
-      "titulo"    : "Investigação sobre o defeito madeira em folhas de Flandres produzidas em linhas industriais de estanhamento eletrolítico",
-      "aluno"    : "Alfredo Moisés Sarkis",
+      "titulo"    : "Estudo da deterioração do rolo terra da seção de limpeza alcalina na linha de cromagem eletrolítica da Companhia Siderúrgica Nacional - Simulação em planta piloto",
+      "aluno"    : "Vilmar Alves de Souza",
       "orientador"    : "Alain Laurent Marie Robin",
       "data"    : "2006/11/30",
       "tipo"    : "Dissertação de Mestrado"
@@ -2299,14 +2299,6 @@
     } ,
   
     {
-      "titulo"    : "Estudo experimental do sistema Ta-Ge e da região rica em, Ta do ternário Ta-Ge-B”",
-      "aluno"    : "Antonio A A P da Silva",
-      "orientador"    : "Gilberto Carvalho Coelho",
-      "data"    : "2011/05/20",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Desenvolvimento de ligas à base de Ni-Cr para prótese dentária”",
       "aluno"    : "Luciano Braga Alkmin",
       "orientador"    : "Carlos Angelo Nunes",
@@ -2315,10 +2307,26 @@
     } ,
   
     {
+      "titulo"    : "Estudo experimental do sistema Ta-Ge e da região rica em, Ta do ternário Ta-Ge-B”",
+      "aluno"    : "Antonio A A P da Silva",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2011/05/20",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
       "titulo"    : "Caracterização microestrutural de ZrO2 estabilizada com Y2O3 sinterizada a partir de pós nanocristalinos”.",
       "aluno"    : "Maxwell Pereira Cangani",
       "orientador"    : "Durval Rodrigues Junior",
       "data"    : "2011/06/16",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Caracterização da textura e do orelhamento (earlin”) da liga AA3104 após a redução a frio”.",
+      "aluno"    : "Paulo Roberto Godoy Patrocínio",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "data"    : "2011/07/22",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2335,14 +2343,6 @@
       "aluno"    : "Francisco H C Freitas",
       "orientador"    : "Carlos Angelo Nunes",
       "data"    : "2011/08/12",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Caracterização da textura e do orelhamento (earlin”) da liga AA3104 após a redução a frio”.",
-      "aluno"    : "Paulo Roberto Godoy Patrocínio",
-      "orientador"    : "Hugo Ricardo Zschommler Sandim",
-      "data"    : "2011/07/22",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2483,10 +2483,10 @@
     } ,
   
     {
-      "titulo"    : "Efeitos de promotores no desempenho catalítico do cobalto suportado em nanofibras de carbono na síntese de Ficher-Tropsch",
-      "aluno"    : "André Carvalho",
-      "orientador"    : "Ricardo Vieira",
-      "data"    : "2014/10/06",
+      "titulo"    : "Construção de um transdutor quase-estático de tensão mecânica em propriedades magnéticas, aplicado à liga (Fe0,8Al0,2)98 B2",
+      "aluno"    : "Mateus Botani de Souza Dias",
+      "orientador"    : "Antonio Jefferson da Silva Machado",
+      "data"    : "2014/05/06",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2495,14 +2495,6 @@
       "aluno"    : "José Milton Gabriel Lopes",
       "orientador"    : "Fernando Vernilli Junior",
       "data"    : "2014/07/11",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Construção de um transdutor quase-estático de tensão mecânica em propriedades magnéticas, aplicado à liga (Fe0,8Al0,2)98 B2",
-      "aluno"    : "Mateus Botani de Souza Dias",
-      "orientador"    : "Antonio Jefferson da Silva Machado",
-      "data"    : "2014/05/06",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2519,6 +2511,14 @@
       "aluno"    : "Renata Mayumi Okuma",
       "orientador"    : "Miguel Justino Ribeiro Barbosa",
       "data"    : "2014/09/08",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Efeitos de promotores no desempenho catalítico do cobalto suportado em nanofibras de carbono na síntese de Ficher-Tropsch",
+      "aluno"    : "André Carvalho",
+      "orientador"    : "Ricardo Vieira",
+      "data"    : "2014/10/06",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2643,58 +2643,10 @@
     } ,
   
     {
-      "titulo"    : "Síntese e caracterização de óxidos mistos de cobalto, manganês e alumínio para decomposição catalítica de H2O2 70% e geração de vapor",
-      "aluno"    : "André Navarro de Miranda",
-      "orientador"    : "Ricardo Vieira",
-      "data"    : "2016/08/01",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Influência dos elementos de liga no comportamento mecânico, na temperabilidade e na microestrutura do aço SAE 5120 modificado",
-      "aluno"    : "Argos Yoneda Coletti",
-      "orientador"    : "Hugo Ricardo Zschommler Sandim",
-      "data"    : "2016/07/15",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Caracterização de blocos sinterizados à base de CoCrMo visando a obtenção de próteses odontológicas por fresagem CAD/CAM",
-      "aluno"    : "Bruno Xavier de Freitas",
-      "orientador"    : "Carlos Angelo Nunes",
-      "data"    : "2016/12/19",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Reciclagem de rejeitos de polietileno de baixa densidade provenientes de uma cooperativa de catadores na forma de madeira plástica",
       "aluno"    : "Camila Cezar Grillo",
       "orientador"    : "Clodoaldo Saron",
       "data"    : "2016/06/03",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Estudo da influência do teor de cromo na microestrutura, dureza e oxidação de um ferro fundido branco multicomponente (FFBM)",
-      "aluno"    : "Glauco Dias Paulo",
-      "orientador"    : "Gilberto Carvalho Coelho",
-      "data"    : "2016/09/23",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Estudo do processo de solidificação, deformação plástica e recristalização sobre o comportamento eletroquímico da liga Al-4,5% p.Cu em soluções aquosas",
-      "aluno"    : "Júlio César Lourenço",
-      "orientador"    : "Alain Laurent Marie Robin",
-      "data"    : "2016/11/25",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Estudo do efeito de nitretação na resistência à fluência do titânio grau 2",
-      "aluno"    : "Karen Monique da Silva Palma",
-      "orientador"    : "Miguel Justino Ribeiro Barbosa",
-      "data"    : "2016/12/20",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2715,6 +2667,46 @@
     } ,
   
     {
+      "titulo"    : "Influência dos elementos de liga no comportamento mecânico, na temperabilidade e na microestrutura do aço SAE 5120 modificado",
+      "aluno"    : "Argos Yoneda Coletti",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "data"    : "2016/07/15",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Síntese e caracterização de óxidos mistos de cobalto, manganês e alumínio para decomposição catalítica de H2O2 70% e geração de vapor",
+      "aluno"    : "André Navarro de Miranda",
+      "orientador"    : "Ricardo Vieira",
+      "data"    : "2016/08/01",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da influência do teor de cromo na microestrutura, dureza e oxidação de um ferro fundido branco multicomponente (FFBM)",
+      "aluno"    : "Glauco Dias Paulo",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2016/09/23",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Estudo do processo de solidificação, deformação plástica e recristalização sobre o comportamento eletroquímico da liga Al-4,5% p.Cu em soluções aquosas",
+      "aluno"    : "Júlio César Lourenço",
+      "orientador"    : "Alain Laurent Marie Robin",
+      "data"    : "2016/11/25",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Caracterização de blocos sinterizados à base de CoCrMo visando a obtenção de próteses odontológicas por fresagem CAD/CAM",
+      "aluno"    : "Bruno Xavier de Freitas",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2016/12/19",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
       "titulo"    : "Estudo da dispersão das propriedades físico-químicas em blocos de alumina marrom obtida por eletrofusão",
       "aluno"    : "Robérsio Marinho de Faria",
       "orientador"    : "Fernando Vernilli Junior",
@@ -2723,10 +2715,10 @@
     } ,
   
     {
-      "titulo"    : "Avaliação da biofuncionalidade dos implantes da liga Ti-35Nb-7Zr comparados aos implantes comerciais de Ti-cp",
-      "aluno"    : "Fábia Zampieri D’Antola de Mello",
-      "orientador"    : "Sandra Giacomin Schneider",
-      "data"    : "2017/05/24",
+      "titulo"    : "Estudo do efeito de nitretação na resistência à fluência do titânio grau 2",
+      "aluno"    : "Karen Monique da Silva Palma",
+      "orientador"    : "Miguel Justino Ribeiro Barbosa",
+      "data"    : "2016/12/20",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2735,6 +2727,14 @@
       "aluno"    : "Felipe Souza Oliveira",
       "orientador"    : "Carlos Alberto Moreira dos Santos",
       "data"    : "2017/02/10",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Avaliação da biofuncionalidade dos implantes da liga Ti-35Nb-7Zr comparados aos implantes comerciais de Ti-cp",
+      "aluno"    : "Fábia Zampieri D’Antola de Mello",
+      "orientador"    : "Sandra Giacomin Schneider",
+      "data"    : "2017/05/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2755,18 +2755,18 @@
     } ,
   
     {
-      "titulo"    : "Processamento e caracterização de novas ligas à base de Nb-Ti para aplicações em turbinas aeronáuticas",
-      "aluno"    : "Paula Letícia Corrêa de Toledo Cury",
-      "orientador"    : "Carlos Angelo Nunes",
-      "data"    : "2017/12/12",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Comportamento piezomagnético da liga Fe-Ga e Fe-Ga-B com 18,6%at. de Ga e 2%at. de B",
       "aluno"    : "Fábio Martins Cardoso",
       "orientador"    : "Cristima Bormio Nunes",
       "data"    : "2017/11/21",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Processamento e caracterização de novas ligas à base de Nb-Ti para aplicações em turbinas aeronáuticas",
+      "aluno"    : "Paula Letícia Corrêa de Toledo Cury",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2017/12/12",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2779,14 +2779,6 @@
     } ,
   
     {
-      "titulo"    : "Síntese e estudo de materiais poliméricos baseados em polimetacrilamida para remoção de metais pesados de soluções aquosas",
-      "aluno"    : "Rafael Theotônio de Castro",
-      "orientador"    : "Fábio Herbst Florenzano",
-      "data"    : "2018/02/20",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Desenvolvimento da metodologia de fabricação de um fio supercondutor MgB 2",
       "aluno"    : "Eleazar José Ribeiro",
       "orientador"    : "Durval Rodrigues Junior",
@@ -2795,42 +2787,10 @@
     } ,
   
     {
-      "titulo"    : "Desenvolvimento e caracterização de revestimentos de aluminetos contra oxidação em ligas Ti beta-21S utilizando a técnica de Pack Cementation",
-      "aluno"    : "Caio Marcello Felbinger Azevedo Cossú",
-      "orientador"    : "Carlos Angelo Nunes",
-      "data"    : "2018/12/04",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Avaliação da estabilidade microestrutural e sua relação com as propriedades magnéticas de um aço inoxidável dúplex UNS S32304",
-      "aluno"    : "Cristiane Fátima Guimarães Silveira Mota",
-      "orientador"    : "Maria José Ramos Sandim",
-      "data"    : "2018/05/18",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Investigação da supercondutividade em compostos do sistema Zr-V-Ga",
-      "aluno"    : "Danyela Cardoso Carvalho",
-      "orientador"    : "Antonio Jefferson da Silva Machado",
-      "data"    : "2018/10/26",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Estudo da separação triboelástica de resíduos poliméricos pós-consumo e determinação do limite de contaminação entre PET e PEAD",
-      "aluno"    : "Dayane Taylor de Freitas",
-      "orientador"    : "Clodoaldo Saron",
-      "data"    : "2018/03/19",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Investigação experimental da seção isotérmica a 1200ºC do sistema ternário Al-V-Zr",
-      "aluno"    : "Denis Felipe de Barros",
-      "orientador"    : "Gilberto Carvalho Coelho",
-      "data"    : "2018/07/11",
+      "titulo"    : "Síntese e estudo de materiais poliméricos baseados em polimetacrilamida para remoção de metais pesados de soluções aquosas",
+      "aluno"    : "Rafael Theotônio de Castro",
+      "orientador"    : "Fábio Herbst Florenzano",
+      "data"    : "2018/02/20",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2843,10 +2803,50 @@
     } ,
   
     {
+      "titulo"    : "Estudo da separação triboelástica de resíduos poliméricos pós-consumo e determinação do limite de contaminação entre PET e PEAD",
+      "aluno"    : "Dayane Taylor de Freitas",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2018/03/19",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
       "titulo"    : "Seção isotérmica a 1200 ºC e avaliação termodinâmica preliminar do sistema Al-Nb-V",
       "aluno"    : "Júlio César Pereira dos Santos",
       "orientador"    : "Gilberto Carvalho Coelho",
       "data"    : "2018/05/11",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Avaliação da estabilidade microestrutural e sua relação com as propriedades magnéticas de um aço inoxidável dúplex UNS S32304",
+      "aluno"    : "Cristiane Fátima Guimarães Silveira Mota",
+      "orientador"    : "Maria José Ramos Sandim",
+      "data"    : "2018/05/18",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Investigação experimental da seção isotérmica a 1200ºC do sistema ternário Al-V-Zr",
+      "aluno"    : "Denis Felipe de Barros",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2018/07/11",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Investigação da supercondutividade em compostos do sistema Zr-V-Ga",
+      "aluno"    : "Danyela Cardoso Carvalho",
+      "orientador"    : "Antonio Jefferson da Silva Machado",
+      "data"    : "2018/10/26",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Desenvolvimento e caracterização de revestimentos de aluminetos contra oxidação em ligas Ti beta-21S utilizando a técnica de Pack Cementation",
+      "aluno"    : "Caio Marcello Felbinger Azevedo Cossú",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2018/12/04",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2883,26 +2883,26 @@
     } ,
   
     {
-      "titulo"    : "Estudo comparativo da resistência ao dano por choque térmico em refratários para conjunto de porta ventos de alto-forno”.",
-      "aluno"    : "Angelo Cristante Neto",
-      "orientador"    : "Fernando Vernilli Junior",
-      "data"    : "2019/05/24",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Estudo da atividade catalítica de argilas na modificação química de resíduos poliméricos pós-consumo de polietileno",
-      "aluno"    : "Denise dos Santos Luiz",
-      "orientador"    : "Clodoaldo Saron",
-      "data"    : "2019/08/27",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
       "titulo"    : "Síntese e caracterização de derivados naftalimídicos e sua copolimerização com estireno para geração de materiais poliméricos fluorescentes",
       "aluno"    : "Marcos Felipe Russo Assumpção Schimidt",
       "orientador"    : "Fábio Herbst Florenzano",
       "data"    : "2019/02/15",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Síntese e caracterização de materiais catalíticos Ni-Mo/Al2O3 preparados pelo processo poliol",
+      "aluno"    : "Pedro Henrique Lopes Nunes Abreu dos Santos",
+      "orientador"    : "Sebastião Ribeiro",
+      "data"    : "2019/05/10",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
+      "titulo"    : "Estudo comparativo da resistência ao dano por choque térmico em refratários para conjunto de porta ventos de alto-forno”.",
+      "aluno"    : "Angelo Cristante Neto",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2019/05/24",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   
@@ -2923,6 +2923,14 @@
     } ,
   
     {
+      "titulo"    : "Estudo da atividade catalítica de argilas na modificação química de resíduos poliméricos pós-consumo de polietileno",
+      "aluno"    : "Denise dos Santos Luiz",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2019/08/27",
+      "tipo"    : "Dissertação de Mestrado"
+    } ,
+  
+    {
       "titulo"    : "Avaliação da influência da adição de até 0,41 %p de mischmetal de cério e lantânio ao cobre 60 %IACS processado por fundição",
       "aluno"    : "Luis Paulo de Souza",
       "orientador"    : "Gilberto Carvalho Coelho",
@@ -2935,14 +2943,6 @@
       "aluno"    : "Thiago Trevizam Dorini",
       "orientador"    : "Luiz Tadeu Fernandes Eleno",
       "data"    : "2019/09/19",
-      "tipo"    : "Dissertação de Mestrado"
-    } ,
-  
-    {
-      "titulo"    : "Síntese e caracterização de materiais catalíticos Ni-Mo/Al2O3 preparados pelo processo poliol",
-      "aluno"    : "Pedro Henrique Lopes Nunes Abreu dos Santos",
-      "orientador"    : "Sebastião Ribeiro",
-      "data"    : "2019/05/10",
       "tipo"    : "Dissertação de Mestrado"
     } ,
   

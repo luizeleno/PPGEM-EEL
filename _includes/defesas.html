@@ -11,7 +11,11 @@
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
                         <blockquote>
                             {% if site.lang == 'en' %}
-                                <p>Traduzir: {{ defesa.titulo }}{{ defesa.titulo_en }}</p>
+                                {% if defesa.titulo_en %}
+                                    {{defesa.titulo_en}}
+                                {% else %}
+                                    {{defesa.titulo}}
+                                {% endif %}
                             {% else %}
                                 <p>{{ defesa.titulo }}</p>
                             {% endif %}
