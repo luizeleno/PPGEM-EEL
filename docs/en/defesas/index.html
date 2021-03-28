@@ -9,7 +9,7 @@
 
     <title>PPGEM EEL/USP - </title>
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)">
-    <link rel="alternate" type="application/rss+xml" href="/feed.xml">
+    <link rel="alternate" type="application/rss+xml" href="/PPGEM-EEL/feed.xml">
 
     <!-- Stylesheet -->
     <link rel="stylesheet" href="/PPGEM-EEL/css/main.css">
@@ -35,7 +35,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="PPGEM EEL/USP" />
 <script type="application/ld+json">
-{"@type":"WebPage","headline":"PPGEM EEL/USP","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/defesas/","@context":"https://schema.org"}</script>
+{"@type":"WebPage","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"PPGEM EEL/USP","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/defesas/","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -161,6 +161,18 @@
  <div class="container-fluid" style="margin-bottom:10px">
 
 <h1 style="margin-top: 10px;">Defenses</h1>
+
+<div class="container-fluid">
+  <div class="form">
+    <h5><svg class="octicon octicon-search" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11.5 7a4.499 4.499 0 11-8.998 0A4.499 4.499 0 0111.5 7zm-.82 4.74a6 6 0 111.06-1.06l3.04 3.04a.75.75 0 11-1.06 1.06l-3.04-3.04z"></path></svg> Search for a dissertation or thesis...</h5>
+      <input type="search" class="form-control" width=100% placeholder="..." aria-label="Search" aria-describedby="Search" id="search-input">
+    <span class="input-group-text">
+    <div id="results-container"></div>
+  </span>
+  </div>
+</div>
+
+<hr>
 
 <div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" id="tese-btn" class="btn btn-lg btn-primary" disabled onclick="altera()" style="margin-right: 5px;">PhD Theses</button>
@@ -5119,6 +5131,21 @@
     });
   }
 </script>
+
+<script src="/PPGEM-EEL/js/simple-jekyll-search.min.js"></script>
+
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '/PPGEM-EEL/search.json',
+    searchResultTemplate: '<li class="list-group-item">{aluno} ({orientador}), {titulo}. {tipo} ({data})</li>',
+    noResultsText: 'No results found',
+    limit: 20,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+  </script>
            
     <!-- Start Footer -->
 <footer class="main-footer">

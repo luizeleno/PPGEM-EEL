@@ -11,6 +11,18 @@ permalink: /defesas/
 
 <h1 style="margin-top: 10px;">{% t defesas.nav %}</h1>
 
+<div class="container-fluid">
+  <div class="form">
+    <h5>{% octicon search %} {% t global.search %}</h5>
+      <input type="search" class="form-control" width=100% placeholder="..." aria-label="Search" aria-describedby="Search" id="search-input">
+    <span class="input-group-text">
+    <div id="results-container"></div>
+  </span>
+  </div>
+</div>
+
+<hr>
+
 <div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" id="tese-btn" class="btn btn-lg btn-primary" disabled onclick="altera()" style="margin-right: 5px;">{% t defesas.doutorado %}</button>
   <button type="button" id="diss-btn" class="btn btn-lg btn-primary" onclick="altera()">{% t defesas.mestrado %}</button>
@@ -37,3 +49,18 @@ permalink: /defesas/
     });
   }
 </script>
+
+<script src="{{site.baseurl_root}}/js/simple-jekyll-search.min.js"></script>
+
+<script>
+  SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{site.baseurl_root}}/search.json',
+    searchResultTemplate: '<li class="list-group-item">{aluno} ({orientador}), {titulo}. {tipo} ({data})</li>',
+    noResultsText: 'No results found',
+    limit: 20,
+    fuzzy: false,
+    exclude: ['Welcome']
+  })
+  </script>
