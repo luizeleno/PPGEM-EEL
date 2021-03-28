@@ -12,7 +12,7 @@ global:
   secretaria: Secretary
   coordenador: Coordinator
   vice-coordenador: Vice-Coordinator
-  search: "Search for a dissertation or thesis..."
+  search: "Search for a dissertation or thesis"
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
 

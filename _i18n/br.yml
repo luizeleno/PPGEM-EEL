@@ -14,7 +14,7 @@ global:
   secretaria: Secretária
   coordenador: Coordenador
   vice-coordenador: Vice-coordenador
-  search: "Buscar por dissertação ou tese..."
+  search: "Buscar por dissertação ou tese"
 
   langs:
   br: br
