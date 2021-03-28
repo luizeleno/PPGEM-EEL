@@ -1,8 +1,18 @@
 -
+  titulo: "Obtenção de madeira plástica a partir do polietileno de baixa densidade reciclado com fibra natural de capim elefante"
+  titulo_en: ""
+  aluno: "Camila Cezar Grillo"
+  orientador: "Clodoaldo Saron"
+  banca: "Presidente/Orientador: Clodoaldo Saron (EEL/USP); Titular: Dr. Daniella Regina Mulinari (UERJ); Titular: Dr. Leandro Golçalves de Aguiar (EEL/USP); Titular: Dr. Fábio Herbst Florenzano (EEL/USP)"
+  data: "2021/04/30"
+  horario: "14h"
+  tipo: D
+-
   titulo: "Desenvolvimento de Capacitores Eletrolíticos de Ligas Aluminotérmicas do Sistema Nb-Ta-Al."
   titulo_en: ""
   aluno: "José Nilson França Holanda"
   orientador: "Kurt Strecker"
+  banca: "Kurt Strecker"
   data: "1995/03/23"
   tipo: D
 -
@@ -10,6 +20,7 @@
   titulo_en: ""
   aluno: "David dos Santos Cunha"
   orientador: "Gilberto Marques da Cruz"
+  banca: "Gilberto Marques da Cruz"
   data: "1995/11/20"
   tipo: D
 -
@@ -17,6 +28,7 @@
   titulo_en: ""
   aluno: "Celso Pinto Moraes Pereira"
   orientador: "Herman Jacobus Cornellis Voorwald"
+  banca: "Herman Jacobus Cornellis Voorwald"
   data: "1996/02/07"
   tipo: D
 -
@@ -24,6 +36,7 @@
   titulo_en: ""
   aluno: "Mauro Pedro Peres"
   orientador: "Herman Jacobus Cornellis Voorwald"
+  banca: "Herman Jacobus Cornellis Voorwald"
   data: "1996/03/16"
   tipo: D
 -
@@ -31,6 +44,7 @@
   titulo_en: ""
   aluno: "Sebastião Ribeiro"
   orientador: "Kurt Strecker"
+  banca: "Kurt Strecker"
   data: "1997/11/07"
   tipo: D
 -
@@ -38,6 +52,7 @@
   titulo_en: ""
   aluno: "Teófilo Miguel de Souza"
   orientador: "Vladimir Jesus Trava Airoldi"
+  banca: "Vladimir Jesus Trava Airoldi"
   data: "1998/12/21"
   tipo: D
 -
@@ -45,6 +60,7 @@
   titulo_en: ""
   aluno: "Carlos Alberto Moreira dos Santos"
   orientador: "Sergio Moehlecke"
+  banca: "Sergio Moehlecke"
   data: "2000/01/10"
   tipo: D
 -
@@ -52,6 +68,7 @@
   titulo_en: ""
   aluno: "Antonio Jefferson da Silva Machado"
   orientador: "Sergio Moehlecke"
+  banca: "Sergio Moehlecke"
   data: "2000/01/10"
   tipo: D
 -
@@ -59,6 +76,7 @@
   titulo_en: ""
   aluno: "Dailton de Freitas"
   orientador: "Maria do Carmo de Andrade Nono"
+  banca: "Maria do Carmo de Andrade Nono"
   data: "2000/02/29"
   tipo: D
 -
@@ -66,6 +84,7 @@
   titulo_en: ""
   aluno: "Washington Ramalho Rosas"
   orientador: "Alain Laurent Marie Robin"
+  banca: "Alain Laurent Marie Robin"
   data: "2000/05/02"
   tipo: D
 -
@@ -73,6 +92,7 @@
   titulo_en: ""
   aluno: "Geraldo Francisco Gomes"
   orientador: "Maria do Carmo de Andrade Nono"
+  banca: "Maria do Carmo de Andrade Nono"
   data: "2000/08/17"
   tipo: D
 -
@@ -80,6 +100,7 @@
   titulo_en: ""
   aluno: "Carlos Antonio Reis Pereira Baptista"
   orientador: "Viktor Alexeevich Pastoukhov"
+  banca: "Viktor Alexeevich Pastoukhov"
   data: "2000/11/24"
   tipo: D
 -
@@ -87,6 +108,7 @@
   titulo_en: ""
   aluno: "Francisco Piorino Neto"
   orientador: "Cosme Roberto Moreira da Silva"
+  banca: "Cosme Roberto Moreira da Silva"
   data: "2000/12/18"
   tipo: D
 -
@@ -94,6 +116,7 @@
   titulo_en: ""
   aluno: "Roberta Brayner"
   orientador: "Gilberto Marques da Cruz/François Bozon-Verduraz"
+  banca: "Gilberto Marques da Cruz/François Bozon-Verduraz"
   data: "2001/02/20"
   tipo: D
 -
@@ -101,6 +124,7 @@
   titulo_en: ""
   aluno: "Vinícius André Rodrigues Henriques"
   orientador: "Cosme Roberto Moreira da Silva"
+  banca: "Cosme Roberto Moreira da Silva"
   data: "2001/08/08"
   tipo: D
 -
@@ -108,6 +132,7 @@
   titulo_en: ""
   aluno: "Daniela Camargo"
   orientador: "Kurt Strecker"
+  banca: "Kurt Strecker"
   data: "2001/10/26"
   tipo: D
 -
@@ -115,6 +140,7 @@
   titulo_en: ""
   aluno: "Alfeu Saraiva Ramos"
   orientador: "Carlos Ângelo Nunes"
+  banca: "Carlos Ângelo Nunes"
   data: "2001/10/31"
   tipo: D
 -
@@ -122,6 +148,7 @@
   titulo_en: ""
   aluno: "Kátia Celina da Silva Richetto"
   orientador: "Cosme Roberto Moreira da Silva"
+  banca: "Cosme Roberto Moreira da Silva"
   data: "2002/12/17"
   tipo: D
 -
@@ -129,6 +156,7 @@
   titulo_en: ""
   aluno: "Renato Chaves Souza"
   orientador: "Herman Jacobus Cornelis Voorwald"
+  banca: "Herman Jacobus Cornelis Voorwald"
   data: "2002/12/17"
   tipo: D
 -
@@ -136,6 +164,7 @@
   titulo_en: ""
   aluno: "Flávio Ferreira"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Gilberto Carvalho Coelho"
   data: "2003/02/24"
   tipo: D
 -
@@ -143,6 +172,7 @@
   titulo_en: ""
   aluno: "Fernando Porto A. Silva"
   orientador: "Cristina Bormio Nunes"
+  banca: "Cristina Bormio Nunes"
   data: "2003/07/04"
   tipo: D
 -
@@ -150,6 +180,7 @@
   titulo_en: ""
   aluno: "Dário Moreira Pinto Junior"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Gilberto Carvalho Coelho"
   data: "2003/09/22"
   tipo: D
 -
@@ -157,6 +188,7 @@
   titulo_en: ""
   aluno: "Robson Ricardo da Silva"
   orientador: "Yakov Kopelevich"
+  banca: "Yakov Kopelevich"
   data: "2003/09/26"
   tipo: D
 -
@@ -164,6 +196,7 @@
   titulo_en: ""
   aluno: "Belmira Benedita de Lima"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2004/03/12"
   tipo: D
 -
@@ -171,6 +204,7 @@
   titulo_en: ""
   aluno: "Adriana Faria Azevedo"
   orientador: "Vladimir Jesus Trava-Airoldi"
+  banca: "Vladimir Jesus Trava-Airoldi"
   data: "2004/03/22"
   tipo: D
 -
@@ -178,6 +212,7 @@
   titulo_en: ""
   aluno: "Carlos Antonio Vieira"
   orientador: "Herman Jacobus C. Voorwald"
+  banca: "Herman Jacobus C. Voorwald"
   data: "2004/05/20"
   tipo: D
 -
@@ -185,6 +220,7 @@
   titulo_en: ""
   aluno: "Claudinei dos Santos"
   orientador: "Cosme Roberto M. da Silva"
+  banca: "Cosme Roberto M. da Silva"
   data: "2004/08/20"
   tipo: D
 -
@@ -192,6 +228,7 @@
   titulo_en: ""
   aluno: "André Luiz M. de Carvalho"
   orientador: "Herman Jacobus C. Voorwarld"
+  banca: "Herman Jacobus C. Voorwarld"
   data: "2004/09/24"
   tipo: D
 -
@@ -199,6 +236,7 @@
   titulo_en: ""
   aluno: "Érika Coaglia Trindade Ramos"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2005/01/28"
   tipo: D
 -
@@ -206,6 +244,7 @@
   titulo_en: ""
   aluno: "Antonio Renato Bigansolli"
   orientador: "Durval Rodrigues Junior"
+  banca: "Durval Rodrigues Junior"
   data: "2005/03/16"
   tipo: D
 -
@@ -213,6 +252,7 @@
   titulo_en: ""
   aluno: "Hellen Cristiane Maciel Cunha"
   orientador: "Flávio Teixeira da Silva"
+  banca: "Flávio Teixeira da Silva"
   data: "2005/03/21"
   tipo: D
 -
@@ -220,6 +260,7 @@
   titulo_en: ""
   aluno: "Jefferson Fabrício Cardoso Lins"
   orientador: "Hugo R. Zschommler Sandim"
+  banca: "Hugo R. Zschommler Sandim"
   data: "2005/03/31"
   tipo: D
 -
@@ -227,6 +268,7 @@
   titulo_en: ""
   aluno: "Simone Pereira Taguchi"
   orientador: "Sebastião Ribeiro"
+  banca: "Sebastião Ribeiro"
   data: "2005/10/24"
   tipo: D
 -
@@ -234,6 +276,7 @@
   titulo_en: ""
   aluno: "Leonardo Kyo Kabayama"
   orientador: "Gustavo Aristídes S. Martínez"
+  banca: "Gustavo Aristídes S. Martínez"
   data: "2005/11/17"
   tipo: D
 -
@@ -241,6 +284,7 @@
   titulo_en: ""
   aluno: "Geovani Rodrigues"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2005/11/21"
   tipo: D
 -
@@ -248,6 +292,7 @@
   titulo_en: ""
   aluno: "Carlos Alberto Rodrigues"
   orientador: "Durval Rodrigues Junior"
+  banca: "Durval Rodrigues Junior"
   data: "2006/06/27"
   tipo: D
 -
@@ -255,6 +300,7 @@
   titulo_en: ""
   aluno: "Emerson Augusto Raymundo"
   orientador: "Marcos Valério Ribeiro"
+  banca: "Marcos Valério Ribeiro"
   data: "2006/06/28"
   tipo: D
 -
@@ -262,6 +308,7 @@
   titulo_en: ""
   aluno: "Maria Luíza Gonçalves Pereira"
   orientador: "Rosa Ana Conte"
+  banca: "Rosa Ana Conte"
   data: "2006/07/06"
   tipo: D
 -
@@ -269,6 +316,7 @@
   titulo_en: ""
   aluno: "Cláudio Augusto Kelly"
   orientador: "Sebastião Ribeiro"
+  banca: "Sebastião Ribeiro"
   data: "2006/07/07"
   tipo: D
 -
@@ -276,6 +324,7 @@
   titulo_en: ""
   aluno: "Alessandro Guimarães"
   orientador: "Amilton Martins dos Santos"
+  banca: "Amilton Martins dos Santos"
   data: "2006/07/14"
   tipo: D
 -
@@ -283,6 +332,7 @@
   titulo_en: ""
   aluno: "Regina Célia de Oliveira Guimarães"
   orientador: "Amilton Martins dos Santos"
+  banca: "Amilton Martins dos Santos"
   data: "2006/07/14"
   tipo: D
 -
@@ -290,6 +340,7 @@
   titulo_en: ""
   aluno: "Alexandra de Oliveira F. Hayama"
   orientador: "Hugo Ricardo Z. Sandim"
+  banca: "Hugo Ricardo Z. Sandim"
   data: "2006/08/31"
   tipo: D
 -
@@ -297,6 +348,7 @@
   titulo_en: ""
   aluno: "João Paulo Barros Machado"
   orientador: "Durval Rodrigues Junior"
+  banca: "Durval Rodrigues Junior"
   data: "2006/10/06"
   tipo: D
 -
@@ -304,6 +356,7 @@
   titulo_en: ""
   aluno: "Marcelo José Bondioli"
   orientador: "Kurt Strecker"
+  banca: "Kurt Strecker"
   data: "2006/12/08"
   tipo: D
 -
@@ -311,6 +364,7 @@
   titulo_en: ""
   aluno: "Luiz Cláudio Antunes Bastos"
   orientador: "Gilberto Marques da Cruz"
+  banca: "Gilberto Marques da Cruz"
   data: "2007/03/09"
   tipo: D
 -
@@ -318,6 +372,7 @@
   titulo_en: ""
   aluno: "Cramer Vieira Gomes"
   orientador: "Gilberto Marques da Cruz"
+  banca: "Gilberto Marques da Cruz"
   data: "2007/06/11"
   tipo: D
 -
@@ -325,6 +380,7 @@
   titulo_en: ""
   aluno: "Luiz Antonio Borges Junior"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Gilberto Carvalho Coelho"
   data: "2007/09/27"
   tipo: D
 -
@@ -332,6 +388,7 @@
   titulo_en: ""
   aluno: "Marcelo Alexandre Tirelli"
   orientador: "Cristina Bórmio Nunes"
+  banca: "Cristina Bórmio Nunes"
   data: "2008/02/19"
   tipo: D
 -
@@ -339,6 +396,7 @@
   titulo_en: ""
   aluno: "Vanessa Motta Chad"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Gilberto Carvalho Coelho"
   data: "2008/04/28"
   tipo: D
 -
@@ -346,6 +404,7 @@
   titulo_en: ""
   aluno: "Mário Sérgio da Luz"
   orientador: "Carlos Alberto Moreira dos Santos"
+  banca: "Carlos Alberto Moreira dos Santos"
   data: "2008/07/11"
   tipo: D
 -
@@ -353,6 +412,7 @@
   titulo_en: ""
   aluno: "Adriano Marin de Oliveira"
   orientador: "Amilton Martins dos Santos"
+  banca: "Amilton Martins dos Santos"
   data: "2008/08/28"
   tipo: D
 -
@@ -360,6 +420,7 @@
   titulo_en: ""
   aluno: "Gislene Valdete Martins"
   orientador: "Cosme Roberto Moreira da Silva Co-orientador: Carlos Angelo Nunes"
+  banca: "Cosme Roberto Moreira da Silva Co-orientador: Carlos Angelo Nunes"
   data: "2009/01/05"
   tipo: D
 -
@@ -367,20 +428,23 @@
   titulo_en: ""
   aluno: "Ausdinir Danilo Bortolozo"
   orientador: "Carlos Alberto Moreira dos Santos (Antonio Jefferson da Silva Machado)"
+  banca: "Carlos Alberto Moreira dos Santos (Antonio Jefferson da Silva Machado)"
   data: "2009/04/09"
   tipo: D
 -
-  titulo: ""Processamento e caracterização microestrutural de nióbio deformado plasticamente por extrusão em canal angular""
+  titulo: "Processamento e caracterização microestrutural de nióbio deformado plasticamente por extrusão em canal angular"
   titulo_en: ""
   aluno: "Heide Heloíse Bernardi"
   orientador: "Hugo R. Z. Sandim"
+  banca: "Hugo R. Z. Sandim"
   data: "2009/04/17"
   tipo: D
 -
-  titulo: ""Sinterização de SiC via fase líquida usando mistura de La2O3 e Al2O3 - microestrutura e propriedades mecânicas"."
+  titulo: "Sinterização de SiC via fase líquida usando mistura de La2O3 e Al2O3 - microestrutura e propriedades mecânicas."
   titulo_en: ""
   aluno: "Roseli Marins Balestra"
   orientador: "Sebastião Ribeiro"
+  banca: "Sebastião Ribeiro"
   data: "2009/05/13"
   tipo: D
 -
@@ -388,20 +452,23 @@
   titulo_en: ""
   aluno: "Paulino Bacci Fernandes"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Gilberto Carvalho Coelho"
   data: "2009/08/10"
   tipo: D
 -
-  titulo: "“ Cerâmicas dentárias à base de ZrO2 aditivadas com biovidro: Processamento, caracterização estrutural e mecânica”."
+  titulo: "Cerâmicas dentárias à base de ZrO2 aditivadas com biovidro: Processamento, caracterização estrutural e mecânica”."
   titulo_en: ""
   aluno: "Luiz de Araújo Bicalho"
   orientador: "Miguel J. R. Barboza"
+  banca: "Miguel J. R. Barboza"
   data: "2009/11/06"
   tipo: D
 -
-  titulo: "“ Solidificação rápida e avaliação de estabilidade de fases de ligas Ti-Si-B”."
+  titulo: "Solidificação rápida e avaliação de estabilidade de fases de ligas Ti-Si-B”."
   titulo_en: ""
   aluno: "Kátia Cristiane Gandolpho Candioto"
   orientador: "Carlos Ângelo Nunes"
+  banca: "Carlos Ângelo Nunes"
   data: "2009/12/03"
   tipo: D
 -
@@ -409,6 +476,7 @@
   titulo_en: ""
   aluno: "Mauricio Pinheiro de Oliveira"
   orientador: "Amilton Martins dos Santos"
+  banca: "Orientador: Amilton Martins dos Santos; 1° Titular Reinaldo Giudici; 2° Titular: Liliane Maria Ferrareso Lona; 3° Titular: Pedro Carlos de Oliveira; 4° Titular: Jayne Carlos de Souza Barbosa"
   data: "2010/04/30"
   tipo: D
 -
@@ -416,48 +484,55 @@
   titulo_en: ""
   aluno: "Rodrigo Pinto de Siqueira"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Orientador: Hugo Ricardo Zschommler Sandim; 1° Titular Nelson Batista de Lima; 2° Titular Tarcísio Reis de Oliveira; 3° Titular Carlos Ângelo Nunes; 4° Titular Miguel Justino Ribeiro Barboza"
   data: "2010/05/12"
   tipo: D
 -
-  titulo: "“ Obtenção e caracterização de supercondutores de Bi2212 texturizados com introdução de centros artificiais de aprisionamento”."
+  titulo: "Obtenção e caracterização de supercondutores de Bi2212 texturizados com introdução de centros artificiais de aprisionamento”."
   titulo_en: ""
   aluno: "Eliana Cursino"
   orientador: "Durval Rodrigues Junior"
+  banca: "Orientador: Durval Rodrigues Junior 1° Titular Sebastião Ribeiro 2° Titular Claudinei dos Santos 3° Titular Marcelo Azevedo Neves 4° Titular Cláudio Luiz Carvalho"
   data: "2010/09/10"
   tipo: D
 -
-  titulo: "“ Síntese de látices híbridos de poliestireno e argila montmorilonita pelos mecanismos de polimerização via radical livre em emulsão e miniemulsão”."
+  titulo: "Síntese de látices híbridos de poliestireno e argila montmorilonita pelos mecanismos de polimerização via radical livre em emulsão e miniemulsão”."
   titulo_en: ""
   aluno: "Fátima C. T. de Souza"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Orientador: Hugo Ricardo Zschommler Sandim 1° Titular Carlos Yujiro Shigue 2° Titular Clodoaldo Saron 3° Titular Gilmar Patrocínio Thim 4° Titular Maria Odila Hilário Cioffi"
   data: "2010/09/17"
   tipo: D
 -
-  titulo: "“ Obtenção de nanopartículas magnéticas sensíveis a estímulos para aplicações biomédicas”."
+  titulo: "Obtenção de nanopartículas magnéticas sensíveis a estímulos para aplicações biomédicas”."
   titulo_en: ""
   aluno: "Simone de Fátima Medeiros"
   orientador: "Amilton Martins dos Santos"
+  banca: "Orientador: Amilton Martins dos Santos 1° Titular Abdelhamid Elaissari 2° Titular Hatem Fessi 3° Titular Edvani Curti Muniz 4° Titular Jayne Carlos de Souza Barboza"
   data: "2010/12/21"
   tipo: D
 -
-  titulo: "“ Tratamentos para redução de metais alcalinos, enxofre e cloreto em celulignina destinada à obtenção de gás de síntese como substituto do gás natural para geração de energia termoelétrica em turbinas a gás”."
+  titulo: "Tratamentos para redução de metais alcalinos, enxofre e cloreto em celulignina destinada à obtenção de gás de síntese como substituto do gás natural para geração de energia termoelétrica em turbinas a gás”."
   titulo_en: ""
   aluno: "Érica Leonor Romão"
   orientador: "Rosa Ana Conte"
+  banca: "Orientador: Rosa Ana Conte 1° Titular: Flávio Teixeira da Silva 2° Titular: Sebastião Ribeiro 3° Titular: Maria Luiza Gonçalves Pereira 4° Titular: José Dilcio Rocha"
   data: "2011/03/02"
   tipo: D
 -
-  titulo: "“ Biovidros e vitrocerâmicos bioativos do sistema 3CaO.P2O5-SiO2-MgO para aplicações biomédicas: processamento e caracterizações estruturais, mecânicas e biológicas”."
+  titulo: "Biovidros e vitrocerâmicos bioativos do sistema 3CaO.P2O5-SiO2-MgO para aplicações biomédicas: processamento e caracterizações estruturais, mecânicas e biológicas”."
   titulo_en: ""
   aluno: "Juliana K M de F Daguano"
   orientador: "Claudinei dos Santos"
+  banca: "Orientador: Claudinei dos Santos 1° Titular: Sebastião Ribeiro 2° Titular: Sandra Giacomin Schneider 3° Titular: Francisco Cristóvão Lourenço de Melo 4° Titular: Fernando dos Santos Ortega"
   data: "2011/01/27"
   tipo: D
 -
-  titulo: "“ Modelagem termodinâmica do sistema Cr-Si-B e avaliação experimental de pontos críticos na região rica em Cromo”."
+  titulo: "Modelagem termodinâmica do sistema Cr-Si-B e avaliação experimental de pontos críticos na região rica em Cromo”."
   titulo_en: ""
   aluno: "Tales Ferreira Villela"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Orientador: Gilberto Carvalho Coelho 1° Titular: Flávio Ferreira 2° Titular: Cláudio Geraldo Schon 3° Titular: Carlos Angelo Nunes 4° Titular: Paulo Atsushi Suzuki"
   data: "2011/03/24"
   tipo: D
 -
@@ -465,6 +540,7 @@
   titulo_en: ""
   aluno: "Reny Ângela Renzetti"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Orientador: Hugo R Z Sandim 1° Titular: Dílson Silva dos Santos 2° Titular: Luiz Henrique de Almeida 3° Titular: Miguel J R Barboza 4° Titular: Paulo Atsushi Suzuki"
   data: "2011/07/29"
   tipo: D
 -
@@ -472,6 +548,7 @@
   titulo_en: ""
   aluno: "Ulysses Padovani"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Orientador: Hugo RZ Sandim; 1° Titular: Marcello Filgueira; 2° Titular: Carlos de Moura Neto; 3° Titular: Miguel J R Barboza; 4° Titular: Carlos A R P Baptista"
   data: "2011/08/08"
   tipo: D
 -
@@ -479,6 +556,7 @@
   titulo_en: ""
   aluno: "Fábio Henrique de Sousa Reis"
   orientador: "Fernando Vernilli Junior"
+  banca: "Orientador: Fernando Vernilli Junior 1° Titular Gilbert Silva 2° Titular Marianne Spalding 3° Titular Paulo Atsushi Suzuki 4° Titular Rosa Ana Conte"
   data: "2012/01/16"
   tipo: D
 -
@@ -486,6 +564,7 @@
   titulo_en: ""
   aluno: "João Carlos Jânio Gigolotti"
   orientador: "Carlos Angelo Nunes"
+  banca: "Orientador: Carlos Angelo Nunes 1° Titular Miguel Justino Ribeiro Barboza 2° Titular Hélio Goldenstein 3° Titular Paulo Atsushi Suzuki 4° Titular Geovani Rodrigues"
   data: "2012/02/29"
   tipo: D
 -
@@ -493,6 +572,7 @@
   titulo_en: ""
   aluno: "Ésoly Madeleine Bento dos Santos"
   orientador: "Sebastião Ribeiro"
+  banca: "Orientador: Sebastião Ribeiro 1° Titular José de Anchieta Rodrigues 2° Titular Waldir de Sousa Resende 3° Titular Ana Paula da Luz 4° Titular Carlos Antonio Reis Pereira Baptista"
   data: "2012/03/09"
   tipo: D
 -
@@ -500,6 +580,7 @@
   titulo_en: ""
   aluno: "Alexandre Alvarenga Palmeira"
   orientador: "Claudinei dos Santos"
+  banca: "Orientador: Claudinei dos Santos 1° Titular: Olivério M de M Silva 2° Titular: José Vitor C de Souza 3° Titular: Durval Rodrigues Jr 4° Titular: Gilberto C Coelho"
   data: "2012/06/27"
   tipo: D
 -
@@ -507,6 +588,7 @@
   titulo_en: ""
   aluno: "Sheila Medeiros de Carvalho"
   orientador: "Calros Alberto Reis Pereira Baptista"
+  banca: "Orientador: Carlos A R P Baptista 1° Titular: Miguel J R Barboza 2° Titular: Leonardo B Godefroid 3° Titular: Marcelino P do Nascimento 4° Titular: Wagner de Rossi"
   data: "2012/10/31"
   tipo: D
 -
@@ -514,6 +596,7 @@
   titulo_en: ""
   aluno: "Felipe Antunes Santos"
   orientador: "Claudinei dos Santos"
+  banca: "Presidente/orientador: Claudinei dos Santos 1º Titular: Drª. Sônia Regina Homem de Mello Castanho (IPEN) 2º Titular: Dr. Carlos Angelo Nunes (EEL/USP) 3º Titular: Dr. Carlos Nelson Elias (IME/FED) 4º Titular: Drª. Rosa Ana Conte (EEL/USP)"
   data: "2013/02/21"
   tipo: D
 -
@@ -521,6 +604,7 @@
   titulo_en: ""
   aluno: "Cláudio Teodoro dos Santos"
   orientador: "Renato de Figueiredo Jardim"
+  banca: "1º Titular: Dr. Renato de Figueiredo Jardim (IF/USP) 2º Titular: Dr. Hugo Ricardo Zschommler Sandim (EEL/USP) 3º Titular: Dr. Luis Ghivelder (UFRJ) 4º Titular: Dr. Carlos Alberto Moreira dos Santos (EEL/USP)"
   data: "2013/03/12"
   tipo: D
 -
@@ -528,6 +612,7 @@
   titulo_en: ""
   aluno: "Lucas Barboza Sarno da Silva"
   orientador: "Cristina Bórmio Nunes"
+  banca: "1º Titular: Drª. Cristina Bórmio Nunes (EEL/USP) 2º Titular: Drª. Maria José Ramos Sandim (EEL/USP) 3º Titular: Dr. Carlos Roberto Grandini (UNESP/Bauru) 4º Titular: Dr. Evaldo José Corat (LAS/INPE)"
   data: "2013/03/26"
   tipo: D
 -
@@ -535,6 +620,7 @@
   titulo_en: ""
   aluno: "Renato Baldan"
   orientador: "Carlos Angelo Nunes"
+  banca: "Orientador/Presidente: Dr. Carlos Angelo Nunes (EEL/USP) Dr. Gilberto Carvalho Coelho (EEL/USP) Drª. Danieli Aparecida Pereira Reis (UNIFESP) Drª. Maria Ismênia Sodero Toledo Faria (UniFOA) Dr. Maurício de Jesus Monteiro (PUC-Rio)"
   data: "2013/05/17"
   tipo: D
 -
@@ -542,6 +628,7 @@
   titulo_en: ""
   aluno: "Eduardo Roque Budemberg"
   orientador: "Rosa Ana Conte"
+  banca: "Orientador: Drª. Rosa Ana Conte (EEL/USP) Titular: Dr. Clodoaldo Saron (EEL/USP) Titular: Dr. Daltro Garcia Pinatti Titular: Dr. Jivaldo do Rosário Matos (IQ/USP) Titular: Dr. Aldo Eloizo Job (UNESP)"
   data: "2013/06/14"
   tipo: D
 -
@@ -549,6 +636,7 @@
   titulo_en: ""
   aluno: "Mariane Martins Sobrosa Passos de Abreu"
   orientador: "Carlos Yujiro Shigue"
+  banca: "Orientador: Dr. Carlos Yujiro Shigue (EEL/USP); 1º Titular: Dr. Pedro Carlos de Oliveira (EEL/USP) 2º Titular: Dr. Gilmar Patrocínio Thim (ITA); 3º Titular: Dr. Clodoaldo Saron (EEL/USP); 4º Titular: Drª. Maria Odila Hilário Cioffi (UNESP)"
   data: "2013/11/11"
   tipo: D
 -
@@ -556,6 +644,7 @@
   titulo_en: ""
   aluno: "Alex Matos da Silva Costa"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Orientador/Presidente: Dr. Gilberto Carvalho Coelho (EEL/USP); Dr. Antonio José Ramirez Londoño (LNLS); Dr. Hugo Ricardo Zschommler Sandim (EEL/USP); Dr. Miguel Justino Ribeiro Barboza (EEL/USP); Dr. Luiz Henrique de Almeida (UFRJ)"
   data: "2014/02/27"
   tipo: D
 -
@@ -563,6 +652,7 @@
   titulo_en: ""
   aluno: "Leandro Marcos Salgado Alves"
   orientador: "Carlos Alberto Moreira dos Santos"
+  banca: "Presidente/Orientador: Dr. Carlos Alberto Moreira dos Santos (EEL/USP), Titular: Dr. Durval Rodrigues Junior (EEL/USP), Titular: Drª. Maria José Ramos Sandim (EEL/USP), Titular: Dr. José Albino Oliveira de Aguiar (UFPE), Titular: Dr. Robson Ricardo da Silva (UNICAMP)"
   data: "2014/05/09"
   tipo: D
 -
@@ -570,6 +660,7 @@
   titulo_en: ""
   aluno: "Verônica Mara Cortez Alves de Oliveira"
   orientador: "Miguel Justino Ribeiro Barbosa"
+  banca: "Presidente/Orientador: Dr. Miguel Justino Ribeiro Barboza (EEL/USP), Titular: Dr. Carlos Antonio Reis Pereira Baptista (EEL/USP), Titular: Drª. Maria Ismênia Sodero Toledo Faria (EEL/USP), Titular: Drª. Danieli Aparecida Pereira Reis (UNIFESP), Titular: Dr. Vladimir Henrique Baggio Scheid (IEAv/CTA)"
   data: "2014/07/11"
   tipo: D
 -
@@ -577,6 +668,7 @@
   titulo_en: ""
   aluno: "Verona Biancardi Oliveira"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Presidente/Orientador: Dr. Hugo Ricardo Zschommler Sandim (EEL/USP), Titular: Dr. Gilberto Carvalho Coelho (EEL/USP), Titular: Dr. Ricardo Magnus Osório Galvão (IF/USP), Titular: Dr. Haroldo Cavalcanti Pinto (EESC/USP) e Titular: Dr. Dílson Silva dos Santos (UFRJ)"
   data: "2014/06/30"
   tipo: D
 -
@@ -584,6 +676,7 @@
   titulo_en: ""
   aluno: "Giseli Cristina Ribeiro"
   orientador: "Miguel Justino Ribeiro Barbosa"
+  banca: "Presidente/Orientador: Dr. Miguel Justino Ribeiro Barboza (EEL/USP); Titular: Dr. Durval Rodrigues Junior (EEL/USP), Titular: Dr. Waldir de Sousa Resende (IBAR), Titular: Dr. Francisco Piorino Neto (DCTA/IAE) e Titular: Drª. Roseli Marins Balestra (UFSJ)"
   data: "2014/11/28"
   tipo: D
 -
@@ -591,6 +684,7 @@
   titulo_en: ""
   aluno: "Denise Ferreira Laurito Nascimento"
   orientador: "Carlos Antonio Reis Pereira Baptista"
+  banca: "Presidente/Orientador: Carlos Antonio Reis Pereira Baptista; Membro: Viktor Pastoukhov; Membro: Maria Odila Hilário Cioffi; Membro: José Célio Dias; Membro: Luciana Sgarbi Rossino"
   data: "2015/02/23"
   tipo: D
 -
@@ -598,6 +692,7 @@
   titulo_en: ""
   aluno: "Kahl Dick Zilnik"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Presidente/Orientador: Hugo Ricardo Zschommler Sandim, Titular: Paulo Atsushi Suzuki, Titular: Paulo Rangel Rios, Titular: Dílson Silva dos Santos"
   data: "2015/03/11"
   tipo: D
 -
@@ -605,6 +700,7 @@
   titulo_en: ""
   aluno: "Sérgio Tuan Renosto"
   orientador: "Antonio Jefferson da Silva Machado"
+  banca: "Presidente/Orientador: Antonio Jefferson da Silva Machado, Titular: Mário Sérgio da Luz, Titular: Iakov Veniaminovitch Kopelevitch, Titular: Cristina Bórmio Nunes"
   data: "2015/04/24"
   tipo: D
 -
@@ -612,6 +708,7 @@
   titulo_en: ""
   aluno: "Denise Corrêa de Oliveira"
   orientador: "Durval Rodrigues Junior"
+  banca: "Presidente/Orientador: Durval Rodrigues Junior, Titular : Miguel Justino Ribeiro Barboza, Titular: Gilberto Carvalho Coelho, Titular: Jorge Alberto Soares Tenório, Titular: César Alves da Silva Leandro"
   data: "2015/07/08"
   tipo: D
 -
@@ -619,6 +716,7 @@
   titulo_en: ""
   aluno: "Denise Hirayama"
   orientador: "Clodoaldo Saron"
+  banca: "Presidente/Orientador: Clodoaldo Saron, Titular : Carlos Yujiro Shigue, Titular: Fábio Herbst Florenzano, Titular: Marcos Lopes Dias, Titular : Michelle Leali Costa"
   data: "2015/08/14"
   tipo: D
 -
@@ -626,6 +724,7 @@
   titulo_en: ""
   aluno: "Antonio Augusto Araújo Pinto da Silva"
   orientador: "Gilberto Carvalho Coelho"
+  banca: "Presidente/Orientador: Gilberto Carvalho Coelho, Titular: Claudio Geraldo Schon, Titular: André Luiz Vasconcellos da Costa e Silva, Titular: Jean Marc Fiorani, Titular: Jacques Lacaze, Titular : Michel Vilasi"
   data: "2015/08/24"
   tipo: D
 -
@@ -633,6 +732,7 @@
   titulo_en: ""
   aluno: "Aline Corecha Santos"
   orientador: "Sebastião Ribeiro"
+  banca: "Presidente/Orientador: Sebastião Ribeiro (EEL/USP), Titular: Dr. Luís Antonio Gênova (IPEN), Titular: Dr. Kurt Strecker (UFSJD), Titular: Dr. Francisco Piorino Neto (CTA), Titular: Dr. Miguel J. R. Barboza (EEL/USP)"
   data: "2015/10/23"
   tipo: D
 -
@@ -640,6 +740,7 @@
   titulo_en: ""
   aluno: "Orlando Cigarroa Velázquez"
   orientador: "Antonio Jefferson da Silva Machado"
+  banca: "Presidente/Orientador: Antonio Jefferson da Silva Machado, Titular: Iakov Veniaminovitch Kopelevitch, Titular: Carlos Angelo Nunes, Titular: Cristina Bormio Nunes, Titular: Mohammed Elmassalami Mohamed"
   data: "2015/11/20"
   tipo: D
 -
@@ -647,6 +748,7 @@
   titulo_en: ""
   aluno: "Henrique Varella Ribeiro"
   orientador: "Carlos Antonio Reis Pereira Baptista"
+  banca: "Presidente/Orientador: Carlos Antonio Reis Pereira Baptista, Titular: Maria Ismênia Sodero Toledo Faria, Titular: Herman Jacobus Cornelis Voorwald, Titular: João Pedro Valls Tosetti e Titular: José Benedito Marcomini."
   data: "2016/10/10"
   tipo: D
 -
@@ -654,6 +756,7 @@
   titulo_en: ""
   aluno: "Márcio Steinmetz Soares"
   orientador: "Sebastião Ribeiro"
+  banca: "Presidente/Orientador: Sebastião Ribeiro, Ricardo Vieira, Carlos Angelo Nunes, Ivone Regina de Oliveira e Turíbio Gomes Soares Neto."
   data: "2017/01/24"
   tipo: D
 -
@@ -661,6 +764,7 @@
   titulo_en: ""
   aluno: "Rodrigo Duarte Silva"
   orientador: "Amilton Martins dos Santos"
+  banca: "Presidente/Orientador: Amilton Martins dos Santos, Reinaldo Giudici, Fábio Herbst Florenzano, Maurício Pinheiro de Oliveira e Clodoaldo Saron"
   data: "2017/03/06"
   tipo: D
 -
@@ -668,6 +772,7 @@
   titulo_en: ""
   aluno: "Leandro José Maschio"
   orientador: "Ricardo Vieira"
+  banca: "Ricardo Vieira, Rodrigo Intini Marques, Carlos Alberto Gurgel Veras, Paolo Gessini e Sebastião Ribeiro"
   data: "2017/05/19"
   tipo: D
 -
@@ -675,6 +780,7 @@
   titulo_en: ""
   aluno: "Ana Márcia Barboza da Silva Antunes"
   orientador: "Carlos Antonio Reis Pereira Baptista"
+  banca: "Carlos Antonio Reis Pereira Baptista, Antonio Jorge Abdalla, André Luis Moreira de Carvalho, Viktor Pastoukhov e Durval Rodrigues Junior"
   data: "2017/06/09"
   tipo: D
 -
@@ -682,6 +788,7 @@
   titulo_en: ""
   aluno: "Mateus Botani de Souza Dias"
   orientador: "Cristima Bormio Nunes"
+  banca: "Cristina Bormio Nunes, Antonio Jefferson da Silva Machado, Antonio Domingues dos Santos, Clara Johanna Pacheco"
   data: "2017/09/18"
   tipo: D
 -
@@ -689,6 +796,7 @@
   titulo_en: ""
   aluno: "Rejane Carneiro Mota"
   orientador: "Fernando Vernilli Junior"
+  banca: "Fernando Vernilli Junior, Paulo Atsushi Suzuki, Luiz Tadeu Fernandes Eleno, Miguel Angel Ramírez Gil, Alexandre Zirpoli Simões"
   data: "2017/08/11"
   tipo: D
 -
@@ -696,6 +804,7 @@
   titulo_en: ""
   aluno: "Luis Gustavo Ferroni Pereira"
   orientador: "Ricardo Vieira"
+  banca: "Ricardo Vieira, Fernando Vernilli Junior, Turíbio Gomes Soares Neto, Luiz Cláudio Antunes Bastos, Leonardo Baptista"
   data: "2018/02/02"
   tipo: D
 -
@@ -703,6 +812,7 @@
   titulo_en: ""
   aluno: "Paulo Henrique de Oliveira Monteiro Alves"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Hugo Ricardo Zschommler Sandim; Paulo Rangel Rios; Carlos Angelo Nunes; Maria Ismênia Sodero Toledo Faria."
   data: "2018/04/12"
   tipo: D
 -
@@ -710,6 +820,7 @@
   titulo_en: ""
   aluno: "Beatriz Zuleika de Macedo"
   orientador: "Sandra Giacomin Schneider"
+  banca: "Sandra Giacomin Schneider, Cecília Amélia de Carvalho Zavaglia, Conrado Ramos Moreira Afonso, Antonio Augusto Couto e Durval Rodrigues Junior."
   data: "2018/10/19"
   tipo: D
 -
@@ -717,6 +828,7 @@
   titulo_en: ""
   aluno: "Isaías de Oliveira"
   orientador: "Fernando Vernilli Junior"
+  banca: "Fernando Vernilli Junior, Jorge Vicente Lopes da Silva, Sérgio Luiz Mineiro e Jamil Duailibi Filho"
   data: "2018/07/20"
   tipo: D
 -
@@ -724,6 +836,7 @@
   titulo_en: ""
   aluno: "José Mauro Moraes Junior"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes, Ausdinir Danilo Bortolozo, Luís Rogério de Oliveira Hein, Carlos Antonio Reis Pereira Baptista, Paulo Atsushi Suzuki"
   data: "2018/06/21"
   tipo: D
 -
@@ -731,6 +844,7 @@
   titulo_en: ""
   aluno: "Marcela Rego de Oliveira"
   orientador: "Sebastião Ribeiro"
+  banca: "Sebastião Ribeiro, Durval Rodrigues Junior, Miguel Justino Ribeiro Barboza, Francisco Piorino Neto, Luís Antonio Gênova"
   data: "2018/10/22"
   tipo: D
 -
@@ -738,6 +852,7 @@
   titulo_en: ""
   aluno: "João Paulo Gomes Antunes Costa"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes, Hélio Goldenstein, André Luiz Vasconcellos da Costa e Silva e Miguel Justino Ribeiro Barboza"
   data: "2019/02/01"
   tipo: D
 -
@@ -745,6 +860,7 @@
   titulo_en: ""
   aluno: "Davison Ramos de Almeida Junior"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Hugo Ricardo Zschommler Sandim, Paulo Rangel Rios, André Luiz Vasconcellos da Costa e Silva e Gláucio Soares da Fonseca"
   data: "2019/03/20"
   tipo: D
 -
@@ -752,6 +868,7 @@
   titulo_en: ""
   aluno: "Rodolfo Minto de Moraes"
   orientador: "Amilton Martins dos Santos"
+  banca: "Amilton Martins dos Santos"
   data: "2019/04/05"
   tipo: D
 -
@@ -759,6 +876,7 @@
   titulo_en: ""
   aluno: "Tamires Brekailo"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Hugo Ricardo Zschommler Sandim"
   data: "2019/06/28"
   tipo: D
 -
@@ -766,6 +884,7 @@
   titulo_en: ""
   aluno: "Diego David Pinzon Moreno"
   orientador: "Clodoaldo Saron Coorientador: Sebastiao Ribeiro"
+  banca: "Clodoaldo Saron Coorientador: Sebastiao Ribeiro"
   data: "2019/06/28"
   tipo: D
 -
@@ -773,6 +892,7 @@
   titulo_en: ""
   aluno: "Sara de Carvalho Zago"
   orientador: "Fernando Vernilli Junior Coorientador: Oswaldo Cascudo Matos"
+  banca: "Fernando Vernilli Junior Coorientador: Oswaldo Cascudo Matos"
   data: "2019/08/02"
   tipo: D
 -
@@ -780,6 +900,7 @@
   titulo_en: ""
   aluno: "Mariane Capellari Leite da Silva"
   orientador: "Miguel Justino Ribeiro Barboza"
+  banca: "Miguel Justino Ribeiro Barboza"
   data: "2019/08/12"
   tipo: D
 -
@@ -787,6 +908,7 @@
   titulo_en: ""
   aluno: "Isnaldi Rodrigues de Souza Filho"
   orientador: "Maria José Ramos Sandim"
+  banca: "Maria José Ramos Sandim"
   data: "2019/10/10"
   tipo: D
 -
@@ -794,6 +916,7 @@
   titulo_en: ""
   aluno: "Filipe Corrêa Pinto"
   orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Hugo Ricardo Zschommler Sandim"
   data: "2019/11/13"
   tipo: D
 -
@@ -801,6 +924,7 @@
   titulo_en: ""
   aluno: "Lívia Terezinha Pimentel Branco"
   orientador: "Clodoaldo Saron"
+  banca: "Clodoaldo Saron"
   data: "2020/02/07"
   tipo: D
 -
@@ -808,6 +932,7 @@
   titulo_en: ""
   aluno: "Emmanuel Péres de Araújo"
   orientador: "Ricardo Vieira Coorientador: Leonardo Henrique Gouvêa"
+  banca: "Ricardo Vieira Coorientador: Leonardo Henrique Gouvêa"
   data: "2020/02/20"
   tipo: D
 -
@@ -815,6 +940,7 @@
   titulo_en: ""
   aluno: "Jorge Juárez Trujillo"
   orientador: "Fernando Vernilli Junior Coorientador: José Adilson de Castro"
+  banca: "Fernando Vernilli Junior Coorientador: José Adilson de Castro"
   data: "2020/03/05"
   tipo: D
 -
@@ -822,6 +948,7 @@
   titulo_en: ""
   aluno: "Bruno Xavier de Freitas"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2020/05/29"
   tipo: D
 -
@@ -829,6 +956,7 @@
   titulo_en: ""
   aluno: "Marcus Vinicius da Silva Salgado"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2020/06/05"
   tipo: D
 -
@@ -836,6 +964,7 @@
   titulo_en: ""
   aluno: "Luciano Braga Alkmin"
   orientador: "Carlos Angelo Nunes"
+  banca: "Carlos Angelo Nunes"
   data: "2020/08/21"
   tipo: D
 -
@@ -843,6 +972,7 @@
   titulo_en: ""
   aluno: "Felipe Souza Oliveira"
   orientador: "Carlos Alberto Moreira dos Santos"
+  banca: "Carlos Alberto Moreira dos Santos"
   data: "2021/03/22"
   tipo: D
 -
@@ -850,6 +980,7 @@
   titulo_en: ""
   aluno: "Frederico Benedetto Santos"
   orientador: "Antonio Jefferson da Silva Machado"
+  banca: "Antonio Jefferson da Silva Machado"
   data: "2021/03/24"
   tipo: D
 -
@@ -857,6 +988,7 @@
   titulo_en: ""
   aluno: "Bruno Vidal de Almeida"
   orientador: "Fernando Vernilli Junior"
+  banca: "Presidente/Orientador: Fernando Vernilli Junior, Titular : Waldir de Sousa Resende, Titular: Gilbert Silva, Titular: Sidiney Nascimento Silva."
   data: "2016/01/25"
   tipo: DD
 -
@@ -864,6 +996,7 @@
   titulo_en: ""
   aluno: "Thaíssa de Camargo Chaparro"
   orientador: "Amilton Martins dos Santos"
+  banca: "Presidente/Orientador: Amilton Martins dos Santos, Titular: Johan P. A. Heuts, Titular: Vanessa Prévot, Titular: Philippe Cassagnau, Titular : Reinaldo Giudici e Titular: Elodie Bourgeat-Lami"
   data: "2016/03/29"
   tipo: DD
 -
@@ -871,5 +1004,6 @@
   titulo_en: ""
   aluno: "Bruno Sanches de Lima"
   orientador: "Antonio Jefferson da Silva Machado"
+  banca: "Antonio Jefferson da Silva Machado, Ausdinir Danilo Bortolozo, Pascoal José Giglio Pagliuso, Paulo Atsushi Suzuki"
   data: "2017/12/13"
   tipo: DD

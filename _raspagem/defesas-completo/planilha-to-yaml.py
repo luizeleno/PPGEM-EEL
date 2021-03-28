@@ -10,6 +10,7 @@ trabalhos = pd.read_excel('teses-dissertacoes.xls', converters={'Defesa': str})
 
 Aluno      = np.array(trabalhos.Aluno)
 Orientador = np.array(trabalhos.Orientador)
+Banca      = np.array(trabalhos.Banca)
 Nivel      = np.array(trabalhos.Nivel)
 Titulo     = np.array(trabalhos.Titulo)
 Defesa     = np.array(trabalhos.Defesa)
@@ -19,10 +20,15 @@ Nivel[Nivel=='(M)'] = 'M'
 Nivel[Nivel=='(D)'] = 'D'
 Nivel[Nivel=='(DD)'] = 'DD'
 
+# verificando horarios não fornecidos
+Horario  = trabalhos.Horario
+horarios = Horario.isnull()
+Horario  = np.array(Horario)
+horarios = np.array(horarios)
+
 # criando data string
 defesa_data = [datetime.datetime.fromisoformat(d) for d in Defesa]
 defesa = [d.strftime('%Y/%m/%d') for d in defesa_data]
-
 
 # criando arquivos YAML
 
@@ -35,7 +41,10 @@ for i in range(Aluno.size):
   text += f'  titulo_en: \"\"\n'
   text += f'  aluno: \"{rcc(Aluno[i])}\"\n'
   text += f'  orientador: \"{rcc(Orientador[i])}\"\n'
+  text += f'  banca: \"{rcc(Banca[i])}\"\n'
   text += f'  data: \"{defesa[i]}\"\n'
+  if not horarios[i]:
+    text += f'  horario: \"{rcc(Horario[i])}\"\n'
   if Nivel[i] == 'M':
     dissertacoes.write(text)
     dissertacoes.write('  tipo: M\n')

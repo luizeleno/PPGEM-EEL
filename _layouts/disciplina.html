@@ -16,9 +16,17 @@ layout: default
     <h4>{% t disciplina.docente %}</h4>
 
     {% for doc in page.docente %}
-    {% include docente.html docente=doc %}
-    {% unless forloop.last %}, {% endunless %}
-    {% endfor %}
+        {%-include docente.html docente=doc-%}
+            {% unless forloop.last %}, {% endunless %}
+        {%-endfor-%}
+    {%-if page.outros_docentes-%}
+        ,
+        {% for doc in page.outros_docentes %}
+            {{doc}}
+            {% unless forloop.last %}, {% endunless %}
+        {% endfor %}
+    {% endif %}
+
 
     <h4>{% t disciplina.carga.nome %}</h4>
 
