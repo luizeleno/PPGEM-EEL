@@ -26,18 +26,18 @@
 <title>Didática e Prática do Ensino de Engenharia | PPGEM EEL/USP</title>
 <meta name="generator" content="Jekyll v4.2.0" />
 <meta property="og:title" content="Didática e Prática do Ensino de Engenharia" />
-<meta property="og:locale" content="br" />
+<meta property="og:locale" content="en" />
 <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <meta property="og:description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <link rel="canonical" href="/PPGEM-EEL/disciplinas/pem5100.html" />
 <meta property="og:url" content="/PPGEM-EEL/disciplinas/pem5100.html" />
 <meta property="og:site_name" content="PPGEM EEL/USP" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-03-29T16:23:27-03:00" />
+<meta property="article:published_time" content="2021-03-29T16:26:36-03:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Didática e Prática do Ensino de Engenharia" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5100.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Didática e Prática do Ensino de Engenharia","dateModified":"2021-03-29T16:23:27-03:00","datePublished":"2021-03-29T16:23:27-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5100.html","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5100.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Didática e Prática do Ensino de Engenharia","dateModified":"2021-03-29T16:26:36-03:00","datePublished":"2021-03-29T16:26:36-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5100.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -97,7 +97,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand scroll" href="/PPGEM-EEL/"><img src="/PPGEM-EEL/img/logo.png" alt="PPGEM EEL/USP"></a>
+            <a class="navbar-brand scroll" href="/PPGEM-EEL/en/"><img src="/PPGEM-EEL/img/logo.png" alt="PPGEM EEL/USP"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -105,21 +105,21 @@
             <ul class="nav navbar-nav navbar-right">
                 
     
-    <li><a class="scroll" href="/PPGEM-EEL/">Início</a></li>
+    <li><a class="scroll" href="/PPGEM-EEL/en/">Home</a></li>
 
 
-<li><a class="scroll" href="/PPGEM-EEL/#about">O Programa</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#treatments">Informações</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#testimonials">Defesas</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#gallery">Notícias</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#team">Docentes</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#location">Localização</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/#contact">Contatos</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#about">The Program</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#treatments">Information</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#testimonials">Defenses</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#gallery">News</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#team">Faculty</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#location">Location</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/en/#contact">Contacts</a></li>
 
                     
                         
-                        <li><a class="scroll" href="/PPGEM-EEL/en/disciplinas/pem5100.html" >
-                            <img src="/PPGEM-EEL/img/lang/gb.svg" style="height:20px">
+                        <li><a class="scroll" href="/PPGEM-EEL/disciplinas/pem5100.html" >
+                            <img src="/PPGEM-EEL/img/lang/br.svg" style="height:20px">
                         </a></li>
                     
             </ul>
@@ -140,7 +140,7 @@
         <div class="container-fluid">
             <div class="hero-content-inner">
                 <h1>PPGEM EEL/USP</h1>
-                <p>Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP</p>
+                <p>Graduate program in Materials Engineering at EEL/USP</p>
             </div>
         </div>
     </div>
@@ -160,15 +160,15 @@
         <div class="container-fluid" style="margin-bottom: 5px;">
 
     <ul class="breadcrumb">
-        <li><a href="/PPGEM-EEL/">Início</a></li>
-        <li><a href="/PPGEM-EEL/#treatments">Informações</a></li>
-        <li><a href="/PPGEM-EEL/disciplinas">Disciplinas</a></li>
+        <li><a href="/PPGEM-EEL/en/">Home</a></li>
+        <li><a href="/PPGEM-EEL/en/#treatments">Information</a></li>
+        <li><a href="/PPGEM-EEL/en/disciplinas">Classes</a></li>
         <li>PEM5100</li>
     </ul>
 
-    <h1 class="alert" style="text-align:left">PEM5100 - Didática e Prática do Ensino de Engenharia</h1>
+    <h1 class="alert" style="text-align:left">PEM5100 - </h1>
 
-    <h4>Docente Responsável</h4>
+    <h4>Form professor</h4>
 
     ,
         
@@ -178,7 +178,7 @@
     
 
 
-    <h4>Carga Horária</h4>
+    <h4>Workload</h4>
 
     <table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
         <!-- <colgroup>
@@ -188,81 +188,66 @@
        <col  span="1" style="width: 14%;">
         </colgroup> -->
         <tr>
-            <th>Teórica</th>
-            <th>Prática</th>
-            <th>Estudos</th>
-            <th>Duração</th>
+            <th>Theoretical</th>
+            <th>Practical</th>
+            <th>Study</th>
+            <th>Duration</th>
             <th>Total</th>
-            <th>Créditos</th>
+            <th>Credits</th>
         </tr>
         <tr>
-            <td>2 h/sem</td>
-            <td>0 h/sem</td>
-            <td>2 h/sem</td>
-            <td>15 semanas</td>
-            <td>60 horas</td>
+            <td>2 hours/week</td>
+            <td>0 hours/week</td>
+            <td>2 hours/week</td>
+            <td>15 weeks</td>
+            <td>60 hours</td>
             <td>4</td>
         </tr>
     </table>
 
-    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5100" target="_blank">Ver no Janus</a>
+    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5100" target="_blank">See on Janus (pt-br)</a>
 
-    <h4>Área de concentração</h4>
+    <h4>Concentration area</h4>
 
-        <p>97134 - Materiais Convencionais e Avançados</p>
-
-
-    <h4>Objetivos</h4>
-
-        <p>Facilitar o desenvolvimento de competências e habilidades relacionadas com a didática aplicada à engenharia, através de pensamento crítico. Estimular a formação de educadores ativos e criativos, capazes de participar do processo de transformação das práticas educativas. Discutir temas abrangentes em ensino para inserção de práticas específicas em sala de aula.</p>
+        <p>97135 - Conventional and Advanced Materials</p>
 
 
-    <h4>Justificativa</h4>
-
-        <p>Uma das queixas mais relevantes dos docentes dos cursos de engenharia é a dificuldade no fazer pedagógico. A inexistência de uma disciplina de Didática e de Prática de Ensino em sua formação que os oriente neste fazer, torna-os ineficientes no momento da transmissão de conhecimentos. Essa dificuldade também é percebida pelo corpo discente, acarretando problemas na relação professor-aluno e conseqüentemente acarretando dificuldades na aprendizagem. Por isso justifica-se a presença dessa disciplina.</p>
-
-
-    <h4>Conteúdo</h4>
-
-        <ol>
-  <li>Conceitos de Educação;</li>
-  <li>Fundamentos e Objetivos da Educação;</li>
-  <li>LDB e o ensino superior.</li>
-  <li>Visão antropológica, filosófica, cultural e social da educação;</li>
-  <li>Teorias e práticas educacionais;</li>
-  <li>A importância do ensino e da pesquisa;</li>
-  <li>A carreira acadêmica: escolha ou vocação?</li>
-  <li>Peculiaridades do ensino tecnológico - da engenharia;</li>
-  <li>Estratégias de ensino.</li>
-  <li>A avaliação;</li>
-  <li>O papel do professor como orientador e formador;</li>
-  <li>A relação professor-aluno;</li>
-  <li>Conteúdos, competências e habilidades;</li>
-  <li>A inovação na didática e na prática de ensino: quebra de paradigmas;</li>
-  <li>Ensino à distância.</li>
-</ol>
-
-
-    <h4>Forma de Avaliação</h4>
-
-        <p>Seminários: aulas desenvolvidas e praticadas pelos alunos, avaliadas pelo professor e pelos colegas. Artigo: escrito com base em dois artigos indicados e dois.</p>
-
-
-    
-
-        <h4>Observação</h4>
-
-            
-                <p>Disciplina integrante para o Programa PAE</p>
-
-            
-
-    
-
-    <h4>Referências bibliográficas</h4>
+    <h4>Objectives</h4>
 
         
-            <ul>
+
+
+    <h4>Motivation</h4>
+
+        
+
+
+    <h4>Syllabus</h4>
+
+        
+
+
+    <h4>Evaluation criteria</h4>
+
+        
+
+
+    
+
+        <h4>Observations</h4>
+
+            
+                
+
+            
+
+    
+
+    <h4>References</h4>
+
+        
+            
+                <ul>
   <li>ANASTASIOU, L. G. C. &amp; PESSATE, L. (ORGS). Processos de Ensinagem na Universidade – pressupostos para as estratégias de trabalho em aula. Joinvile: UNIVILLE, 2003.</li>
   <li>CHAUI, Marilena. A universidade pública sob nova perspectiva. In Revista Brasileira de Educação. Rio de Janeiro: ANPED, n.24, 2003, p.1-12.</li>
   <li>CONFERÊNCIA Mundial sobre o Ensino Superior (1998:Paris, França). Tendências da Educação Superior para o Século XXI - UNESCO/Conselho de Reitores das Universidades Brasileiras, 1998.</li>
@@ -291,6 +276,7 @@
   <li>Vídeo nº 11 – LIBÂNEO, José Carlos. Conteúdos, formação de competências cognitivas e ensino com pesquisa: unindo ensino e modos de investigação.</li>
 </ul>
 
+            
         
 
 </div>

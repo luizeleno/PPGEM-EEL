@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     
 
-    <title>PPGEM EEL/USP - Didática e Prática do Ensino de Engenharia</title>
+    <title>PPGEM EEL/USP - Caracterização Avançada de Materiais</title>
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)">
     <link rel="alternate" type="application/rss+xml" href="/PPGEM-EEL/feed.xml">
 
@@ -23,21 +23,21 @@
     <link rel="shortcut icon" href="/PPGEM-EEL/favicon2.png">
 
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Didática e Prática do Ensino de Engenharia | PPGEM EEL/USP</title>
+<title>Caracterização Avançada de Materiais | PPGEM EEL/USP</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Didática e Prática do Ensino de Engenharia" />
-<meta property="og:locale" content="en" />
+<meta property="og:title" content="Caracterização Avançada de Materiais" />
+<meta property="og:locale" content="br" />
 <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <meta property="og:description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
-<link rel="canonical" href="/PPGEM-EEL/disciplinas/pem5100.html" />
-<meta property="og:url" content="/PPGEM-EEL/disciplinas/pem5100.html" />
+<link rel="canonical" href="/PPGEM-EEL/disciplinas/pem5147.html" />
+<meta property="og:url" content="/PPGEM-EEL/disciplinas/pem5147.html" />
 <meta property="og:site_name" content="PPGEM EEL/USP" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-03-29T16:23:28-03:00" />
+<meta property="article:published_time" content="2021-03-29T16:26:35-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Didática e Prática do Ensino de Engenharia" />
+<meta property="twitter:title" content="Caracterização Avançada de Materiais" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5100.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Didática e Prática do Ensino de Engenharia","dateModified":"2021-03-29T16:23:28-03:00","datePublished":"2021-03-29T16:23:28-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5100.html","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5147.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Caracterização Avançada de Materiais","dateModified":"2021-03-29T16:26:35-03:00","datePublished":"2021-03-29T16:26:35-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5147.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -97,7 +97,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand scroll" href="/PPGEM-EEL/en/"><img src="/PPGEM-EEL/img/logo.png" alt="PPGEM EEL/USP"></a>
+            <a class="navbar-brand scroll" href="/PPGEM-EEL/"><img src="/PPGEM-EEL/img/logo.png" alt="PPGEM EEL/USP"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -105,21 +105,21 @@
             <ul class="nav navbar-nav navbar-right">
                 
     
-    <li><a class="scroll" href="/PPGEM-EEL/en/">Home</a></li>
+    <li><a class="scroll" href="/PPGEM-EEL/">Início</a></li>
 
 
-<li><a class="scroll" href="/PPGEM-EEL/en/#about">The Program</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#treatments">Information</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#testimonials">Defenses</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#gallery">News</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#team">Faculty</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#location">Location</a></li>
-<li><a class="scroll" href="/PPGEM-EEL/en/#contact">Contacts</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#about">O Programa</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#treatments">Informações</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#testimonials">Defesas</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#gallery">Notícias</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#team">Docentes</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#location">Localização</a></li>
+<li><a class="scroll" href="/PPGEM-EEL/#contact">Contatos</a></li>
 
                     
                         
-                        <li><a class="scroll" href="/PPGEM-EEL/disciplinas/pem5100.html" >
-                            <img src="/PPGEM-EEL/img/lang/br.svg" style="height:20px">
+                        <li><a class="scroll" href="/PPGEM-EEL/en/disciplinas/pem5147.html" >
+                            <img src="/PPGEM-EEL/img/lang/gb.svg" style="height:20px">
                         </a></li>
                     
             </ul>
@@ -140,7 +140,7 @@
         <div class="container-fluid">
             <div class="hero-content-inner">
                 <h1>PPGEM EEL/USP</h1>
-                <p>Graduate program in Materials Engineering at EEL/USP</p>
+                <p>Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP</p>
             </div>
         </div>
     </div>
@@ -160,25 +160,31 @@
         <div class="container-fluid" style="margin-bottom: 5px;">
 
     <ul class="breadcrumb">
-        <li><a href="/PPGEM-EEL/en/">Home</a></li>
-        <li><a href="/PPGEM-EEL/en/#treatments">Information</a></li>
-        <li><a href="/PPGEM-EEL/en/disciplinas">Classes</a></li>
-        <li>PEM5100</li>
+        <li><a href="/PPGEM-EEL/">Início</a></li>
+        <li><a href="/PPGEM-EEL/#treatments">Informações</a></li>
+        <li><a href="/PPGEM-EEL/disciplinas">Disciplinas</a></li>
+        <li>PEM5147</li>
     </ul>
 
-    <h1 class="alert" style="text-align:left">PEM5100 - </h1>
+    <h1 class="alert" style="text-align:left">PEM5147 - Caracterização Avançada de Materiais</h1>
 
-    <h4>Form professor</h4>
+    <h4>Docente Responsável</h4>
 
-    ,
+    <!-- usando dummy variable names to avoid possible clashes -->
+
+
+<a href="/PPGEM-EEL/docentes/hugo-ricardo-zschommler-sandim.html">Prof. Dr. Hugo Ricardo Zschommler Sandim</a>,
         
-            Maria Auxiliadora Motta Barreto
+            Nicole Raymonde Demarquette
+            , 
+        
+            Ricardo Zednik
             
         
     
 
 
-    <h4>Workload</h4>
+    <h4>Carga Horária</h4>
 
     <table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
         <!-- <colgroup>
@@ -188,95 +194,78 @@
        <col  span="1" style="width: 14%;">
         </colgroup> -->
         <tr>
-            <th>Theoretical</th>
-            <th>Practical</th>
-            <th>Study</th>
-            <th>Duration</th>
+            <th>Teórica</th>
+            <th>Prática</th>
+            <th>Estudos</th>
+            <th>Duração</th>
             <th>Total</th>
-            <th>Credits</th>
+            <th>Créditos</th>
         </tr>
         <tr>
-            <td>2 hours/week</td>
-            <td>0 hours/week</td>
-            <td>2 hours/week</td>
-            <td>15 weeks</td>
-            <td>60 hours</td>
-            <td>4</td>
+            <td>10 h/sem</td>
+            <td>2 h/sem</td>
+            <td>3 h/sem</td>
+            <td>6 semanas</td>
+            <td>90 horas</td>
+            <td>6</td>
         </tr>
     </table>
 
-    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5100" target="_blank">See on Janus (pt-br)</a>
+    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5147" target="_blank">Ver no Janus</a>
 
-    <h4>Concentration area</h4>
+    <h4>Área de concentração</h4>
 
-        <p>97135 - Conventional and Advanced Materials</p>
-
-
-    <h4>Objectives</h4>
-
-        
+        <p>97134 - Materiais Convencionais e Avançados</p>
 
 
-    <h4>Motivation</h4>
+    <h4>Objetivos</h4>
 
-        
-
-
-    <h4>Syllabus</h4>
-
-        
+        <p>Fornecer aos alunos de pós-graduação informações sobre as potencialidades de tecnologias avançadas de caracterização de materiais. Dar a base de ferramentas de caracterização avançada de materiais para que os alunos usem as técnicas adequadamente em suas pesquisas. Ter palestrantes altamente qualificados em seu campo de especialização. Exponha os alunos a diferentes culturas de ensino. Promover a troca de ideias entre jovens pesquisadores brasileiros e canadenses</p>
 
 
-    <h4>Evaluation criteria</h4>
+    <h4>Justificativa</h4>
 
-        
+        <p>Novas técnicas de caracterização microestrutural, além do aperfeiçoamento crescente em outras já tradicionais, são bastante úteis aos projetos desenvolvidos na pós-graduação em Engenharia de Materiais. A ementa proposta apresenta estas técnicas com exemplos práticos e atuais de aplicação, possibilitando aos alunos conhecê-las e aplicá-las em seus respectivos projetos. As aulas serão ministradas em inglês pelos docentes brasileiros e canadenses listados na proposta.</p>
 
 
-    
+    <h4>Conteúdo</h4>
 
-        <h4>Observations</h4>
-
-            
-                
-
-            
-
-    
-
-    <h4>References</h4>
-
-        
-            
-                <ul>
-  <li>ANASTASIOU, L. G. C. &amp; PESSATE, L. (ORGS). Processos de Ensinagem na Universidade – pressupostos para as estratégias de trabalho em aula. Joinvile: UNIVILLE, 2003.</li>
-  <li>CHAUI, Marilena. A universidade pública sob nova perspectiva. In Revista Brasileira de Educação. Rio de Janeiro: ANPED, n.24, 2003, p.1-12.</li>
-  <li>CONFERÊNCIA Mundial sobre o Ensino Superior (1998:Paris, França). Tendências da Educação Superior para o Século XXI - UNESCO/Conselho de Reitores das Universidades Brasileiras, 1998.</li>
-  <li>CUNHA, M. I. O professor universitário na transição de paradigmas. Araraquara: J. M. Editora, 1998.</li>
-  <li>DANTAS, S. H. G. Ensino ou Educação em Engenharia? A formação didático-pedagógica dos Engenheiros Professores. Revista de Ensino de Engenharia, 1993. UNIFOR. Br.</li>
-  <li>FREIRE, P. Pedagogia da Autonomia: saberes necessários à prática educativa. São Paulo: Paz e Terra, 1996.</li>
-  <li>MASETTO, M. O professor na hora da verdade – a prática docente no ensino superior. São Paulo: Avercamp. 2010.</li>
-  <li>MORIN, E. Complexidade e transdisciplinaridade – a reforma da universidade e do ensino fundamental. Natal: EDUFRN, 2000.</li>
-  <li>PIMENTA, S. G. e ANASTASIOU, L. G. Docência no ensino superior. São Paulo: Cortez, 2002.</li>
-  <li>PIMENTA, S. G. e ALMEIDA, M. I. Pedagogia Universitária – caminhos para a formação de professores. S. Paulo: Cortez Editora, 2011.</li>
-  <li>
-    <p>RODRIGUES, J. L. K. O professor do ensino superior, suas características e suas competências: Um profissional da educação. Tese de Doutorado. Doutorado em Educação: Currículo - Educação: Currículo, PUC-SP, São Paulo, 2005. SANTOS, B. de S. Um discurso sobre as ciências. Edições Afrontamento. Porto. 1999.
--ZABALZA, M. A. O ensino universitário: seu cenário e seus protagonistas. Porto Alegre: Artmed, 2004.</p>
-  </li>
-  <li>Vídeos disponíveis na página da Pró-Reitoria  (www.usp.br/prpg - Etapas de Preparação Pedagógica – Cadernos ou Vídeos de Pedagogia)</li>
-  <li>Vídeo nº 1 - RUÉ, Joan. A Aprendizagem com autonomia: possibilidades e limites.</li>
-  <li>Vídeo nº 2 - EZCURRA, Ana Maria. – Os estudantes recém-ingressados: democratização e responsabilidades das instituições universitárias.</li>
-  <li>Vídeo nº 3 – SEVERINO – Ensino e pesquisa na docência universitária: caminhos para a integração.</li>
-  <li>Vídeo nº 4 – KRASILCHIK, Myriam. Docência no ensino superior: tensões e mudanças.</li>
-  <li>Vídeo nº 5 – MACHADO, Nilson José. Imagens do conhecimento e ação docente no ensino superior.</li>
-  <li>Vídeo nº 6 – CUNHA, Maria Isabel da. O desafio da reconfiguração de saberes na docência universitária.</li>
-  <li>Videoconferência nº 7 – KENSKI, Vany Moreira. Novos processos de interação e comunicação no ensino mediado pelas tecnologias.</li>
-  <li>Vídeo nº 8 – FORMOSINHO, João Oliveira. Dilemas e tensões da atuação da universidade frente à formação de profissionais de desenvolvimento humano.</li>
-  <li>Vídeo nº 9 – RIOS, Terezinha Azeredo. Ética na docência universitária: a caminho de uma universidade pedagógica?</li>
-  <li>Vídeo nº 10 – FRANCO, Maria Amélia Rosário Santoro. Prática docente universitária e a construção coletiva de conhecimentos.</li>
-  <li>Vídeo nº 11 – LIBÂNEO, José Carlos. Conteúdos, formação de competências cognitivas e ensino com pesquisa: unindo ensino e modos de investigação.</li>
+        <ul>
+  <li>Aula 1: Generalidades sobre materiais (1/2)</li>
+  <li>Aula 2: Generalidades sobre materiais (2/2)</li>
+  <li>Aula 3: Métodos espectroscópicos (1/2)</li>
+  <li>Aula 4: Métodos espectroscópicos (2/2)</li>
+  <li>Aula 5: Difração de raios X (espalhamento rasante)</li>
+  <li>Aula 6: Microscopia – Aplicações de EBSD (1/2)</li>
+  <li>Aula 7: Microscopia -  Metalografia quantitativa (2/2)</li>
+  <li>Aula 8: Caracterização reológica de materiais (1/3)</li>
+  <li>Aula 9: Caracterização reológica de materiais (2/3)</li>
+  <li>Aula 10: Caracterização reológica de materiais (3/3)</li>
+  <li>Aula 11: Propriedades mecânicas</li>
+  <li>Aula 12: Propriedades elétricas, supercondutoras e magnéticas</li>
 </ul>
 
-            
+
+    <h4>Forma de Avaliação</h4>
+
+        <p>Prova Escrita e Seminário, 50% da nota composta por cada item de avaliação, peso simples.</p>
+
+
+    
+
+    <h4>Referências bibliográficas</h4>
+
+        
+            <ul>
+  <li>F. Kremer, A. Schonhals, Broadband Dielectric Spectroscopy, Springer Verlag, 2003</li>
+  <li>H.A. Barnes, J. F. Hutton &amp; K Walters, An Introduction to Rheology, Elsevier, Amsterdam, 1989</li>
+  <li>J. M. Dealy, K. F. Wissbrun: Melt Rheology and its Role in Plastics Processing: Theory and Applications, Van Nostrand Reinhold, New York, 1999</li>
+  <li>T. G. Mezger, Applied Rheology: With Joe Flow on Rheology Road, Anton Paar, 2014</li>
+  <li>S. Canevarolo, Técnicas de Caracterização de Polímeros, Editora Artliber, 2004.</li>
+  <li>Electron Backscatter Diffraction in Materials Science, A.J. Schwartz, M. Kumar, B.L; Adams (eds.), Springer Science+Business Media, New York, 2000.</li>
+  <li>U.F. Kocks, C.N. Tomé, H.-R. Wenk, Texture and Anisotropy: Preferred Orientations in Polycrystals and Their Effect on Materials Properties, Cambridge, Cambridge University Press, 1998.</li>
+</ul>
+
         
 
 </div>
