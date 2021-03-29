@@ -7,7 +7,7 @@
     <meta name="robots" content="index, follow">
     
 
-    <title>PPGEM EEL/USP - Tópicos Especiais em Materiais Cerâmicos - I</title>
+    <title>PPGEM EEL/USP - Didática e Prática do Ensino de Engenharia</title>
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)">
     <link rel="alternate" type="application/rss+xml" href="/PPGEM-EEL/feed.xml">
 
@@ -23,21 +23,21 @@
     <link rel="shortcut icon" href="/PPGEM-EEL/favicon2.png">
 
     <!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>Tópicos Especiais em Materiais Cerâmicos - I | PPGEM EEL/USP</title>
+<title>Didática e Prática do Ensino de Engenharia | PPGEM EEL/USP</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="Tópicos Especiais em Materiais Cerâmicos - I" />
+<meta property="og:title" content="Didática e Prática do Ensino de Engenharia" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <meta property="og:description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
-<link rel="canonical" href="/PPGEM-EEL/disciplinas/pem5146.html" />
-<meta property="og:url" content="/PPGEM-EEL/disciplinas/pem5146.html" />
+<link rel="canonical" href="/PPGEM-EEL/disciplinas/pem5100.html" />
+<meta property="og:url" content="/PPGEM-EEL/disciplinas/pem5100.html" />
 <meta property="og:site_name" content="PPGEM EEL/USP" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-03-29T16:20:48-03:00" />
+<meta property="article:published_time" content="2021-03-29T16:23:28-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tópicos Especiais em Materiais Cerâmicos - I" />
+<meta property="twitter:title" content="Didática e Prática do Ensino de Engenharia" />
 <script type="application/ld+json">
-{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5146.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Tópicos Especiais em Materiais Cerâmicos - I","dateModified":"2021-03-29T16:20:48-03:00","datePublished":"2021-03-29T16:20:48-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5146.html","@context":"https://schema.org"}</script>
+{"mainEntityOfPage":{"@type":"WebPage","@id":"/PPGEM-EEL/disciplinas/pem5100.html"},"@type":"BlogPosting","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"/PPGEM-EEL/img/logo.png"}},"headline":"Didática e Prática do Ensino de Engenharia","dateModified":"2021-03-29T16:23:28-03:00","datePublished":"2021-03-29T16:23:28-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","url":"/PPGEM-EEL/disciplinas/pem5100.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -118,7 +118,7 @@
 
                     
                         
-                        <li><a class="scroll" href="/PPGEM-EEL/disciplinas/pem5146.html" >
+                        <li><a class="scroll" href="/PPGEM-EEL/disciplinas/pem5100.html" >
                             <img src="/PPGEM-EEL/img/lang/br.svg" style="height:20px">
                         </a></li>
                     
@@ -163,17 +163,19 @@
         <li><a href="/PPGEM-EEL/en/">Home</a></li>
         <li><a href="/PPGEM-EEL/en/#treatments">Information</a></li>
         <li><a href="/PPGEM-EEL/en/disciplinas">Classes</a></li>
-        <li>PEM5146</li>
+        <li>PEM5100</li>
     </ul>
 
-    <h1 class="alert" style="text-align:left">PEM5146 - </h1>
+    <h1 class="alert" style="text-align:left">PEM5100 - </h1>
 
     <h4>Form professor</h4>
 
-    <!-- usando dummy variable names to avoid possible clashes -->
-
-
-<a href="/PPGEM-EEL/en/docentes/fernando-vernilli-junior.html">Prof. Dr. Fernando Vernilli Junior</a>
+    ,
+        
+            Maria Auxiliadora Motta Barreto
+            
+        
+    
 
 
     <h4>Workload</h4>
@@ -194,16 +196,16 @@
             <th>Credits</th>
         </tr>
         <tr>
-            <td>4 hours/week</td>
-            <td>1 hours/week</td>
-            <td>7 hours/week</td>
+            <td>2 hours/week</td>
+            <td>0 hours/week</td>
+            <td>2 hours/week</td>
             <td>15 weeks</td>
-            <td>180 hours</td>
-            <td>12</td>
+            <td>60 hours</td>
+            <td>4</td>
         </tr>
     </table>
 
-    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5146" target="_blank">See on Janus (pt-br)</a>
+    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5100" target="_blank">See on Janus (pt-br)</a>
 
     <h4>Concentration area</h4>
 
@@ -232,30 +234,47 @@
 
     
 
+        <h4>Observations</h4>
+
+            
+                
+
+            
+
+    
+
     <h4>References</h4>
 
         
             
-                <ol>
-  <li>KINGERY, W. D.; BOWEN, H.K.; UHLMANN, D. R.  Introduction of ceramics New York: John Wiley, 1976.</li>
+                <ul>
+  <li>ANASTASIOU, L. G. C. &amp; PESSATE, L. (ORGS). Processos de Ensinagem na Universidade – pressupostos para as estratégias de trabalho em aula. Joinvile: UNIVILLE, 2003.</li>
+  <li>CHAUI, Marilena. A universidade pública sob nova perspectiva. In Revista Brasileira de Educação. Rio de Janeiro: ANPED, n.24, 2003, p.1-12.</li>
+  <li>CONFERÊNCIA Mundial sobre o Ensino Superior (1998:Paris, França). Tendências da Educação Superior para o Século XXI - UNESCO/Conselho de Reitores das Universidades Brasileiras, 1998.</li>
+  <li>CUNHA, M. I. O professor universitário na transição de paradigmas. Araraquara: J. M. Editora, 1998.</li>
+  <li>DANTAS, S. H. G. Ensino ou Educação em Engenharia? A formação didático-pedagógica dos Engenheiros Professores. Revista de Ensino de Engenharia, 1993. UNIFOR. Br.</li>
+  <li>FREIRE, P. Pedagogia da Autonomia: saberes necessários à prática educativa. São Paulo: Paz e Terra, 1996.</li>
+  <li>MASETTO, M. O professor na hora da verdade – a prática docente no ensino superior. São Paulo: Avercamp. 2010.</li>
+  <li>MORIN, E. Complexidade e transdisciplinaridade – a reforma da universidade e do ensino fundamental. Natal: EDUFRN, 2000.</li>
+  <li>PIMENTA, S. G. e ANASTASIOU, L. G. Docência no ensino superior. São Paulo: Cortez, 2002.</li>
+  <li>PIMENTA, S. G. e ALMEIDA, M. I. Pedagogia Universitária – caminhos para a formação de professores. S. Paulo: Cortez Editora, 2011.</li>
   <li>
-    <ol>
-      <li>R. W. CAHN; P. HAASEN; E. J. KRAMER.  Materials Science and Technology: A Comprehensive Treatment.  Weinheim: Wiley-VCH, 2005.</li>
-    </ol>
+    <p>RODRIGUES, J. L. K. O professor do ensino superior, suas características e suas competências: Um profissional da educação. Tese de Doutorado. Doutorado em Educação: Currículo - Educação: Currículo, PUC-SP, São Paulo, 2005. SANTOS, B. de S. Um discurso sobre as ciências. Edições Afrontamento. Porto. 1999.
+-ZABALZA, M. A. O ensino universitário: seu cenário e seus protagonistas. Porto Alegre: Artmed, 2004.</p>
   </li>
-  <li>BERGERON, CLIFTON G.; RISBUD, SUBHASH H.  Introduction of phase equilibria in ceramics.  Westerville: The American Ceramic Society, 1984.</li>
-  <li>BROOK, R. J.  Processing of ceramics.  R.W. Cahn; P. Haase; E. J. Kramer. Weiheim: VCH,  1996.</li>
-  <li>LEVIN, ERNEST M.  Phase diagrams for ceramics.  Ohio: The American ceramic, 1964.</li>
-  <li>R. C. BRADT; D. P. H. HASSELMAN;  D. MUNZ; M. SAKAI; V. YASHEVCHENKO  Fracture mechanics of ceramics: r-curve behavior, toughness determination, and thermal shock. New York: Plenum, 1996.</li>
-  <li>R. C. BRADT: D. P. H. HASSELMAN, D. MUNZ; M. SAKAI; V. YASHEVCHENKO  Fracture mechanics of ceramics: fatigue, composites, and high-temperature behaviour.  New York: Plenum, 1996.</li>
-  <li>REED. JAMES S.  Principles of ceramics processing.  New York: John Wiley, 1995.</li>
-  <li>TOMPSON, D. P.  ED. Engineering ceramics: fabrication Science &amp; technology, London: The Institute of Materials, 1993.</li>
-  <li>BARBSOUM, MICHEL W.  Fundamentals of ceramics.  New York: The McGraw-Hill, 1997.</li>
-  <li>CHIANG, YET-MING; BIRNIE III, DUNBAR P.; KINGERY, W. DAVID   Physical ceramics: principles for ceramic science and engineering.  New York: John Wiley, 1997.</li>
-  <li>MENCIK, JAROSLAV.  Strength and fracture of glass and ceramics.  Amsterdam: Elsevier, 1992.</li>
-  <li>ZHANG, S.; LI, L.; KUMAR, A.  Materials Characterization Techniques, Boca Raton: CRC Press, 2008.</li>
-  <li>LENG, Y.  Materials Characterization: Introduction to Microscopic and Spectroscopic Methods, Wiley, Cingapura, 2000.</li>
-</ol>
+  <li>Vídeos disponíveis na página da Pró-Reitoria  (www.usp.br/prpg - Etapas de Preparação Pedagógica – Cadernos ou Vídeos de Pedagogia)</li>
+  <li>Vídeo nº 1 - RUÉ, Joan. A Aprendizagem com autonomia: possibilidades e limites.</li>
+  <li>Vídeo nº 2 - EZCURRA, Ana Maria. – Os estudantes recém-ingressados: democratização e responsabilidades das instituições universitárias.</li>
+  <li>Vídeo nº 3 – SEVERINO – Ensino e pesquisa na docência universitária: caminhos para a integração.</li>
+  <li>Vídeo nº 4 – KRASILCHIK, Myriam. Docência no ensino superior: tensões e mudanças.</li>
+  <li>Vídeo nº 5 – MACHADO, Nilson José. Imagens do conhecimento e ação docente no ensino superior.</li>
+  <li>Vídeo nº 6 – CUNHA, Maria Isabel da. O desafio da reconfiguração de saberes na docência universitária.</li>
+  <li>Videoconferência nº 7 – KENSKI, Vany Moreira. Novos processos de interação e comunicação no ensino mediado pelas tecnologias.</li>
+  <li>Vídeo nº 8 – FORMOSINHO, João Oliveira. Dilemas e tensões da atuação da universidade frente à formação de profissionais de desenvolvimento humano.</li>
+  <li>Vídeo nº 9 – RIOS, Terezinha Azeredo. Ética na docência universitária: a caminho de uma universidade pedagógica?</li>
+  <li>Vídeo nº 10 – FRANCO, Maria Amélia Rosário Santoro. Prática docente universitária e a construção coletiva de conhecimentos.</li>
+  <li>Vídeo nº 11 – LIBÂNEO, José Carlos. Conteúdos, formação de competências cognitivas e ensino com pesquisa: unindo ensino e modos de investigação.</li>
+</ul>
 
             
         
