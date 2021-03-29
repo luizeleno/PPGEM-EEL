@@ -38,8 +38,8 @@ nottitle = np.array(notitle)
 
 # criando arquivos YAML
 
-dissertacoes = open('dissertacoes.yml', 'w')
-teses= open('teses.yml', 'w')
+dissertacoes = open('../../_data/dissertacoes.yml', 'w')
+teses= open('../../_data/teses.yml', 'w')
 
 for i in range(Aluno.size):
   text = '-\n'
