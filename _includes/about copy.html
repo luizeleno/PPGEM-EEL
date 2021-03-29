@@ -1,11 +1,41 @@
 <div id="about" class="about">
     <div class="container-fluid">
+        <h2 class="section-title"> </h2>
         <div class="row">
             <div class="col-sm-6">
-                <div class="container-fluid">
-                    <h3>{% t secoes.programa %}</h3>
-                    {% include video.html video='0Zo8FM8y2w4' id='youtube'%}
-                    <p>{% t about.text1 %}</p>
+                <h3>{% t secoes.programa %}</h3>
+                <p>{% t about.text1 %}</p>
+                <p>{% t about.text2 %}</p>
+                {% include video.html video='0Zo8FM8y2w4' id='youtube'%}
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-briefcase"><use xlink:href="#icon-briefcase"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>A{% t about.text3 %}</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>{% t about.text4 %}</p>
+                    </div>
+                </div>
+                <div class="media">
+                    <div class="media-left">
+                        <div class="boxed-icon">
+                            <svg class="icon icon-clock-o"><use xlink:href="#icon-clock-o"></use></svg>
+                        </div>
+                    </div>
+                    <div class="media-body">
+                        <p>{% t about.text5 %}</p>
+                    </div>
                 </div>
             </div>
             <div class="col-sm-6">

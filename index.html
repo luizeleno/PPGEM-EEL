@@ -38,7 +38,7 @@ home: true
     <div id="team" class="team">
         <h2 class="section-title">{% t secoes.noticias %}</h2>
         {% capture path %}/img/noticias/{% endcapture %}
-        {% assign novidades = site.static_files | reverse  %}
+        {% assign novidades = site.static_files | reverse %}
         {% for file in novidades %}
             {% if file.path contains '/img/noticias/' %}
                 {% unless file.path contains 'docs/' %}
