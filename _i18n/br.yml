@@ -60,6 +60,8 @@ inscricoes:
   alunoespecial: Aluno especial
   editais: Editais (CPG)
   inscricao: "Inscreva-se"
+  doutorado: "Inscrições para doutorado - fluxo contínuo"
+  foradoar: Desculpe, a inscrição não está mais disponível
 
 about:
   text1: "O <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um dos programas de excelência em pós-graduação stricto-sensu (mestrado e doutorado) da <b>Escola de Engenharia de Lorena</b> (EEL) da <b>Universidade de São Paulo</b> (USP)."
