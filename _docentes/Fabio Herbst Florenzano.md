@@ -25,8 +25,8 @@ disciplinas:
   ppgem: [PEM5145]
 
 pesquisa:
-  br: [Síntese de Novos Materiais Poliméricos via RAFT, Novos Copolímeros para a Montagem Polimerossomos, Polímeros Funcionais com Aplicações na Área Ambiental, Recobrimento de Superfícies Metálicas e Outras]
-  en: [Synthesis of New Polymeric Materials by RAFT,  New Copolymers for Polymersomes, Functional Polymers for Water Decontamination, Metallic Surface Corrosion Protection and other Applications]
+  br: [Síntese de Novos Materiais Poliméricos via RAFT, Novos Copolímeros para a Montagem Polimerossomos, Polímeros Funcionais com Aplicações na Área Ambiental, Recobrimento de Superfícies Metálicas]
+  en: [Synthesis of New Polymeric Materials by RAFT,  New Copolymers for Polymersomes, Functional Polymers for Water Decontamination, Metallic Surface Corrosion Protection]
 
 lab_coordinator: true
 
