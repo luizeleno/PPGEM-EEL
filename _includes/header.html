@@ -20,14 +20,17 @@
                     {% if site.lang == "br" %}
                         {% capture link1 %}{{ site.baseurl_root }}/en{{page.url}}{% endcapture %}
                         <li><a class="scroll" href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px">
+                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px" title="Go to the version in English">
                         </a></li>
                     {% elsif site.lang == "en" %}
                         {% capture link1 %}{{ site.baseurl_root }}{{page.url}}{% endcapture %}
-                        <li><a class="scroll" href="{{ link1 }}" >
-                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:20px">
+                        <li><a href="{{ link1 }}" >
+                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:20px" title="Ir para a versão em português">
                         </a></li>
                     {% endif %}
+                    <li><a href="http://www.demar.eel.usp.br/" target="_blank" id="no-ext-link">
+                        <img src="{{site.baseurl_root}}/img/logos/logo_eel_2017.png" style="height:18px" title="Demar::EEL/USP">
+                    </a></li>
             </ul>
 
         </div>
