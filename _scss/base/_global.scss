@@ -2,9 +2,9 @@
 -------------------------------------------------*/
 html {
     box-sizing: border-box;
-    font-size: 85%;
+    font-size: 100%;
     @include breakpoint(small) {
-        font-size: 90%;
+        font-size: 100%;
     }
     @include breakpoint(large) {
         font-size: 100%;
