@@ -7,7 +7,7 @@ title: "PPGEM EEL/USP"
 tagline: Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP
 description: "Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)"
 
-baseurl: "/PPGEM-EEL"
+#baseurl: "/PPGEM-EEL"
 url: ""
 logo: img/logo-only.png
 
