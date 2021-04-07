@@ -75,8 +75,8 @@ exclude: [
 ]
 
 # Theme Settings
-analytics:
-google_verification:
+google_verification: true
+google_analytics: G-G6X7LT32WW
 
 collections:
   docentes:
