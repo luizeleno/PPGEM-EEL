@@ -11,9 +11,9 @@ title: global.maisnoticias
         {% for file in novidades %}
             {% if file.path contains '/img/noticias/' %}
                 {% unless file.path contains 'docs/' %}
-                    <a href="{{site.baseurl_root}}/{{ file.path }}" class="gallery-item expandable-box image-link">
+                    <a href="{{ file.path }}" class="gallery-item expandable-box image-link">
                         <div class="expandable-box-top">
-                            <img src="{{site.baseurl_root}}/{{ file.path }}" /> 
+                            <img src="{{ file.path }}" /> 
                         </div>
                         <div class="expandable-box-bottom">
                             <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>

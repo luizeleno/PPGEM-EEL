@@ -9,7 +9,6 @@ description: "Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da
 
 #baseurl: "/PPGEM-EEL"
 url: "www.ppgem.eel.usp.br"
-baseurl: "/"
 logo: img/logo-only.png
 
 destination: docs/ 

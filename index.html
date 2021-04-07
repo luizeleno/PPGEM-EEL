@@ -46,9 +46,9 @@ home: true
                 {% unless file.path contains 'docs/' %}
                     {% if n < Nmax %}
                         {% assign n = n | plus: 1 %}
-                        <a href="{{site.baseurl_root}}/{{ file.path }}" class="gallery-item expandable-box image-link">
+                        <a href="{{file.path}}" class="gallery-item expandable-box image-link">
                             <div class="expandable-box-top">
-                                <img src="{{site.baseurl_root}}/{{ file.path }}" /> 
+                                <img src="{{file.path}}" /> 
                             </div>
                             <div class="expandable-box-bottom">
                                 <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
