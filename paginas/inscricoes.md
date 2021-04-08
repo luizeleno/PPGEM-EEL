@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /inscricoes/
+permalink: /inscriçao/
 title: info.inscricoes
 
 form:
