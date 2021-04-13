@@ -13,6 +13,7 @@ global:
   coordenador: Coordinator
   vice-coordenador: Vice-Coordinator
   search: "Search for a dissertation or thesis"
+  banca: "Cadastro de membro de banca"
 
   tagline: "Graduate program in Materials Engineering at EEL/USP"
 

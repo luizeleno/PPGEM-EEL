@@ -15,6 +15,7 @@ global:
   coordenador: Coordenador
   vice-coordenador: Vice-coordenador
   search: "Buscar por dissertação ou tese"
+  banca: "Cadastro de membro de banca"
 
   langs:
   br: br
