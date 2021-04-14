@@ -39,10 +39,10 @@ home: true
 <div id="gallery" class="gallery">
     <div id="team" class="team">
         <h2 class="section-title">{% t secoes.noticias %}</h2>
-        {% capture path %}/img/noticias/{% endcapture %}
+        {% capture path %}/img/Noticias/{% endcapture %}
         {% assign novidades = site.static_files | reverse %}
         {% for file in novidades %}
-            {% if file.path contains '/img/noticias/' %}
+            {% if file.path contains '/img/Noticias/' and file.extname == '.jpg' %}
                 {% unless file.path contains 'docs/' %}
                     {% if n < Nmax %}
                         {% assign n = n | plus: 1 %}
@@ -52,7 +52,7 @@ home: true
                             </div>
                             <div class="expandable-box-bottom">
                                 <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
-                                <span>{% t global.click %}</span>
+                                <span><svg class="icon icon-pdf"><use xlink:href="#icon-pdf"></use></svg></span>
                             </div>
                         </a>
                     {% endif %}

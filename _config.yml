@@ -60,6 +60,18 @@ feed: no
 # Footer
 copyright: © Demar::EEL::USP
 
+scholar:
+  source: /_scripts
+  bibliography: publicacoes.bib
+  #use_raw_bibtex_entry: false
+  #bibtex_quotes: ['"', '"']
+  style: /_scripts/ima-journal-of-applied-mathematics-full.csl
+  sort_by: year, author
+  order: descending, descending
+  bibliography_template: bib
+  bibliography_list_attributes:
+      reversed: "reversed"
+
 # Build settings
 markdown: kramdown
 
