@@ -13,8 +13,8 @@ start: 1990
 {% for i in (inicio..fim) reversed %}
 
 {% capture n %}{% bibliography_count --query @*[year={{i}}] %}{% endcapture %}
-{% assign n = n | plus: 0 %}
 
+{% assign n = n | plus: 0 %}
 {% if n > 0 %}
 
 #### {{i}}
