@@ -4,8 +4,8 @@ permalink: /inscriçao/
 title: info.inscricoes
 
 form:
-    br: https://forms.gle/dkMWysAPvkQauF5w9
-    en: https://forms.gle/wuFcdfuHwdSyDBRo9
+    br: https://forms.gle/8k6wWVkjKt2JeLG36
+    en: https://forms.gle/8k6wWVkjKt2JeLG36
 
 ---
 
