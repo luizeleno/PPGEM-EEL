@@ -3,11 +3,10 @@ title: global.publicacoes
 layout: page
 permalink: /publicacoes/
 
-start: 1990
+inicio: 1990
 
 ---
 
-{% assign inicio = page.start | plus: 0 %}
 {% assign fim = 'now' | date: '%Y' %}
 
 {% for i in (inicio..fim) reversed %}

@@ -14,5 +14,5 @@ form:
 | {% t inscricoes.forms %}: <http://cpg.eel.usp.br/formulario-cpg>{: target="_blank"} |
 | {% t inscricoes.editais %}: <http://cpg.eel.usp.br/Editais_Selecao_Abertos>{: target="_blank"} |
 | {% t inscricoes.doutorado %}: <a href="{% if site.lang == 'en' %}{{page.form.en}}{%else%}{{page.form.br}}{%endif%}" target="_blank">{% t inscricoes.inscricao %}</a> |
-| {% t inscricoes.alunoespecial %}: {% t inscricoes.foradoar%} |
+| {% t inscricoes.alunoespecial %}: {% t inscricoes.foradoar %} |
 {: .table .table-striped .table-hover .table-responsive .table-condensed}
