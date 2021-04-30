@@ -62,7 +62,8 @@ inscricoes:
   alunoespecial: Aluno especial
   editais: Open position calls (CPG)
   inscricao: "Register"
-  doutorado: "Registration for the PhD program"
+  doutorado: "Registration for the PhD program - continuous flow"
+  mestrado_dd: "Registration for the Master/Direct PhD program"
   foradoar: Unfortunately the registration is no longer available
 
 about:
