@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /inscriçao/
+permalink: /inscricao/
 title: info.inscricoes
 
 form_MDD:
