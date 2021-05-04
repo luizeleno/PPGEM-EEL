@@ -1,8 +1,18 @@
 [
   
     {
+      "titulo"    : "Correlações e topologia em dispositivos híbridos baseadosem grafeno",
+      "titulo_en"    : "Correlations and topology in hybrid graphene-based devices",
+      "aluno"    : "Antonio Lucas Rigotti Manesco",
+      "orientador"    : "Durval Rodrigues Junior",
+      "data"    : "2021/06/01",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
       "titulo"    : "Obtenção de madeira plástica a partir do polietileno de baixa densidade reciclado com fibra natural de capim elefante",
-      "titulo_en"    : "Obtenção de madeira plástica a partir do polietileno de baixa densidade reciclado com fibra natural de capim elefante",
+      "titulo_en"    : "Obtaining plastic wood from low density polyethylene waste withnatural elephant grass fiber",
       "aluno"    : "Camila Cezar Grillo",
       "orientador"    : "Clodoaldo Saron",
       "data"    : "2021/04/30",
@@ -1261,6 +1271,26 @@
     } 
   
   ,
+  
+    {
+      "titulo"    : "Estabilidade microestrutural do aço inoxidável austenítico 316L processado viafusão a laser em leito de pó com diferentes estratégias de escaneamento",
+      "titulo_en"    : "Microstructure stability of AISI 316L austenitic stainless steel processed by laserpowder-bed fusion with different scanning strategies",
+      "aluno"    : "Leonardo Shoji Aota",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "data"    : "2021/05/21",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da separação triboeletrostática de resíduos poliméricos pós-consumo para reciclagem",
+      "titulo_en"    : "Study of triboelectrostatic separation of post-consumer polymericwaste for recycling",
+      "aluno"    : "Bianca Maria Rodrigues",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2021/07/02",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
   
     {
       "titulo"    : "Desenvolvimento experimental e caracterização de concretos permeáveis para o controle do escoamento superficial",
