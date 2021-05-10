@@ -4,12 +4,11 @@ layout: page
 #permalink: /publicacoes/
 permalink: /seocacilbup/
 
-
-inicio: 2010
-
 ---
 
 {% assign fim = 'now' | date: '%Y' %}
+
+{% assign inicio = fim | minus: 5 %}
 
 {% for i in (inicio..fim) reversed %}
 
