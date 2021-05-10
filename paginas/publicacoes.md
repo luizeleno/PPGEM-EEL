@@ -1,7 +1,9 @@
 ---
 title: global.publicacoes
 layout: page
-permalink: /publicacoes/
+#permalink: /publicacoes/
+permalink: /seocacilbup/
+
 
 inicio: 1990
 
