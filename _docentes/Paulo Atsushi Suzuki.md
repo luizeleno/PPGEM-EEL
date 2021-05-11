@@ -5,7 +5,7 @@ title: *nome
 NUSP: 1643715
 email: psuzuki@usp.br
 fone: +55 12 3159 9916
-Lattes: 394289391722756
+Lattes: 9394289391722756
 ResearcherID: P-6982-2015
 ORCID: 0000-0002-3476-1460
 Scopus: 6603913807

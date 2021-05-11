@@ -1,2 +1,0 @@
-- O arquivo Publicações.xlsx desta pasta é o mais recente de todos. O do Google Drive não está necessariamente atualizado.
-- Preciso ainda criar um script para atualizar automaticamente o arquivo do Drive.
