@@ -16,7 +16,7 @@ global:
   vice-coordenador: Vice-coordenador
   search: "Buscar por dissertação ou tese"
   banca: "Cadastro de membro de banca"
-  publicacoes: Publicações
+  publicacoes: Publicações Recentes
 
   langs:
   br: br

@@ -16,8 +16,6 @@ GoogleScholar: btlc2mIAAAAJ&hl
 short_name: celia
 image: celia
 
-bibname: tomachuk
-
 disciplinas:
   # lom: [LOM3071, LOM3072, LOM3073, LOM3074]
   ppgem: [PEM5148]

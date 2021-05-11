@@ -63,7 +63,12 @@ with open('publicacoes.bib', 'w') as bib:
             pass
 os.system(f'bibtool -f "%n(author):%4d(year)" publicacoes.bib -o publicacoes.bib');
 
-#criando yaml para referencias por docente
-with open('publicacoes_docentes.yml', 'w') as yml:
-    for docente, doi_list in docentes.items():
-        yml.write(f'{docente}: {doi_list}\n')
+#criando bibfiles por docente
+for docente, doi_list in docentes.items():
+    with open(f'{docente}.bib', 'w') as doc:
+        for doi in doi_list:
+            try:
+                doc.write(publicacoes[doi]+'\n')
+            except:
+                print(f'AVISO: problema no doi {doi} do docente {docente}')
+    os.system(f'bibtool -f "%n(author):%4d(year)" {docente}.bib -o {docente}.bib');

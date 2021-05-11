@@ -83,8 +83,26 @@ layout: default
             {% endif %}
             
             <h3>{% t global.publicacoes %}</h3>
-            
-            {% bibliography --query @*[year=2020] %}
+                        
+                {% assign fim = 'now' | date: '%Y' %}
+
+                {% assign inicio = fim | minus: 5 %}
+
+                {% for i in (inicio..fim) reversed %}
+
+                    {% capture n %}{% bibliography_count --file {{page.short_name}} --query @*[year={{i}}] %}{% endcapture %}
+
+                    {% assign n = n | plus: 0 %}
+                    {% if n > 0 %}
+
+                        <h4>{{i}}</h4>
+
+                        {% bibliography --file {{page.short_name}} --query @*[year={{i}}] %}
+
+                    {% endif %}
+
+                {% endfor %}
+
 
         </div>
 
