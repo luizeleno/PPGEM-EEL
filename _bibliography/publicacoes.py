@@ -1,5 +1,5 @@
-import pandas
 import os
+from habanero import cn
 
 # obtendo novas publicacoes
 doi_dir = './docentes_doi/'
@@ -38,10 +38,16 @@ for root, dirs, files in os.walk(doi_dir):
 
         # buscando dados de novas referências
         n, i = len(new_doi), 1
-        for doi in new_doi:
-            print(f'{i}/{n}: {doi}')
-            os.system(f'doi2bib "{doi}" >> docentes_bib/{docente}.bib')
-            i += 1
+        print(f' Consultando {n} referências...')
+        with open(included_bib_dir + f'{docente}.bib', 'w') as bib:
+            for doi in new_doi:
+                try:
+                    print(f'{i}/{n}: {doi}')
+                    ref = cn.content_negotiation(ids=doi)
+                    bib.write(ref+'\n\n')
+                except:
+                    print(f'AVISO: não consegui encontrar {doi}')
+                i += 1
 
         # reescrevendo lista de referência já lidas
         doi_set = set(doi_list)
