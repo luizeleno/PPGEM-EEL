@@ -2,11 +2,15 @@
   icon: icon-flask
   title: info.linhas
   link: linhas/
+#- 
+  #icon: icon-globe
+  #title: info.coop
+  #link: coop/
 - 
   icon: icon-globe
-  title: info.coop
-  link: coop/
-- 
+  title: global.publicacoes
+  link: publicacoes/
+-
   icon: icon-briefcase
   title: info.disciplinas
   link: disciplinas/

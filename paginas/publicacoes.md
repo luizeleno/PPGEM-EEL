@@ -1,9 +1,7 @@
 ---
 title: global.publicacoes
 layout: page
-#permalink: /publicacoes/
-permalink: /seocacilbup/
-
+permalink: /publicacoes/
 ---
 
 {% assign fim = 'now' | date: '%Y' %}
