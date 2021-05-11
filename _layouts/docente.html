@@ -81,6 +81,10 @@ layout: default
                 <h5>Info:</h5>
                 {% contentblock  en %}
             {% endif %}
+            
+            <h3>{% t global.publicacoes %}</h3>
+            
+            {% bibliography --query @*[year=2020] %}
 
         </div>
 
