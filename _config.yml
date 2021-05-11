@@ -61,7 +61,7 @@ feed: no
 copyright: © Demar::EEL::USP
 
 scholar:
-  source: /_scripts
+  source: /_bibliography
   bibliography: publicacoes.bib
   #use_raw_bibtex_entry: false
   #bibtex_quotes: ['"', '"']
