@@ -15,9 +15,20 @@ for docente_doi in doi_files:
     doi_list = [s.strip('\n') for s in doi_list]
     docente = docente_doi.split('.')[0]
     docentes[docente] = doi_list
-
 with open('docentes.json', 'w') as doc:
     json.dump(docentes, doc)
+
+# lista de doi já lidos
+try:
+    with open('publicacoes.doi', 'r') as doi_file:
+        doi_lidos = doi_file.readlines()
+    doi_lidos = [s.strip('\n') for s in doi_lidos]
+    with open('publicacoes.json', 'r') as doc:
+        publicacoes = json.load(doc)
+except:
+    os.system('touch publicacoes.doi')
+    doi_lidos = set()
+    publicacoes = {}
 
 #criando conjunto de doi completo
 doi_set = set()
@@ -28,66 +39,31 @@ with open('publicacoes.doi', 'w') as doc:
         doc.write(doi + '\n')
     
 #criando dicionario publicacoes = {doi: bibentry}
-publicacoes = {}
+n, i = len(doi_set), 1
 for doi in doi_set:
-    try:
-        entry = cn.content_negotiation(ids=pub)
-        publicacoes[doi] = entry
-    except:
-        print(f'AVISO: não consegui encontrar {doi}')
+    if doi not in doi_lidos:
+        try:
+            print(f'{i}/{n}: {doi}')
+            entry = cn.content_negotiation(ids=doi)
+            publicacoes[doi] = entry
+        except:
+            print(f'{i}/{n} {doi}: AVISO: não consegui encontrar {doi}')
+    else:
+        print(f'{i}/{n}: AVISO: {doi} já na base')
+    i += 1
 with open('publicacoes.json', 'w') as doc:
-    json.dump(list(publicacoes), doc)
-
+    json.dump(publicacoes, doc)
 
 #criando bibfile geral
+with open('publicacoes.bib', 'w') as bib:
+    for doi, entry in publicacoes.items():
+        try:
+            bib.write(entry + '\n\n')
+        except:
+            pass
+os.system(f'bibtool -f "%n(author):%4d(year)" publicacoes.bib -o publicacoes.bib');
 
-#criando bibfile  por docente
-
-#------------------
-
-#for docente_doi in doi_files:
-    
-    #docente = docente_doi.split('.')[0]
-    #print(docente)
-    
-    #try:
-        #with open(included_doi_dir + docente_doi, 'r') as doi_file:
-            #doi_list = doi_file.readlines()
-        #doi_list = set([s.strip('\n') for s in doi_list])
-    #except:
-        #doi_list = set()
-        #with open(included_doi_dir + docente_doi, 'w') as doi_file:
-            #doi_file.write('')
-    
-    #new_doi = set()
-    #with open(doi_dir + docente_doi, 'r') as doc:
-        #doc_doi = doc.readlines()
-    #doc_doi = [s.strip('\n') for s in doc_doi]
-    #new_doi |= set(doc_doi)
-    
-    #new_doi = set([x for x in new_doi if x not in doi_list])  # new doi list
-    #doi_list |= new_doi  # updated doi list
-    
-    #buscando dados de novas referências
-    #n, i = len(new_doi), 1
-    #print(f' Consultando {n} referências...')
-    #with open(included_bib_dir + f'{docente}.bib', 'a') as bib:
-        #for doi in new_doi:
-            #try:
-                #print(f'{i}/{n}: {doi}')
-                #ref = cn.content_negotiation(ids=doi)
-                #bib.write(ref+'\n\n')
-            #except:
-                #print(f'AVISO: não consegui encontrar {doi}')
-            #i += 1
-    
-    #reescrevendo lista de referência já lidas
-    #doi_set = set(doi_list)
-    #with open(included_doi_dir + docente_doi, 'w') as doi_file:
-        #for doi in doi_set:
-            #doi_file.write(doi + '\n')
-
-#Criando lista completa de referências
-#bib_files = [included_bib_dir + x.split('.')[0] + '.bib' for x in doi_files]
-#bib_files = ' '.join(bib_files)
-#os.system(f'bibtool -f "%n(author):%4d(year)" {bib_files} -o publicacoes.bib');
+#criando yaml para referencias por docente
+with open('publicacoes_docentes.yml', 'w') as yml:
+    for docente, doi_list in docentes.items():
+        yml.write(f'{docente}: {doi_list}\n')
