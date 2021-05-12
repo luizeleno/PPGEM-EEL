@@ -1,20 +1,21 @@
 import os
 import json
+import pandas
 from habanero import cn
 
-# diretório com doi files por pocente
-docentes_dir = './docentes/'
+# diretório com arquivos xlsx com os DOI
+docentes_dir = '../_Drive/Publicacoes/'
 
 # criando dicionário docentes = {docente: [doi_list]}
 docentes = {}
-walk = os.walk('./docentes/')
-doi_files = list(walk)[0][-1]
-for docente_doi in doi_files:
-    with open(docentes_dir + docente_doi, 'r') as doi_file:
-        doi_list = doi_file.readlines()
-    doi_list = [s.strip('\n') for s in doi_list]
-    docente = docente_doi.split('.')[0]
-    docentes[docente] = doi_list
+walk = os.walk(docentes_dir)
+xslx_files = list(walk)[0][-1]
+for docente_xlsx in xslx_files:
+    data = pandas.read_excel(docentes_dir + docente_xlsx)
+    doi_list = data['DOI']
+    doi_list = set([s.strip('\n') for s in doi_list])
+    docente = docente_xlsx.split('.')[0]
+    docentes[docente] = list(doi_list)
 with open('docentes.json', 'w') as doc:
     json.dump(docentes, doc)
 
@@ -30,7 +31,7 @@ except:
     doi_lidos = set()
     publicacoes = {}
 
-#criando conjunto de doi completo
+# criando conjunto de doi completo
 doi_set = set()
 for doc, doi in docentes.items():
     doi_set |= set(doi)
@@ -38,7 +39,7 @@ with open('publicacoes.doi', 'w') as doc:
     for doi in doi_set:
         doc.write(doi + '\n')
     
-#criando dicionario publicacoes = {doi: bibentry}
+# criando dicionario publicacoes = {doi: bibentry}
 n, i = len(doi_set), 1
 for doi in doi_set:
     if doi not in doi_lidos:
@@ -54,7 +55,7 @@ for doi in doi_set:
 with open('publicacoes.json', 'w') as doc:
     json.dump(publicacoes, doc)
 
-#criando bibfile geral
+# criando bibfile geral
 with open('publicacoes.bib', 'w') as bib:
     for doi, entry in publicacoes.items():
         try:
@@ -63,7 +64,7 @@ with open('publicacoes.bib', 'w') as bib:
             pass
 os.system(f'bibtool -f "%n(author):%4d(year)" publicacoes.bib -o publicacoes.bib');
 
-#criando bibfiles por docente
+# criando bibfiles por docente
 for docente, doi_list in docentes.items():
     with open(f'{docente}.bib', 'w') as doc:
         for doi in doi_list:
