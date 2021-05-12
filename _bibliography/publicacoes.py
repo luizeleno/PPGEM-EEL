@@ -1,7 +1,7 @@
 import os
 import json
 import pandas
-from habanero import cn
+import habanero
 
 # diretório com arquivos xlsx com os DOI
 docentes_dir = '../_Drive/Publicacoes/'
@@ -45,7 +45,7 @@ for doi in doi_set:
     if doi not in doi_lidos:
         try:
             print(f'{i}/{n}: {doi}')
-            entry = cn.content_negotiation(ids=doi)
+            entry = habanero.cn.content_negotiation(ids=doi)
             publicacoes[doi] = entry
         except:
             print(f'{i}/{n} {doi}: AVISO: não consegui encontrar {doi}')

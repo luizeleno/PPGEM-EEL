@@ -1,18 +1,28 @@
 #! /usr/bin/bash
 
-echo '#' `date`
+echo '############################################################' 
+echo `date`
 
-echo "Sincronizando com o Google Drive..."
+echo '############################################################' 
+echo "# Sincronizando com o Google Drive..."
 cd /home/eleno/Dropbox/Lorena/Website/PPGEM-EEL/_Drive
 rclone sync edrf:PPGEM-site .
 
-echo 'Atualizando defesas'
+echo '############################################################' 
+echo '# Atualizando publicações...'
+cd ../_bibliography
+python3 publicacoes.py
+
+echo '############################################################' 
+echo '# Atualizando defesas...'
 cd ../_scripts
 python3 planilha-to-yaml.py
 
+echo '############################################################' 
 echo "# Atualizando o site no Github..."
 cd ..
 rake build
 rake commit
 
+echo '############################################################' 
 echo "Done!"
