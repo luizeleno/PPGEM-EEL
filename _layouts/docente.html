@@ -3,15 +3,11 @@ layout: default
 ---
 
 <div class="container-fluid" style="margin-bottom: 5px; margin-top: 100px;">
-    
     <h1 class="alert" style="text-align:left">{{ page.nome }}</h1>
-
     <div class="row">
-
         <div class="col-md-3">
-          <img src="{{site.baseurl_root}}/img{% if page.image %}/docentes/{{ page.image }}.jpg{% else %}/unknown-person.png{% endif %}" title="{{page.nome}}" alt="{{page.nome}}">
+            <img src="{{site.baseurl_root}}/img{% if page.image %}/docentes/{{ page.image }}.jpg{% else %}/unknown-person.png{% endif %}" title="{{page.nome}}" alt="{{page.nome}}">
         </div>
-    
         <div class="col-md-9" style="margin-bottom: 20px;">
             <h3>
                 {% if page.Lattes %}
@@ -48,7 +44,6 @@ layout: default
                 <a id="no-ext-link" href="https://www.instagram.com/{{page.Instagram}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/instagram.jpg" title="Instagram" ></a>
                 {% endif %}
             </h3>
-
             <p>
                 :email: <a href="mailto:{{ page.email }}">{{ page.email }}</a><br />
                 :telephone_receiver: {{ page.fone }}
@@ -61,7 +56,6 @@ layout: default
                 :earth_americas: <a href="{{page.altwebpage}}" target="_blank">{{page.altwebpage}}</a>
                 {% endif %}
             </p>
-
             {% if site.lang == 'br' %}
                 <p><b>{% t docentes.areas %}</b>
                         {% assign areas = page.pesquisa.br %}
@@ -81,31 +75,50 @@ layout: default
                 <h5>Info:</h5>
                 {% contentblock  en %}
             {% endif %}
-            
             <h3>{% t global.publicacoes %}</h3>
-                        
                 {% assign fim = 'now' | date: '%Y' %}
-
                 {% assign inicio = fim | minus: 5 %}
-
                 {% for i in (inicio..fim) reversed %}
-
                     {% capture n %}{% bibliography_count --file {{page.short_name}} --query @*[year={{i}}] %}{% endcapture %}
-
                     {% assign n = n | plus: 0 %}
                     {% if n > 0 %}
-
                         <h4>{{i}}</h4>
-
                         {% bibliography --file {{page.short_name}} --query @*[year={{i}}] %}
-
                     {% endif %}
-
                 {% endfor %}
-
-
         </div>
-
     </div>
-    
 </div>
+
+    <!-- Start Our team -->
+<div id="team" class="team">
+    <h2 class="section-title">{% t secoes.docentes %}</h2>
+    <!-- <h4 class="section-title"><i>Clique na foto do docente para mais informações</i></h4> -->
+    <div id="team-carousel">
+    {% for member in site.docentes %}
+    <div class="expandable-box">
+        <div class="expandable-box-top">
+            <a href="{{site.baseurl}}{{member.url}}">
+                <img src="{{ site.baseurl_root }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
+            </a>
+            <h4>{{ member.nome }}</h4>
+            <p><b>{% t docentes.areas %}</b>
+                {% if site.lang == 'br' %}
+                    {% assign areas = member.pesquisa.br %}
+                {% else %}
+                {% assign areas = member.pesquisa.en %}
+                {% endif %}
+                {% for area in areas %}
+                    {{area}}{% if forloop.last %}.{% else %}, {% endif %}
+                {% endfor %}
+            </p>
+        </div>
+        <div class="expandable-box-bottom">
+            <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
+            <a href="tel:{{ member.fone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.fone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
+        </div>
+    </div>
+    {% endfor %}
+    </div>
+</div>
+<!-- End Our team -->
