@@ -14,6 +14,9 @@ global:
   secretaria: Secretária
   coordenador: Coordenador
   vice-coordenador: Vice-coordenador
+  CPq: Representante na CPq
+  titular: Membro titular
+  suplente: Membro suplente
   search: "Buscar por dissertação ou tese"
   banca: "Cadastro de membro de banca"
   publicacoes: Publicações Recentes
