@@ -23,5 +23,7 @@
             {% endif %}
         {% endfor %}
     </div>
-    <a class="btn btn-primary btn-lg btn-block" href="{{site.baseurl}}/noticias/" role="button">{% t global.maisnoticias %}</a>
+    {% unless page.layout=='page' %}
+        <a class="btn btn-primary btn-lg btn-block" href="{{site.baseurl}}/noticias/" role="button">{% t global.maisnoticias %}</a>
+    {% endunless %}
 </div>
