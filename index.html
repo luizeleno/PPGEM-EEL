@@ -10,23 +10,7 @@ home: true
 <!-- End About -->
 
 <!-- Start Info -->
-<div id="treatments" class="treatments">
-    <div class="container-fluid">
-        <h2 class="section-title">{% t secoes.info %}</h2>
-        <div class="row">
-            {% for info in site.data.info %}
-                <div class="col-sm-6 col-md-4" >
-                    <div class="icon-box" style="text-align: left;">
-                        <a href="{{info.link}}" id="no-ext-link" {% if info.ext==true%}target="_blank"{%endif%}>
-                        <svg class="icon {{ info.icon }}"><use xlink:href="#{{ info.icon }}"></use></svg>
-                        <h4>{% t info.title %}</h4>
-                        </a>
-                    </div>
-                </div>
-            {% endfor %}
-        </div>
-    </div>
-</div>
+{% include info.html %}
 <!-- End Info -->
 
 <!-- Start Defesas -->
@@ -34,90 +18,15 @@ home: true
 <!-- End Defesas -->
 
 <!-- Start News -->
-{% assign Nmax=4 %}
-{% assign n=0 %}
-<div id="gallery" class="gallery">
-    <div id="team" class="team">
-        <h2 class="section-title">{% t secoes.noticias %}</h2>
-        {% capture path %}/img/Noticias/{% endcapture %}
-        {% assign novidades = site.static_files | reverse %}
-        {% for file in novidades %}
-            {% if file.path contains '/img/Noticias/' and file.extname == '.jpg' %}
-                {% unless file.path contains 'docs/' %}
-                    {% if n < Nmax %}
-                        {% assign n = n | plus: 1 %}
-                        <a href="{{file.path}}" class="gallery-item expandable-box image-link">
-                            <div class="expandable-box-top">
-                                <img src="{{file.path}}" /> 
-                            </div>
-                            <div class="expandable-box-bottom">
-                                <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
-                                <span><svg class="icon icon-pdf"><use xlink:href="#icon-pdf"></use></svg></span>
-                            </div>
-                        </a>
-                    {% endif %}
-                {% endunless %}
-            {% endif %}
-        {% endfor %}
-    </div>
-    <a class="btn btn-primary btn-lg btn-block" href="{{site.baseurl}}/noticias/" role="button">{% t global.maisnoticias %}</a>
-</div>
+{% include news.html Nmax=4 %}
 <!-- End News -->
 
 <!-- Start Our team -->
-<div id="team" class="team">
-    <h2 class="section-title">{% t secoes.docentes %}</h2>
-    <!-- <h4 class="section-title"><i>Clique na foto do docente para mais informações</i></h4> -->
-    <div id="team-carousel">
-    {% for member in site.docentes %}
-    <div class="expandable-box">
-        <div class="expandable-box-top">
-            <a href="{{site.baseurl}}{{member.url}}">
-                <img src="{{ site.baseurl_root }}/img/docentes/{{ member.image }}.jpg" alt="{{ member.nome }}" style="height:200px; object-fit:contain">
-            </a>
-            <h4>{{ member.nome }}</h4>
-            <p><b>{% t docentes.areas %}</b>
-                {% if site.lang == 'br' %}
-                    {% assign areas = member.pesquisa.br %}
-                {% else %}
-                {% assign areas = member.pesquisa.en %}
-                {% endif %}
-                {% for area in areas %}
-                    {{area}}{% if forloop.last %}.{% else %}, {% endif %}
-                {% endfor %}
-            </p>
-        </div>
-        <div class="expandable-box-bottom">
-            <a href="mailto:{{ member.email }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.email }}"><svg class="icon icon-envelope"><use xlink:href="#icon-envelope"></use></svg></a>
-            <a href="tel:{{ member.fone }}" data-toggle="tooltip" data-placement="bottom" title="{{ member.fone }}"><svg class="icon icon-phone"><use xlink:href="#icon-phone"></use></svg></a>
-        </div>
-    </div>
-    {% endfor %}
-    </div>
-</div>
+{% include team.html %}
 <!-- End Our team -->
 
 <!-- Start Map -->
-<div id="location">
-  <style>
-      .google-maps {
-          position: relative;
-          /* padding-bottom: 34%; // This is the aspect ratio */
-          height: 450;
-          /* overflow: hidden; */
-      }
-      .google-maps iframe {
-          position: relative;
-          top: 0;
-          left: 0;
-          bottom: 0;
-          width: 100% !important;
-      }
-  </style>
-    <div class="google-maps">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3678.9470956479527!2d-45.103713884634445!3d-22.76734453863496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cccee8f52ac92d%3A0x3fb4f2c6db979ce6!2sEscola%20de%20Engenharia%20de%20Lorena%20-%20%C3%81rea%20II!5e0!3m2!1sen!2sbr!4v1612183822510!5m2!1sen!2sbr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-    </div>
-</div>
+{% include mapa.html %}
 <!-- End Map -->
 
 <!-- Start Contact -->
