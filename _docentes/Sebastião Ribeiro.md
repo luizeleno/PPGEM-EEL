@@ -4,7 +4,7 @@ title: *nome
 
 NUSP: 1922320
 fone: +55 12 3159 9803
-email: sebastiao@demar.eel.usp.br
+email: sebastiao.ribeiro@usp.br
 Lattes: 2079402733857229
 ResearcherID:
 ORCID: 0000-0002-0741-739X
