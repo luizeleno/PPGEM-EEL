@@ -24,11 +24,13 @@ try:
     with open('publicacoes.doi', 'r') as doi_file:
         doi_lidos = doi_file.readlines()
     doi_lidos = [s.strip('\n') for s in doi_lidos]
-    with open('publicacoes.json', 'r') as doc:
-        publicacoes = json.load(doc)
 except:
     os.system('touch publicacoes.doi')
     doi_lidos = set()
+try:
+    with open('publicacoes.json', 'r') as doc:
+        publicacoes = json.load(doc)
+except:
     publicacoes = {}
 
 # criando conjunto de doi completo
