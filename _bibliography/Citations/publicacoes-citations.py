@@ -1,7 +1,7 @@
 import habanero
 import json
 
-with open ('publicacoes.doi') as doi_file:
+with open ('../publicacoes.doi') as doi_file:
     doi_list = doi_file.readlines()
 doi_list = set([doi.strip('\n') for doi in doi_list])
 
