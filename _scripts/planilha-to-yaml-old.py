@@ -12,7 +12,7 @@ teses= open('../_data/teses.yml', 'w')
 
 for n, nivel in zip(range(3), ('D', 'DD', 'M')):
 
-    trabalhos = pd.read_csv('defesas.csv.'+f'{n}', converters={'Data': str})
+    trabalhos = pd.read_excel('../_Drive/Defesas/DEFESAS-PPGEM-EEL.xlsx', sheet_name=n, converters={'Data': str})
 
     Aluno      = np.array(trabalhos.Aluno)
     Orientador = np.array(trabalhos.Orientador)
@@ -27,7 +27,7 @@ for n, nivel in zip(range(3), ('D', 'DD', 'M')):
     nohorarios = np.array(nohorarios)
 
     # criando data string
-    defesa_data = [datetime.datetime.fromisoformat(d.replace('/', '-')) for d in Data]
+    defesa_data = [datetime.datetime.fromisoformat(d) for d in Data]
     defesa = [d.strftime('%Y/%m/%d') for d in defesa_data]
 
     # verificando titulos em inglês ausentes
@@ -43,12 +43,12 @@ for n, nivel in zip(range(3), ('D', 'DD', 'M')):
         text += f'  orientador: \"{rcc(Orientador[i])}\"\n'
         text += f'  banca: \"{rcc(Banca[i])}\"\n'
         text += f'  data: \"{defesa[i]}\"\n'
-
+    
         if not nohorarios[i]:
             text += f'  horario: \"{rcc(Horario[i])}\"\n'
         if not notitle[i]:
             text += f'  titulo_en: \"{rcc(Title[i])}\"\n'
-
+    
         # escrevendo arquivos YAML
         if n >= 2:
             dissertacoes.write(text)
