@@ -16,6 +16,7 @@ python3 publicacoes.py
 echo '############################################################' 
 echo '# Atualizando defesas...'
 cd ../_scripts
+ssconvert -S  ../_Drive/Defesas/DEFESAS-PPGEM-EEL.xlsx defesas.csv
 python3 planilha-to-yaml.py
 
 echo '############################################################' 
