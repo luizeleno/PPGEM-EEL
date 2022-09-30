@@ -1,0 +1,42 @@
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img.social {
+    width:1.3em;
+    margin-right:.2em;
+  }
+
+  /* the selector matches and external link (ie. starting with http),
+not including links to the current domain
+nor links with id="no-ext-link" */
+[href^="http"]:not([href*="computeel.org/PPGEM-EEL"]):not([id*="no-ext-link"])::after {
+    content: '(external link)';
+    display: inline-block;
+    width: .7em;
+    height: .7em;
+    text-indent: .7em;
+    white-space: nowrap;
+    overflow: hidden;
+    background-image: url(//computeel.org/computeel/assets/images/clipart/Icon_External_Link.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    margin-left: .1em;
+  }
+
+  .oportunidade-item {
+    position: relative;
+    float: left;
+    @include breakpoint(lsmall) {
+        width: 100%;
+    }
+    @include breakpoint(small) {
+        width: 100%;
+    }
+    .icon {
+        font-size: 2rem;
+    }
+}

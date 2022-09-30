@@ -1,0 +1,52 @@
+{% assign hoje = 'now' | date: '%s' %}
+<div id="testimonials"></div>
+<h2 class="section-title">{% t secoes.defesas %}</h2>
+<div class="testimonials parallax" style="background-image: url('{{ site.baseurl_root }}/img/about.jpg');">
+    <div class="overlay-container">
+        <div class="container-fluid">
+            <div id="testimonial-carousel">
+                {% assign defesas = site.data.teses | concat: site.data.dissertacoes | sort: 'data' | reverse %}
+                {% for defesa in defesas limit: 5%}
+                    <div class="testimonial-item">
+                        <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
+                        <blockquote>
+                            {% if site.lang == 'en' %}
+                                {% if defesa.titulo_en %}
+                                    {{defesa.titulo_en}}
+                                {% else %}
+                                    {{defesa.titulo}}
+                                {% endif %}
+                            {% else %}
+                                <p>{{ defesa.titulo }}</p>
+                            {% endif %}
+                            <p>{% if defesa.tipo=='M' %}
+                                    {% t defesa.tipo.mestrado %}
+                                {% elsif defesa.tipo=='D' or defesa.tipo=='DD' %}
+                                    {% t defesa.tipo.doutorado %}
+                                {% endif %}
+                            </p>
+                            <footer>
+                                {{ defesa.aluno }}
+                                <small>
+                                    {% t global.orientador %}: {{ defesa.orientador }}
+                                    <br><br>
+                                    {% if site.lang == 'en' %}
+                                        {{ defesa.data | date: '%m/%d/%Y' }}{% if defesa.horario %}, {{defesa.horario}}{% endif %}
+                                    {% else %}
+                                        {{ defesa.data | date: '%d/%m/%Y' }}{% if defesa.horario %}, {{defesa.horario}}{% endif %}
+                                    {% endif %}
+                                    {% assign defesaISOdata = defesa.data | date: '%s' %}
+                                    {% if defesaISOdata >= hoje %}
+                                        <br>
+                                        <span class="badge" style="margin-top:5px; background-color:blue">{% t global.naoperca %}</span>
+                                    {% endif %}
+                                </small>
+                            </footer>
+                        </blockquote>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <a class="btn btn-primary btn-lg btn-block" href="{{site.baseurl}}/defesas/" role="button">{% t global.maisdefesas %}</a>
+</div>

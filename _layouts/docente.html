@@ -1,0 +1,95 @@
+---
+layout: default
+---
+
+<div class="container-fluid" style="margin-bottom: 5px; margin-top: 100px;">
+    <h1 class="alert" style="text-align:left">{{ page.nome }}</h1>
+    <div class="row">
+        <div class="col-md-3">
+            <img src="{{site.baseurl_root}}/img{% if page.image %}/docentes/{{ page.image }}.jpg{% else %}/unknown-person.png{% endif %}" title="{{page.nome}}" alt="{{page.nome}}">
+        </div>
+        <div class="col-md-9" style="margin-bottom: 20px;">
+            <h3>
+                {% if page.Lattes %}
+                <a id="no-ext-link" href="http://lattes.cnpq.br/{{page.Lattes}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/lattes.jpg" title="Lattes" ></a>
+                {% endif %}
+                {% if page.ResearcherID %}
+                <a id="no-ext-link" href="http://www.researcherid.com/rid/{{page.ResearcherID}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/ResID.gif" title="ResearcherID"></a>
+                {% endif %}
+                {% if page.ORCID %}
+                <a id="no-ext-link" href="https://orcid.org/{{page.ORCID}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/ORCID.png" title="ORCID"></a>
+                {% endif %}
+                {% if page.GoogleScholar %}
+                <a id="no-ext-link" href="https://scholar.google.com.br/citations?hl=en&user={{page.GoogleScholar}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/googlescholar.jpg" title="Google Scholar" ></a>
+                {% endif %}
+                {% if page.Scopus %}
+                <a id="no-ext-link" href="https://www.scopus.com/authid/detail.url?authorId={{page.Scopus}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/Elsevier.svg" title="Scopus" ></a>
+                {% endif %}
+                {% if page.ResearchGate %}
+                <a id="no-ext-link" href="https://www.researchgate.net/profile/{{page.ResearchGate}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/researchgate.jpg" title="Research Gate" ></a>
+                {% endif %}
+                {% if page.Linkedin %}
+                <a id="no-ext-link" href="https://www.linkedin.com/in/{{page.Linkedin}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/linkedin.png" title="Linkedin" ></a>
+                {% endif %}
+                {% if page.Github %}
+                <a id="no-ext-link" href="https://www.github.com//{{page.Github}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/github.png" title="Github" ></a>
+                {% endif %}
+                {% if page.Facebook %}
+                <a id="no-ext-link" href="https://www.facebook.com/{{page.Facebook}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/facebook.png" title="Facebook" ></a>
+                {% endif %}
+                {% if page.Twitter %}
+                <a id="no-ext-link" href="https://twitter.com/{{page.Twitter}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/twitter.png" title="Twitter" ></a>
+                {% endif %}
+                {% if page.Instagram %}
+                <a id="no-ext-link" href="https://www.instagram.com/{{page.Instagram}}" target="_blank"><img class="social" src="{{site.baseurl_root}}/img/logos/instagram.jpg" title="Instagram" ></a>
+                {% endif %}
+            </h3>
+            <p>
+                :email: <a href="mailto:{{ page.email }}">{{ page.email }}</a><br />
+                :telephone_receiver: {{ page.fone }}
+                {% if page.webpage %}
+                <br />
+                :earth_americas: <a href="{{page.webpage}}" target="_blank">{{page.webpage}}</a>
+                {% endif %}
+                {% if page.altwebpage %}
+                <br />
+                :earth_americas: <a href="{{page.altwebpage}}" target="_blank">{{page.altwebpage}}</a>
+                {% endif %}
+            </p>
+            {% if site.lang == 'br' %}
+                <p><b>{% t docentes.areas %}</b>
+                        {% assign areas = page.pesquisa.br %}
+                    {% for area in areas %}
+                        {{area}}{% if forloop.last %}.{% else %}, {% endif %}
+                    {% endfor %}
+                </p>
+                <h5>Info:</h5>
+                {% contentblock  br %}
+            {% else %}
+                <p><b>{% t docentes.areas %}</b>
+                    {% assign areas = page.pesquisa.en %}
+                {% for area in areas %}
+                    {{area}}{% if forloop.last %}.{% else %}, {% endif %}
+                {% endfor %}
+                </p>
+                <h5>Info:</h5>
+                {% contentblock  en %}
+            {% endif %}
+            <h3>{% t global.publicacoes %}</h3>
+                {% assign fim = 'now' | date: '%Y' %}
+                {% assign inicio = fim | minus: 5 %}
+                {% for i in (inicio..fim) reversed %}
+                    {% capture n %}{% bibliography_count --file {{page.short_name}} --query @*[year={{i}}] %}{% endcapture %}
+                    {% assign n = n | plus: 0 %}
+                    {% if n > 0 %}
+                        <h4>{{i}}</h4>
+                        {% bibliography --file {{page.short_name}} --query @*[year={{i}}] %}
+                    {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!-- Start Our team -->
+{% include team.html %}
+<!-- End Our team -->

@@ -1,0 +1,28 @@
+---
+layout: none
+---
+[
+  {% for tese in site.data.teses %}
+    {
+      "titulo"    : "{{ tese.titulo | escape }}",
+      "titulo_en"    : "{%if tese.titulo_en%}{{ tese.titulo_en | escape }}{%else%}{{ tese.titulo | escape }}{%endif%}",
+      "aluno"    : "{{ tese.aluno | escape }}",
+      "orientador"    : "{{ tese.orientador | escape }}",
+      "data"    : "{{ tese.data | escape }}",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+  ,
+  {% for tese in site.data.dissertacoes %}
+    {
+      "titulo"    : "{{ tese.titulo | escape }}",
+      "titulo_en"    : "{%if tese.titulo_en%}{{ tese.titulo_en | escape }}{%else%}{{ tese.titulo | escape }}{%endif%}",
+      "aluno"    : "{{ tese.aluno | escape }}",
+      "orientador"    : "{{ tese.orientador | escape }}",
+      "data"    : "{{ tese.data | escape }}",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

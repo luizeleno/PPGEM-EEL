@@ -1,0 +1,19 @@
+<!-- Start Footer -->
+<footer class="main-footer">
+    <div class="container-fluid">
+
+        <ul class="social">
+            {% if site.contact.phone %}<li><a href="tel:{{ site.contact.phone }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/phone.png'></a></li>{% endif %}
+            {% if site.whatsapp %}<li><a href="https://wa.me/{{ site.whatsapp }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/whatsapp.png'></a></li>{% endif %}
+            {% if site.facebook %}<li><a id="no-ext-link" href="{{ site.facebook }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/facebook.png'></a></li>{% endif %}
+            {% if site.instagram %}<li><a href="{{ site.instagram }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/instagram.png'></a></li>{% endif %}
+            {% if site.twitter %}<li><a href="{{ site.twitter }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/twitter.png'></a></li>{% endif %}
+            {% if site.youtube %}<li><a href="{{ site.youtube }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/youtube.png'></a></li>{% endif %}
+            {% if site.contact.email %}<li><a href="mailto:{{ site.contact.email }}"><img width='25px' src='{{site.baseurl_root}}/img/redes/email.png'></a></li>{% endif %}
+        </ul>
+
+        <small>{% if site.copyright %} {{ site.copyright }} {% endif %}</small>
+
+    </div>
+</footer>
+<!-- End Footer -->

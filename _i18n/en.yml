@@ -1,0 +1,127 @@
+global:
+  
+  maisnoticias: See more news
+  maisdefesas: See past defenses
+  orientador: Advisor
+  click: Click to enlarge
+  naoperca: "DON'T MISS!"
+  monday_friday: "Monday-Friday"
+  fechar: Close
+  telefone: Phone
+  form: Contact Form
+  secretaria: Secretary
+  coordenador: Coordinator
+  vice-coordenador: Vice-Coordinator
+  CPq: Research Committee representative
+  titular: Member
+  suplente: Alternate member
+  search: "Search for a dissertation or thesis"
+  banca: "Cadastro de membro de banca"
+  publicacoes: Recent Publications
+
+  tagline: "Graduate program in Materials Engineering at EEL/USP"
+
+langs:
+  br: br
+  en: en
+  es: es
+
+nav:
+  inicio: Home
+  programa: The Program
+  docentes: Faculty
+  info: Information
+  defesas: Defenses
+  noticias: News
+  local: Location
+  contatos: Contacts
+
+defesa:
+  tipo:
+    mestrado: Master Dissertation
+    doutorado: PhD Thesis
+
+secoes:
+  programa: PPGEM at EEL/USP
+  docentes: Faculty
+  info: Information
+  defesas: Defenses
+  noticias: News
+  contato: Contacts
+  endereco: Address
+  atendimento: Business hours
+
+info:
+  disciplinas: Classes
+  inscricoes: Registration and rules
+  linhas: Research Lines
+  coop: Cooperation
+  CCP: Coordinating Committee
+  oportunidades: Opportunities
+
+inscricoes:
+  regimento: Rules (CPG)
+  forms: Forms (CPG)
+  alunoespecial: Aluno especial
+  editais: Open position calls (CPG)
+  inscricao: "Register"
+  doutorado: "Registration for the PhD program - continuous flow"
+  mestrado_dd: "Registration for the Master/Direct PhD program"
+  foradoar: Unfortunately the registration is no longer available
+
+about:
+  text1: "Located at the <a id='no-ext-link' href='http://www.demar.eel.usp.br'>Department of Materials Engineering</a>, <b><a id='no-ext-link' href='http://www.eel.usp.br'>Lorena School of Engineering</a></b> (EEL), <b><a id='no-ext-link' href='http://www.usp.br'>University of São Paulo</a></b> (USP), the <b>Post-Graduate Program in Materials Engineering</b> (PPGEM) is an outstanding stricto sensu postgraduate program (master and doctorate) in Materials Engineering"
+  text2: "The research activities are very wide in subjects involving processing, characterization and applications of metals/metallic alloys, ceramics, polymers and composites."
+  text3: "The teaching and research activities associated with the program are mainly developed in Area II of EEL/USP, located in the city of Lorena (São Paulo)."
+  text4: "We currently have 17 PhD professors with training in the areas of Materials Engineering, Mechanical Engineering, Chemical Engineering, Aerospace Engineering, Electrochemistry and Physics."
+  text5: "The Program was created in 1988 and, until September/2017, 235 Master's Dissertations and 111 Doctoral Theses were defended."
+
+docentes:
+  areas: "Research interests:"
+
+defesas:
+  BDTD:  The Digital Library of Theses and Dissertations of the University of São Paulo
+  nav: Defenses
+  doutorado: PhD Theses
+  mestrado: Master dissertations
+  titulo: Title
+  aluno: Student
+  orientador: Advisor
+  data: Date
+
+form:
+  nome: "Name*"
+  telefone: Phone
+  whatsapp: WhatsApp
+  email: "E-mail*"
+  mensagem: "Write here your message*"
+  enviar: Send
+
+disciplina:
+  area: Concentration area
+  criacao: Criation
+  ativacao: Activation
+  creditos: Credits
+  carga:
+    nome: Workload
+    teorica: Theoretical
+    pratica: Practical
+    estudos: Study
+    duracao: Duration
+    total: Total
+    semanas: weeks
+    horas: hours
+    horasporsemana: "hours/week"
+  janus: See on Janus (pt-br)
+  docente: Form professor
+  objetivos: Objectives
+  justificativa: Motivation
+  conteudo: Syllabus
+  avaliacao: Evaluation criteria
+  observacao: Observations
+  bibliografia: References
+
+academico:
+  titulo: Academic Projects
+  EEL: Academic Project - Lorena School of Engineering - pt-BR only
+  DEMAR: Academic Project - Department of Materials Engineering - pt-BR only

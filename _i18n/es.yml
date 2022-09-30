@@ -1,0 +1,63 @@
+global:
+  
+  maisnoticias: Ver más notícias
+  maisdefesas: Ver más defensas
+  orientador: Asesor
+  click: Haz click para ampliar
+  naoperca: "¡NO PERDER!"
+
+  tagline: "Programa de Postgrado en Ingeniería de Materiales de EEL/USP"
+
+langs:
+  br: br
+  en: en
+  es: es
+
+nav:
+  inicio: Inicio
+  programa: El Programa
+  docentes: Docentes
+  info: Información
+  defesas: Defensas
+  noticias: Noticias
+  local: Ubicación
+  contatos: Contactos
+
+secoes:
+  programa: El PPGEM de la EEL/USP
+  docentes: Docentes
+  info: Información
+  defesas: Defensas
+  noticias: Noticias
+  endereco: Ubicación
+  contato: Contactos
+  atendimento: Horário de Atendimento
+
+info:
+  - 
+    icon: icon-calendar
+    title: Formas
+    link: 
+  - 
+    icon: icon-group
+    title: Inscripcines
+    link: 
+  - 
+    icon: icon-flask
+    title: Líneas de investigación
+    link: 
+  - 
+    icon: icon-globe
+    title: Cooperación
+    link: 
+  - 
+    icon: icon-envelope
+    title: Reglas, regulaciones y estándares
+    link: 
+  - 
+    icon: icon-briefcase
+    title: Asignaturas
+    link: 
+
+about:
+  text1: "El <b>Programa de Postgrado en Ingeniería de Materiales</b> (PPGEM) es uno de los programas de postgrado stricto-sensu (maestría y doctorado) de la <b>Escuela de Ingeniería de Lorena</b> (EEL) de la <b>Universidad de São Paulo</b> (USP)."

@@ -1,0 +1,122 @@
+# Site settings
+
+languages: ["br", "en"]
+exclude_from_localizations: ["js", "img", "css", "svg", "docs" ]
+
+title: "PPGEM EEL/USP"
+tagline: Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP
+description: "Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)"
+
+#baseurl: "/PPGEM-EEL"
+url: "www.ppgem.eel.usp.br"
+logo: img/logo-only.png
+
+destination: docs/ 
+
+sass:
+  load_paths:
+    - css
+    - js
+  style: compressed
+
+plugins:
+  - jekyll-multiple-languages-plugin
+  - jekyll-seo-tag
+  - jemoji
+  - jekyll-octicons
+
+# Contact form
+# api_token: b1291c072b839b5d24d741827cf930ee # Enter API token here
+
+# Contact info
+contact:
+    phone: (12) 3159-9904
+    # whatsapp: 5511986882944
+    secretaria:
+      email: tavania@usp.br
+      nome: "Tavânia Mara da Silva Ferreira Cavasso"
+      telefone: (12) 3159-9904
+      img: tavania.png
+    email: ppgem-eel@usp.br
+    address_line1: "Pólo Urbo-Industrial Gleba AI-6"
+    address_line2: "Fazenda Mondezir (Estrada Santa Lucrécia)"
+    address_line3: "CEP: 12.600-970 - Caixa Postal: 116"
+    address_line4: "Lorena/SP"
+
+# Opening hours
+monday_friday: "8h30-11h30 &mdash; 14h30-17h30"
+#saturday: 10:00 – 17:00
+#sunday: 10:00 – 15:00
+
+# Social settings
+facebook: https://www.facebook.com/ppgem.eelusp
+# twitter: https://twitter.com/OliveiraAlvesA2
+# instagram: https://www.instagram.com/oliveiraealvesadvocacia/
+# youtube: https://www.youtube.com/channel/UCKEmedjENq6KfUKG2NbUS0w/
+# whatsapp: 5511986882944
+# skype:
+feed: no
+
+# Footer
+copyright: © Demar::EEL::USP
+
+scholar:
+  source: /_bibliography
+  bibliography: publicacoes.bib
+  #use_raw_bibtex_entry: false
+  #bibtex_quotes: ['"', '"']
+  style: /_bibliography/ima-journal-of-applied-mathematics-full.csl
+  sort_by: year, author
+  order: descending, descending
+  bibliography_template: bib
+  bibliography_list_attributes:
+      reversed: "reversed"
+
+# Build settings
+markdown: kramdown
+
+exclude: [
+    package.json,
+    package-lock.json,
+    Gruntfile.js,
+    .sass-cache,
+    .gitignore,
+    Rakefile,
+    README.md,
+    LICENSE.md
+]
+
+# Theme Settings
+google_verification: true
+google_analytics: G-G6X7LT32WW
+
+collections:
+  docentes:
+    output: true
+    permalink: /docentes/:name.html
+  defesas:
+    output: false
+  disciplinas:
+    output: true
+    permalink: /disciplinas/:name.html
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+  -
+    scope:
+      path: ""
+      type: docentes
+    values:
+      layout: docente
+      PPGEM: permanente
+      abrev: Prof. Dr.
+  -
+    scope:
+      path: ""
+      type: disciplinas
+    values:
+      layout: disciplina

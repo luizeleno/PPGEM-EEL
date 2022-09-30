@@ -1,0 +1,43 @@
+<!-- Start Header -->
+<div class="navbar-fixed-top">
+<nav class="navbar navbar-default">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Abrir menu de navegação</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand scroll" href="{{site.baseurl}}/"><img src="{{site.baseurl_root}}/{{ site.logo }}" alt="{{ site.title }}"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse scrollspy" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                {% include navigation.html %}
+                    {% if site.lang == "br" %}
+                        {% capture link1 %}{{ site.baseurl_root }}/en{{page.url}}{% endcapture %}
+                        <li><a class="scroll" href="{{ link1 }}" >
+                            <img src="{{site.baseurl_root}}/img/lang/gb.svg" style="height:20px" title="Go to the version in English">
+                        </a></li>
+                    {% elsif site.lang == "en" %}
+                        {% capture link1 %}{{ site.baseurl_root }}{{page.url}}{% endcapture %}
+                        <li><a href="{{ link1 }}" >
+                            <img src="{{site.baseurl_root}}/img/lang/br.svg" style="height:20px" title="Ir para a versão em português">
+                        </a></li>
+                    {% endif %}
+                    <li><a href="http://www.demar.eel.usp.br/" target="_blank" id="no-ext-link">
+                        <img src="{{site.baseurl_root}}/img/logos/logo_eel_2017.png" style="height:18px" title="Demar::EEL/USP">
+                    </a></li>
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<hr class="top-color-bar" style="background-color:#fcb421;">
+<hr class="top-color-bar" style="background-color:#64c4d2;">
+<hr class="top-color-bar" style="background-color:#1094ab;">
+</div>
+<!-- End Header -->

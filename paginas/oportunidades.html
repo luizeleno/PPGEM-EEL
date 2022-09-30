@@ -1,0 +1,28 @@
+---
+layout: page
+permalink: /oportunidades/
+---
+
+<!-- Start Our team -->
+<div class="gallery">
+    <div class="team">
+    <h2 class="section-title">{% t info.oportunidades %}</h2>
+    <!-- <h4 class="section-title"><i>Clique na foto do docente para mais informações</i></h4> -->
+    <div id="oportunidades-carousel">
+        {% for i in (1..11) %}
+            {% assign j = i | prepend: '000' | slice: -4, 4 %}
+                    <a href="{{site.baseurl_root}}/img/oportunidades/pg_{{j}}-1.png" class="testimonial-item oportunidade-item expandable-box image-link">
+                    <div class="expandable-box-top">
+                        <img src="{{site.baseurl_root}}/img/oportunidades/pg_{{j}}-1.png" style="width:80%; object-fit:contain">
+                    </div>
+                    <div class="expandable-box-bottom">
+                        <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
+                        <span>{% t global.click %}</span>
+                    </div>
+                </a>
+        <!-- </a> -->
+    {% endfor %}
+    </div>
+</div>
+</div>
+<!-- End Our team -->

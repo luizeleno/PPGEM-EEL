@@ -1,0 +1,38 @@
+<table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
+    <colgroup>
+       <col span="1" style="width: 48%;">
+       <col span="1" style="width: 18%;">
+       <col span="1" style="width: 18%;">
+       <col span="1" style="width: 14%;">
+    </colgroup>
+    <tr>
+        <th>{% t defesas.titulo %}</th>
+        <th>{% t defesas.aluno %}</th> 
+        <th>{% t defesas.orientador %}</th>
+        <th>{% t defesas.data %}</th>
+    </tr>
+    {% for tese in include.teses %}
+        <tr>
+            {% if site.lang == 'en' %}
+                <td>
+                    {% if tese.titulo_en %}
+                        {{tese.titulo_en}}
+                    {% else %}
+                        {{tese.titulo}}
+                    {% endif %}
+                </td>
+            {% else %}
+                <td>{{tese.titulo}}</td>
+            {% endif %}
+            <td>{{tese.aluno}}</td>
+            <td>{{tese.orientador}}</td>
+            <td>
+                {% if site.lang == 'en' %}
+                    {{ tese.data | date: '%m/%d/%Y' }}{% if tese.horario %}, {{tese.horario}}{% endif %}
+                {% else %}
+                    {{ tese.data | date: '%d/%m/%Y' }}{% if tese.horario %}, {{tese.horario}}{% endif %}
+                {% endif %}
+            </td>
+        </tr>
+    {% endfor %}
+</table>

@@ -1,0 +1,28 @@
+-
+  icon: icon-flask
+  title: info.linhas
+  link: linhas/
+#- 
+  #icon: icon-globe
+  #title: info.coop
+  #link: coop/
+- 
+  icon: icon-globe
+  title: global.publicacoes
+  link: publicacoes/
+-
+  icon: icon-briefcase
+  title: info.disciplinas
+  link: disciplinas/
+- 
+  icon: icon-group
+  title: info.CCP
+  link: CCP/
+- 
+  icon: icon-star
+  title: info.oportunidades
+  link: oportunidades/
+- 
+  icon: icon-calendar
+  title: info.inscricoes
+  link: inscricao/

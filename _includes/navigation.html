@@ -1,0 +1,15 @@
+{% if page.home %}
+    {% assign base = "#" %}
+    <li><a class="scroll" href="{{base}}top">{% t nav.inicio %}</a></li>
+{% else %}
+    {% capture base %}{{ site.baseurl }}/#{% endcapture %}
+    <li><a class="scroll" href="{{site.baseurl}}/">{% t nav.inicio %}</a></li>
+{% endif %}
+
+<li><a class="scroll" href="{{base}}about">{% t nav.programa %}</a></li>
+<li><a class="scroll" href="{{base}}treatments">{% t nav.info %}</a></li>
+<li><a class="scroll" href="{{base}}testimonials">{% t nav.defesas %}</a></li>
+<li><a class="scroll" href="{{base}}gallery">{% t nav.noticias %}</a></li>
+<li><a class="scroll" href="{{base}}team">{% t nav.docentes %}</a></li>
+<li><a class="scroll" href="{{base}}location">{% t nav.local %}</a></li>
+<li><a class="scroll" href="{{base}}contact">{% t nav.contatos %}</a></li>

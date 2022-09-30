@@ -1,0 +1,29 @@
+{% assign n=0 %}
+<div id="gallery" class="gallery">
+    <div id="team" class="team">
+        <h2 class="section-title">{% t secoes.noticias %}</h2>
+        {% capture path %}/img/Noticias/{% endcapture %}
+        {% assign novidades = site.static_files | reverse %}
+        {% for file in novidades %}
+            {% if file.path contains '/img/Noticias/' and file.extname == '.jpg' %}
+                {% unless file.path contains 'docs/' %}
+                    {% if n < include.Nmax %}
+                        {% assign n = n | plus: 1 %}
+                        <a href="{{file.path}}" class="gallery-item expandable-box image-link">
+                            <div class="expandable-box-top">
+                                <img src="{{file.path}}" /> 
+                            </div>
+                            <div class="expandable-box-bottom">
+                                <span><svg class="icon icon-magnify"><use xlink:href="#icon-magnify"></use></svg></span>
+                                <span>{% t global.click %}</span>
+                            </div>
+                        </a>
+                    {% endif %}
+                {% endunless %}
+            {% endif %}
+        {% endfor %}
+    </div>
+    {% unless page.layout=='page' %}
+        <a class="btn btn-primary btn-lg btn-block" href="{{site.baseurl}}/noticias/" role="button">{% t global.maisnoticias %}</a>
+    {% endunless %}
+</div>

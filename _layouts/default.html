@@ -1,0 +1,16 @@
+{% include doctype-head.html %}
+<body data-spy="scroll" data-offset="80" data-target=".scrollspy" id="top">
+    <style>
+        body {
+          text-align: left;
+        }
+      </style>
+    {% include svg-defs.svg %}
+    {% include header.html %}
+        {{ content }}
+    {% include footer.html %}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="{{ site.baseurl_root }}/js/all.min.js"></script>
+</body>
+</html>

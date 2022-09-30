@@ -1,0 +1,127 @@
+global:
+
+  tagline: "Programa de Pós-Graduação em Engenharia de Materiais da EEL/USP"
+
+  maisnoticias: Ver mais notícias
+  maisdefesas: Ver trabalhos defendidos
+  orientador: Orientador
+  click: Clique para ampliar
+  naoperca: "NÃO PERCA!"
+  monday_friday: "Segunda à sexta"
+  fechar: Fechar
+  telefone: Telefone
+  form: Formulário para contato
+  secretaria: Secretária
+  coordenador: Coordenador
+  vice-coordenador: Vice-coordenador
+  CPq: Representante na CPq
+  titular: Membro titular
+  suplente: Membro suplente
+  search: "Buscar por dissertação ou tese"
+  banca: "Cadastro de membro de banca"
+  publicacoes: Publicações Recentes
+
+  langs:
+  br: br
+  en: en
+  es: es
+
+nav:
+  inicio: Início
+  programa: O Programa
+  docentes: Docentes
+  info: Informações
+  defesas: Defesas
+  noticias: Notícias
+  local: Localização
+  contatos: Contatos
+
+defesa:
+  tipo:
+    mestrado: Dissertação de Mestrado
+    doutorado: Tese de Doutorado
+
+secoes:
+  programa: O PPGEM da EEL/USP
+  docentes: Docentes
+  info: Informações
+  defesas: Defesas
+  noticias: Notícias
+  contato: Contato
+  endereco: Endereço
+  atendimento: Horário de Atendimento
+
+info:
+  disciplinas: Disciplinas
+  inscricoes: Inscrições e regimento
+  linhas: Linhas de Pesquisa
+  coop: Cooperações
+  CCP: Comissão de Coordenação
+  oportunidades: Oportunidades
+
+inscricoes:
+  regimento: Regimento (CPG)
+  forms: Formulários (CPG)
+  alunoespecial: Aluno especial
+  editais: Editais (CPG)
+  inscricao: "Inscreva-se"
+  doutorado: "Inscrições para doutorado - fluxo contínuo"
+  mestrado_dd: "Inscrições para Mestrado e Doutorado Direto"
+  foradoar: Desculpe, a inscrição não está mais disponível
+
+about:
+  text1: "Sediado no <a id='no-ext-link' href='http://www.demar.eel.usp.br'>Departamento de Engenharia de Materiais</a> da <b><a id='no-ext-link' href='http://www.eel.usp.br'>Escola de Engenharia de Lorena</a></b> (EEL) da <b><a id='no-ext-link' href='http://www.usp.br'>Universidade de São Paulo</a></b> (USP), o <b>Programa de Pós-Graduação em Engenharia de Materiais</b> (PPGEM) é um programa de excelência em pós-graduação stricto-sensu (mestrado e doutorado) em Engenharia de Materiais"
+  text2: "As atividades de pesquisa são bem abrangentes em assuntos envolvendo processamento, caracterização e aplicações de metais/ligas metálicas, cerâmicas, polímeros e compósitos."
+  text3: "As atividades de ensino e pesquisa associadas ao programa são desenvolvidas principalmente na Área II da EEL/USP, localizado na cidade de Lorena (São Paulo)"
+  text4: "Contamos atualmente com 17 professores doutores com formação nas áreas de Engenharia de Materiais, Engenharia Mecânica, Engenharia Química, Engenharia Aeroespacial, Eletroquímica e Física."
+  text5: "O Programa foi criado em 1988 e até setembro/2017 foram defendidas 235 Dissertações de Mestrado e 111 Teses de Doutorado."
+
+docentes:
+  areas: "Áreas de pesquisa:"
+
+defesas:
+  BDTD: "Banco Digital de Teses e Dissertações da Universidade de São Paulo"
+  nav: Defesas
+  doutorado: Teses
+  mestrado: Dissertações
+  titulo: Título
+  aluno: Aluno
+  orientador: Orientador
+  data: Data
+
+form:
+  nome: "Nome*"
+  telefone: Telefone
+  whatsapp: WhatsApp
+  email: "E-mail*"
+  mensagem: "Escreva aqui a sua mensagem*"
+  enviar: Enviar
+
+disciplina:
+  area: Área de concentração
+  criacao: Criação
+  ativacao: Ativação
+  creditos: Créditos
+  carga:
+    nome: Carga Horária
+    teorica: Teórica
+    pratica: Prática
+    estudos: Estudos
+    duracao: Duração
+    total: Total
+    semanas: semanas
+    horas: horas
+    horasporsemana: "h/sem"
+  janus: Ver no Janus
+  docente: Docente Responsável
+  objetivos: Objetivos
+  justificativa: Justificativa
+  conteudo: Conteúdo
+  avaliacao: Forma de Avaliação
+  observacao: Observação
+  bibliografia: Referências bibliográficas
+
+academico:
+  titulo: Projetos Acadêmicos
+  EEL: Projeto acadêmico da Escola de Engenharia de Lorena
+  DEMAR: Projeto acadêmico do Departamento de Engenharia de Materiais
