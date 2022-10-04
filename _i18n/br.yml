@@ -17,6 +17,7 @@ global:
   CPq: Representante na CPq
   titular: Membro titular
   suplente: Membro suplente
+  discente: Representante discente
   search: "Buscar por dissertação ou tese"
   banca: "Cadastro de membro de banca"
   publicacoes: Publicações Recentes

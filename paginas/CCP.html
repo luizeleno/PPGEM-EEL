@@ -15,7 +15,12 @@ CPq:
 
 vice:
     nome: eleno
-    
+
+discente:
+    nome: Mariana Sizenando Lyrio
+    email: "mslyrio@usp.br"
+    foto: "img/Foto-Mariana.jpeg"
+
 suplente:
     nome: tiao
 
@@ -85,16 +90,15 @@ suplente:
       </div>
     </div>
     <div class="col-sm-4">
-      <div class="card" style="margin-bottom: 10px;">
-        <div class="card-body">
-            <h3 class="card-title">{% t global.suplente %}</h3>
-            <img src="{{site.baseurl_root}}/img/docentes/{{suplente.image}}.jpg" style="max-width: 60%;">
-            <br />
-            <strong>{%t global.suplente%}:</strong> {% include docente.html docente=page.suplente.nome %}<br />
-            <strong>E-mail:</strong> <a href="mailto:{{suplente.email}}" target="_blank">{{suplente.email}}</a><br />
-            <strong>{% t global.telefone %}:</strong> {{suplente.fone}}
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">{% t global.discente %}</h3>
+                <img src="{{site.baseurl_root}}/{{page.discente.foto}}" style="max-width: 60%;">
+                <br />
+                <strong>{%t global.discente%}:</strong> {{ page.discente.nome }}<br />
+                <strong>E-mail:</strong> <a href="mailto:{{page.discente.email}}" target="_blank">{{page.discente.email}}</a><br />
+            </div>
         </div>
-      </div>
     </div>
     <div class="col-sm-4">
         <div class="card">
@@ -108,4 +112,16 @@ suplente:
             </div>
         </div>
     </div>
+    <div class="col-sm-4">
+        <div class="card" style="margin-bottom: 10px;">
+          <div class="card-body">
+              <h3 class="card-title">{% t global.suplente %}</h3>
+              <img src="{{site.baseurl_root}}/img/docentes/{{suplente.image}}.jpg" style="max-width: 60%;">
+              <br />
+              <strong>{%t global.suplente%}:</strong> {% include docente.html docente=page.suplente.nome %}<br />
+              <strong>E-mail:</strong> <a href="mailto:{{suplente.email}}" target="_blank">{{suplente.email}}</a><br />
+              <strong>{% t global.telefone %}:</strong> {{suplente.fone}}
+          </div>
+        </div>
+      </div>
 </div>

@@ -15,6 +15,7 @@ global:
   CPq: Research Committee representative
   titular: Member
   suplente: Alternate member
+  discente: Student representative
   search: "Search for a dissertation or thesis"
   banca: "Cadastro de membro de banca"
   publicacoes: Recent Publications
