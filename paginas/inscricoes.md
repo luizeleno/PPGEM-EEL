@@ -25,9 +25,9 @@ M_especial: false  # quando inscrição para aluno especial estiver aberta
 
 ## {% t inscricoes.regimento %}
 
-| {% t inscricoes.regimento %}: <http://cpg.eel.usp.br/normas_regimento>{: target="_blank"} |
-| {% t inscricoes.forms %}: <http://cpg.eel.usp.br/formulario-cpg>{: target="_blank"} |
-| {% t inscricoes.editais %}: <http://cpg.eel.usp.br/Editais_Selecao_Abertos>{: target="_blank"} |
+| {% t inscricoes.regimento %}: <https://cpg.eel.usp.br/apoio-administrativo/regimentos-regulamentos-e-outras-normas>{: target="_blank"} |
+| {% t inscricoes.forms %}: <https://cpg.eel.usp.br/apoio-administrativo/formularios>{: target="_blank"} |
+| {% t inscricoes.editais %}: <https://cpg.eel.usp.br/apoio-administrativo/editais-de-selecao>{: target="_blank"} |
 {: .table .table-striped .table-hover .table-responsive .table-condensed}
 
 ## {% t inscricoes.forms %}
