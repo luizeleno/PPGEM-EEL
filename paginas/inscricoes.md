@@ -8,14 +8,14 @@ form_MDD:
     en: https://forms.gle/DChjnds564F9cick7
 
 form_DFC:
-    br: https://forms.gle/8k6wWVkjKt2JeLG36
-    en: https://forms.gle/8k6wWVkjKt2JeLG36
+    br: https://cpg.eel.usp.br/apoio-administrativo/editais-de-selecao
+    en: https://cpg.eel.usp.br/apoio-administrativo/editais-de-selecao
 
 form_AE:
     br: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
     en: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
 
-M_DD_open: false # quando inscrição para M/DD estiver aberta
+M_DD_open: true # quando inscrição para M/DD estiver aberta
 M_especial: false  # quando inscrição para aluno especial estiver aberta
 
 # quando estiver fora do ar:
