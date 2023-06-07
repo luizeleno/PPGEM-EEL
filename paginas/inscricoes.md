@@ -4,8 +4,8 @@ permalink: /inscricao/
 title: info.inscricoes
 
 form_MDD:
-    br: https://forms.gle/DChjnds564F9cick7
-    en: https://forms.gle/DChjnds564F9cick7
+    br: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
+    en: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
 
 form_DFC:
     br: https://forms.gle/2itVt3G3RCxw21y86
