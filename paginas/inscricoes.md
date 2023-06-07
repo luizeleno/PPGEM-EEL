@@ -8,8 +8,8 @@ form_MDD:
     en: https://forms.gle/DChjnds564F9cick7
 
 form_DFC:
-    br: https://cpg.eel.usp.br/apoio-administrativo/editais-de-selecao
-    en: https://cpg.eel.usp.br/apoio-administrativo/editais-de-selecao
+    br: https://forms.gle/2itVt3G3RCxw21y86
+    en: https://forms.gle/2itVt3G3RCxw21y86
 
 form_AE:
     br: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
