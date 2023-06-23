@@ -12,11 +12,11 @@ form_DFC:
     en: https://forms.gle/2itVt3G3RCxw21y86
 
 form_AE:
-    br: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
-    en: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
+    br: https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
+    en: https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
 
 M_DD_open: true # quando inscrição para M/DD estiver aberta
-M_especial: false  # quando inscrição para aluno especial estiver aberta
+M_especial: true # quando inscrição para aluno especial estiver aberta
 
 # quando estiver fora do ar:
 #| {% t inscricoes.alunoespecial %}: {% t inscricoes.foradoar %} |
