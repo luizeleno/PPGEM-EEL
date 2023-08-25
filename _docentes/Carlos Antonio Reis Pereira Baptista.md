@@ -7,7 +7,7 @@ fone: +55 12 3159 9914
 email: carlos.baptista@usp.br
 Lattes: 1191344919458957
 Scopus: 7006156713
-ResearcherID: A-1901-2008
+ResearcherID: AAV-5839-2020
 ORCID:
 GoogleScholar:
 staff:
