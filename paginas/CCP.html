@@ -21,8 +21,8 @@ discente:
     email: "mslyrio@usp.br"
     foto: "img/Foto-Mariana.jpeg"
 
-suplente:
-    nome: tiao
+#suplente:
+#    nome: tiao
 
 ---
 
@@ -112,6 +112,7 @@ suplente:
             </div>
         </div>
     </div>
+    {% if page.suplente %}
     <div class="col-sm-4">
         <div class="card" style="margin-bottom: 10px;">
           <div class="card-body">
@@ -124,4 +125,5 @@ suplente:
           </div>
         </div>
       </div>
+    {% endif %}
 </div>
