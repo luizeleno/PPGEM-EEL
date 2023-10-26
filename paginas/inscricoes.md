@@ -43,4 +43,7 @@ M_especial: true # quando inscrição para aluno especial estiver aberta
 | {% t academico.DEMAR %} [(PDF)]({{site.baseurl}}/../../assets/proj_acad/PA-Demar.pdf){: target="_blank"}|
 {: .table .table-striped .table-hover .table-responsive .table-condensed}
 
+## {% t outros_docs.titulo %}
 
+| {% t outros_docs.acumulo %}: [Deliberação 064/2023]({{site.baseurl}}/assets/portarias/Deliberação_064_2023.pdf){: target="_blank" .btn .btn-sm .btn-primary} [MEMO 060/2023]({{site.baseurl}}/assets/portarias/MEMO PPGEM 060-2023-AssCS.pdf){: target="_blank" .btn .btn-sm .btn-primary} |
+{: .table .table-striped .table-hover .table-responsive .table-condensed}
