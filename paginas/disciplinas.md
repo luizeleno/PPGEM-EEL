@@ -13,6 +13,7 @@ area:
     pae:
         br: "97499 - Escola de Engenharia de Lorena"
         en: "97499 - Lorena School of Engineering"
+
 ---
 
 {% assign mag = site.disciplinas | where:'area.br', page.area.mag.br %}
@@ -21,8 +22,11 @@ area:
 
 <table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
         <tr>
-            <th>{%if site.lang=='en'%}{{page.area.mat.en}}{%else%}{{page.area.mat.br}}{%endif%}</th>
-            <th>{%if site.lang=='en'%}{{page.area.mag.en}}{%else%}{{page.area.mag.br}}{%endif%}</th>
+<!--             não há mais áreas diferentes, então segue um hack pra eliminá-las -->
+<!--             <th>{%if site.lang=='en'%}{{page.area.mat.en}}{%else%}{{page.area.mat.br}}{%endif%}</th> -->
+<!--             <th>{%if site.lang=='en'%}{{page.area.mag.en}}{%else%}{{page.area.mag.br}}{%endif%}</th> -->
+            <th></th>
+            <th></th>
         </tr>
         <tr>
             <td>
@@ -37,7 +41,9 @@ area:
 
                 <table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
                     <tr>
-                        <th>{%if site.lang=='en'%}{{page.area.pae.en}}{%else%}{{page.area.pae.br}}{%endif%}</th>
+<!--                      não há mais áreas diferentes, então segue um hack pra eliminá-las -->
+<!--                     <th>{%if site.lang=='en'%}{{page.area.pae.en}}{%else%}{{page.area.pae.br}}{%endif%}</th> -->
+                    <th></th>
                     </tr>
                     <tr>
                         <td>
