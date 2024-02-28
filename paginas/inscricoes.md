@@ -4,16 +4,16 @@ permalink: /inscricao/
 title: info.inscricoes
 
 form_MDD:
-    br: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
-    en: https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
+    br: https://inscricao.eel.usp.br/  # https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
+    en: https://inscricao.eel.usp.br/  # https://ppgem-inscricao.eel.usp.br/pt-br/inscricao
 
 form_DFC:
-    br: https://forms.gle/2itVt3G3RCxw21y86
-    en: https://forms.gle/2itVt3G3RCxw21y86
+    br: https://inscricao.eel.usp.br/  # https://forms.gle/2itVt3G3RCxw21y86
+    en: https://inscricao.eel.usp.br/  # https://forms.gle/2itVt3G3RCxw21y86
 
 form_AE:
-    br: https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
-    en: https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
+    br: https://inscricao.eel.usp.br/  # https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
+    en: https://inscricao.eel.usp.br/ # https://www.ppgem-inscricao.eel.usp.br/pt-br/inscricao-aluno-especial
 
 M_DD_open: true # quando inscrição para M/DD estiver aberta
 M_especial: true # quando inscrição para aluno especial estiver aberta
