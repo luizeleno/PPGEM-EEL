@@ -1,6 +1,126 @@
 [
   
     {
+      "titulo"    : "Obtenção de Ligas de Alta Entropia a base de Fe, Co e Ni e Estudo de suas Propriedades Magnéticas",
+      "titulo_en"    : "Alloying high entropy alloys based on Fe, Co and Ni and Magnetic Properties Studying. ",
+      "aluno"    : "Fábio Martins Cardoso",
+      "orientador"    : "Cristina Bormio Nunes",
+      "data"    : "2024/01/24",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Utilização de moagem de alta energia e controle de porosidade no desenvolvimento de ligas do sistema Mg-Zn visando aplicações biomédicas",
+      "titulo_en"    : "Use of high-energy grinding and porosity control in the development of the Mg-Zn system for biomedical applications.",
+      "aluno"    : "Viviane do Socorro da Costa",
+      "orientador"    : "Durval Rodrigues Junior",
+      "data"    : "2023/12/20",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Processamento e caracterização de aço ao boro (hot stamping) ",
+      "titulo_en"    : "Boron steel processing and characterization (hot stamping).",
+      "aluno"    : "Júlio Henrique Pimentel Medrano ",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2023/12/15",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Projeção liquidus e seção isotérmica a 1200°C do sistema ternário Al-V-Zr",
+      "titulo_en"    : "Liquidus projection and isothermal section at 1200°C of the Al-V-Zr ternary system.",
+      "aluno"    : "Denis Felipe de Barros",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2023/10/30",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Fibra de bambu pirolisada para utilização como reforço em compósitos poliméricos",
+      "titulo_en"    : "Pyrolyzed bamboo fiber for use as reinforcement in polymer composites",
+      "aluno"    : "Alexandre Dutra Golanda",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2023/10/26",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Crescimento de monocristais de dicalcogênios de protótipo CdI2 e investigação das propriedades supercondutoras ",
+      "titulo_en"    : "Growth of monocrystals of prototype CdI2 dicalcogens and investigation of superconducting properties",
+      "aluno"    : "Lucas Eduardo Correa",
+      "orientador"    : "Antonio Jefferson da Silva Machado",
+      "data"    : "2022/10/16",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Efeitos da substituição de Mo por Nb na liga Beta-21S: processamento, estabilidade microestrutural, propriedades mecânicas e resistência à oxidação. ",
+      "titulo_en"    : "Effects of replacing Mo by Nb in the Beta-21S alloy: processing, microstructural stability, mechanical properties and oxidation resistance",
+      "aluno"    : "Lucas Moreira Ferreira",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2022/10/19",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Síntese de copolímeros em bloco para a prospecção da formação de sistemas vesiculares (polimerossomos)",
+      "titulo_en"    : "Synthesis of block copolymers for prospecting the formation of vesicular systems (polymersomes).",
+      "aluno"    : "Cláudia Santos Salim",
+      "orientador"    : "Fábio Herbst Florenzano",
+      "data"    : "2022/09/02",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Investigação experimental e modelagem termodinâmica do sistema Al-Nb-V.",
+      "titulo_en"    : "Experimental investigation and thermodynamic modeling of the AlNb-V system. ",
+      "aluno"    : "Julio Cesar Pereira dos Santos",
+      "orientador"    : "Gilberto Carvalho Coelho ",
+      "data"    : "2022/05/13",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Produção de chapas de ligas de Fe-Ti e aperfeiçoamento de suas propriedades magnéticas e microestruturais para utilização em máquinas elétricas e transformadores de baixo ruído",
+      "titulo_en"    : "Production of Fe-Ti alloys thin sheets and the improovement of its magnetic and microstructural properties for application in electric machines and low noise power transformers. ",
+      "aluno"    : "Guilherme Origo Fulop",
+      "orientador"    : "Cristina Bormio Nunes",
+      "data"    : "2022/04/28",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da obtenção de arcabouço da liga Ti-13Nb-13Zr, utilizando-se as técnicas de HDH e metalurgia do pó de hidreto com agente espaçante",
+      "titulo_en"    : "Study to obtain Ti-13Nb-13Zr alloy scaffolds, using HDH and hydride powder metallurgy coupled with space-holder techniques",
+      "aluno"    : "Pérsio Mozart Pinto",
+      "orientador"    : "Durval Rodrigues Junior",
+      "data"    : "2022/03/04",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo das alterações microestruturais das ligas Inconel 625 modificadas com ferro e com o aço ASTM A182 F22 e sua influência no comportamento eletroquímico",
+      "titulo_en"    : "Study of microstructural modifications of Inconel 625 alloys modified with iron and with ASTM A182 F22 steel and its influence on the electrochemical behavior. ",
+      "aluno"    : "Julio Cesar Lourenço",
+      "orientador"    : "Célia Regina Tomachuk dos Santos  Catuogno",
+      "data"    : "2021/11/26",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
       "titulo"    : "Correlações e topologia em dispositivos híbridos baseadosem grafeno",
       "titulo_en"    : "Correlations and topology in hybrid graphene-based devices",
       "aluno"    : "Antonio Lucas Rigotti Manesco",
@@ -1273,9 +1393,159 @@
   ,
   
     {
+      "titulo"    : "Aluminização por cementação em caixa de aço AISI 304L",
+      "titulo_en"    : "Aluminization by pack cementation of an AISI 304L steel",
+      "aluno"    : "Rayander Martins Pimenta ",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2023/04/06",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da redução aluminotérmica da columbita de Rondônia para obtenção de ligas FeNbTa",
+      "titulo_en"    : "Study of aluminothermic reduction of columbite of Rondônia for use of FeNbTa alloys",
+      "aluno"    : "Eduardo Minto de Moraes",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim ",
+      "data"    : "2023/02/23",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Projeção liquidus do sistema Al-Ta-V",
+      "titulo_en"    : "Liquidus projection of the Al-Ta-V system",
+      "aluno"    : "Danilo Alencar de Abreu ",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2022/09/30",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Soldagem a laser de chapa de nióbio: caracterização mecânica e microestrutural",
+      "titulo_en"    : "Laser welding of the niobium sheet: mechanical e microstrutural characterization",
+      "aluno"    : "Leandro Bordalo Schmidt Marques ",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2022/09/21",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Novos processos de obtenção de carbono ativo e seu uso no estudo da reação de redução do oxigênio",
+      "titulo_en"    : "New processes of obtainment of active carbon and its use in the study of the oxygen reduction reaction",
+      "aluno"    : "Daniel Couto Sperandio ",
+      "orientador"    : "Robson da Silva Rocha ",
+      "data"    : "2022/09/08",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da influência do formato das ferramentas de forjamento no fechamento de vazios internos em cilindros de trabalho para laminação a frio",
+      "titulo_en"    : "Study of forging tools influence in closing voids in working rolls used in cold rolling.",
+      "aluno"    : "Bruna Cristina Oliveira Lopes",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2022/08/26",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da corrosão e da formação de faialita em tubos refratários no processo de vazamento de aço por pressão",
+      "titulo_en"    : "Study of corrosion and formation of fayalite in refractory tubes in the pressure casting process of steel",
+      "aluno"    : "Carlos Eduardo dos Santos ",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2022/08/26",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Aluminização via HAPC (Halide Activated Pack Cementation) de cobre e liga de inconel modificada visando aplicação em ventaneiras de alto-forno",
+      "titulo_en"    : "Aluminization via HAPC (Halide Activated Pack Cementation) of copper and an inconel modified alloy for application in tuyeres.",
+      "aluno"    : "Lothar Andreas Nunnenkamp ",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2022/08/22",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo comparativo da resistência à corrosão de concretos comerciais aplicados em canais de corrida de altos-fornos",
+      "titulo_en"    : "Comparative study of corrosion resistance of commercial concretes applied in blast furnace runner channels",
+      "aluno"    : "Marcos Schmitt Jaeger ",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2022/08/08",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Síntese de copolímeros anfipáticos para a geração de moldes (templates) para materiais metálicos nanoestruturados ",
+      "titulo_en"    : "Synthesis of amphipathic copolymers for generation of nanostructured metallic materials",
+      "aluno"    : "Igor Wallace Ferreira da Silva ",
+      "orientador"    : "Fábio Herbst Florenzano",
+      "data"    : "2022/07/13",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Utilização de EPS reciclado e elastômeros de pneus inservíveis para a obtenção de polímeros tenacificados",
+      "titulo_en"    : "Use of recycled EPS and elastomers from scrap tires to obtain toughened polymers.",
+      "aluno"    : "Antonio José de Andrade Junior",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2022/02/25",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Influência de carga mineral talco na degradação térmica e nas propriedades dos compósitos de polipropileno para aplicação na indústria automotiva",
+      "titulo_en"    : "Influence of talc mineral filler on thermal degradation and properties of polypropylene composites used in automotive industry",
+      "aluno"    : "Clístian de Paiva Irineu",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2022/02/18",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Investigação do Aquecimento a Laser como um Método para Redução da Taxa de Crescimento de Trincas por Fadiga na Liga de Alumínio 2198-T851",
+      "titulo_en"    : "Investigation of Laser Heating as a Method to Reduce Fatigue Crack Growth Rates in 2198-T851 Aluminum Alloy",
+      "aluno"    : "Caue Pettermann Carvalho",
+      "orientador"    : "Carlos Antonio Reis Pereira Baptista",
+      "data"    : "2022/02/14",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Efeito da nitretação a laser na resistência à fadiga de alto ciclo do titânio grau 2",
+      "titulo_en"    : "Effect of laser nitriding on high- cycle fatigue strength of titanium grade 2",
+      "aluno"    : "Gabriela de Souza dos Santos",
+      "orientador"    : "Miguel Justino Ribeiro Barboza",
+      "data"    : "2022/02/11",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Caracterização e resistência à corrosão do titânio grau 2 submetido ao tratamento de nitretação a laser",
+      "titulo_en"    : "Characterization and corrosion resistance of grade 2 titanium subjected to laser nitriding treatment",
+      "aluno"    : "Monalisa Bandeira Valentim",
+      "orientador"    : "Miguel Justino Ribeiro Barboza",
+      "data"    : "2022/02/04",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
       "titulo"    : "“Efeitos do Tratamento térmico de envelhecimento interrompido (T6I4) na tenacidade à fratura da liga de alumínio AA7050”",
       "titulo_en"    : "Influence of interrupted aging T6I4 onfracture toughness of AA7050 chevron notched specimens",
-      "aluno"    : "Gabriel cotrim de Cesare Peinado",
+      "aluno"    : "Gabriel cCtrim de Cesare Peinado",
       "orientador"    : "Carlos Antonio Reis Pereira Baptista",
       "data"    : "2021/08/31",
       "tipo"    : "Dissertação de Mestrado",
@@ -1295,7 +1565,7 @@
     {
       "titulo"    : "Estudo da separação triboeletrostática de resíduos poliméricos pós-consumo para reciclagem",
       "titulo_en"    : "Study of triboelectrostatic separation of post-consumer polymericwaste for recycling",
-      "aluno"    : "Bianca Maria Rodrigues",
+      "aluno"    : "Bianca Rodrigues",
       "orientador"    : "Clodoaldo Saron",
       "data"    : "2021/07/02",
       "tipo"    : "Dissertação de Mestrado",
