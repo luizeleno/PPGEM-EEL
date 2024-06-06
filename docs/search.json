@@ -1393,6 +1393,126 @@
   ,
   
     {
+      "titulo"    : "Interdifusão em aluminetos de V e determinação de grandezas cinéticas",
+      "titulo_en"    : "Interdiffusion in V aluminides and determination of kinetic parameters",
+      "aluno"    : "Vitória de Melo Silveira ",
+      "orientador"    : "Orientador: Prof. Dr. Gilberto Carvalho Coelho Co-orientador: Dr. Nabil Chaia ",
+      "data"    : "2024/03/01",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Modificação de propriedades do polietileno de alta densidade (PEAD) para aplicação em reservatórios de combustível de veículos automotores",
+      "titulo_en"    : "Properties modification of the high density polyethylene (HDPE) for application in motor vehicle fuel tanks",
+      "aluno"    : "Guilherme Gama Simão ",
+      "orientador"    : "Clodoaldo Saron ",
+      "data"    : "2024/04/23",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Poliestireno-bloco-poli(ácido acrílico) via RAFT para recobrimento de superfícies metálicas: uma plataforma para superfícies funcionais",
+      "titulo_en"    : "Styrene-block-poly(acrylic acid) by RAFT for coating metallic surfaces: a platform for functional surfaces",
+      "aluno"    : "Everton Leandro Santos Amaral ",
+      "orientador"    : "Fábio Herbst Florenzano ",
+      "data"    : "2024/03/11",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Equilíbrio e transformação de fases na região rica em Zr do sistema Al-V-Zr",
+      "titulo_en"    : "Equilibrium and phase transformation in the Zr-rich region of the AlV-Zr system. ",
+      "aluno"    : "Caio Simão de Barros ",
+      "orientador"    : "Gilberto Carvalho Coelho",
+      "data"    : "2024/03/08",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da oxidação em alta temperatura de superligas à base de Ni com diferentes relações Nb/Ti, para utilização em discos de turbina",
+      "titulo_en"    : "Study of oxidation at high temperature of Ni based superalloys with different Nb/Ti ratios, for use in turbine discs",
+      "aluno"    : "Ana Carolina Brasil da Silva ",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2024/03/18",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo de geometrias aplicadas em manufatura aditiva FDM visando a produção de arcabouços poliméricos para aplicações biomédicas",
+      "titulo_en"    : "Study of geometries applied in FDM additive manufacturing for the production of polymer scaffolds for biomedical applications",
+      "aluno"    : "Fábio Henrique Campos Bernardes ",
+      "orientador"    : "Durval Rodrigues Junior ",
+      "data"    : "2023/12/19",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo do comportamento em fadiga de juntas soldadas por processo TIG nas ligas de alumínio 3104, 5052 e dissimilares",
+      "titulo_en"    : "Study of fatigue behavior of welded joints using TIG process in aluminum alloys 3104, 5052 and dissimilar",
+      "aluno"    : "Daniel Lucas Feliciano ",
+      "orientador"    : "Carlos Antonio Reis Pereira Baptista",
+      "data"    : "2023/10/23",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Investigação da influência do processo de soldagem GMAW na vida em fadiga do aço ARBL LNE 380",
+      "titulo_en"    : "Investigation of the Influence of the GMAW Welding Process on the ARBL Steel LNE 380 Fatigue Life",
+      "aluno"    : "Fábio Cavassani Notz ",
+      "orientador"    : "Carlos Antonio Reis Pereira Baptista",
+      "data"    : "2023/10/16",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo comparativo das propriedades termomecânicas e microestruturas de refratários aplicados em panela de gusa",
+      "titulo_en"    : "Comparative Study of Thermomechanical Properties and Microstructures of Refractories Applied in Hot Metal Ladle",
+      "aluno"    : "Michel Sarto Mendes Francisco ",
+      "orientador"    : "Fernando Vernilli Junior ",
+      "data"    : "2023/08/18",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Elaboração e caracterização de revestimentos protetores depositados por Pack Cementation em ligas de alumineto de titânio",
+      "titulo_en"    : "Elaboration and characterization of protective coatings deposited by pack cementation in titanium aluminide alloys",
+      "aluno"    : "Bruno Abreu Bon ",
+      "orientador"    : "Orientador: Prof. Dr. Gilberto Carvalho Coelho Co-orientador: Dr. Nabil Chaia ",
+      "data"    : "2023/09/28",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Avaliação experimental do sistema Cr-Nb-V: projeção liquidus e seção isotérmica a 1100°C",
+      "titulo_en"    : "Experimental evaluation of the Cr-Nb-V system: liquidus projection and isothermal section at 1100°C",
+      "aluno"    : "Jéssica Vicente Luiz ",
+      "orientador"    : "Gilberto Carvalho Coelho ",
+      "data"    : "2023/05/26",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Caracterização microestrutural e eletroquímica de revestimento obtido pela deposição (TIG) de Inconel 625 sobre o aço ASTM A182 F22",
+      "titulo_en"    : "Microstructural and electrochemical characterization of the coating obtained by depositing (TIG) Inconel 625 on ASTM A182 F22 steel",
+      "aluno"    : "Raisa Rodrigues",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2023/04/28",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
       "titulo"    : "Aluminização por cementação em caixa de aço AISI 304L",
       "titulo_en"    : "Aluminization by pack cementation of an AISI 304L steel",
       "aluno"    : "Rayander Martins Pimenta ",
