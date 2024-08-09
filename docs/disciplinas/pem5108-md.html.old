@@ -20,7 +20,7 @@
 
     
 
-    <title>PPGEM EEL/USP - Tecnologia em Materiais Cerâmicos Refratários</title>
+    <title>PPGEM EEL/USP - Encruamento, Recuperação, Recristalização e Crescimento de Grão</title>
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)">
     <link rel="alternate" type="application/rss+xml" href="/feed.xml">
 
@@ -36,21 +36,21 @@
     <link rel="shortcut icon" href="/favicon2.png">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Tecnologia em Materiais Cerâmicos Refratários | PPGEM EEL/USP</title>
+<title>Encruamento, Recuperação, Recristalização e Crescimento de Grão | PPGEM EEL/USP</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Tecnologia em Materiais Cerâmicos Refratários" />
-<meta property="og:locale" content="en" />
+<meta property="og:title" content="Encruamento, Recuperação, Recristalização e Crescimento de Grão" />
+<meta property="og:locale" content="br" />
 <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <meta property="og:description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
-<link rel="canonical" href="www.ppgem.eel.usp.br/disciplinas/pem5135.html" />
-<meta property="og:url" content="www.ppgem.eel.usp.br/disciplinas/pem5135.html" />
+<link rel="canonical" href="www.ppgem.eel.usp.br/disciplinas/pem5108-md.html" />
+<meta property="og:url" content="www.ppgem.eel.usp.br/disciplinas/pem5108-md.html" />
 <meta property="og:site_name" content="PPGEM EEL/USP" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-08-09T15:38:08-03:00" />
+<meta property="article:published_time" content="2024-08-09T15:38:03-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Tecnologia em Materiais Cerâmicos Refratários" />
+<meta property="twitter:title" content="Encruamento, Recuperação, Recristalização e Crescimento de Grão" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-09T15:38:08-03:00","datePublished":"2024-08-09T15:38:08-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","headline":"Tecnologia em Materiais Cerâmicos Refratários","mainEntityOfPage":{"@type":"WebPage","@id":"www.ppgem.eel.usp.br/disciplinas/pem5135.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"www.ppgem.eel.usp.br/img/logo-only.png"}},"url":"www.ppgem.eel.usp.br/disciplinas/pem5135.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-09T15:38:03-03:00","datePublished":"2024-08-09T15:38:03-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","headline":"Encruamento, Recuperação, Recristalização e Crescimento de Grão","mainEntityOfPage":{"@type":"WebPage","@id":"www.ppgem.eel.usp.br/disciplinas/pem5108-md.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"www.ppgem.eel.usp.br/img/logo-only.png"}},"url":"www.ppgem.eel.usp.br/disciplinas/pem5108-md.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -116,7 +116,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand scroll" href="/en/"><img src="/img/logo-only.png" alt="PPGEM EEL/USP"></a>
+            <a class="navbar-brand scroll" href="/"><img src="/img/logo-only.png" alt="PPGEM EEL/USP"></a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -124,21 +124,21 @@
             <ul class="nav navbar-nav navbar-right">
                 
     
-    <li><a class="scroll" href="/en/">Home</a></li>
+    <li><a class="scroll" href="/">Início</a></li>
 
 
-<li><a class="scroll" href="/en/#about">The Program</a></li>
-<li><a class="scroll" href="/en/#treatments">Information</a></li>
-<li><a class="scroll" href="/en/#testimonials">Defenses</a></li>
-<li><a class="scroll" href="/en/#gallery">News</a></li>
-<li><a class="scroll" href="/en/#team">Faculty</a></li>
-<li><a class="scroll" href="/en/#location">Location</a></li>
-<li><a class="scroll" href="/en/#contact">Contacts</a></li>
+<li><a class="scroll" href="/#about">O Programa</a></li>
+<li><a class="scroll" href="/#treatments">Informações</a></li>
+<li><a class="scroll" href="/#testimonials">Defesas</a></li>
+<li><a class="scroll" href="/#gallery">Notícias</a></li>
+<li><a class="scroll" href="/#team">Docentes</a></li>
+<li><a class="scroll" href="/#location">Localização</a></li>
+<li><a class="scroll" href="/#contact">Contatos</a></li>
 
                     
                         
-                        <li><a href="/disciplinas/pem5135.html" >
-                            <img src="/img/lang/br.svg" style="height:20px" title="Ir para a versão em português">
+                        <li><a class="scroll" href="/en/disciplinas/pem5108-md.html" >
+                            <img src="/img/lang/gb.svg" style="height:20px" title="Go to the version in English">
                         </a></li>
                     
                     <li><a href="http://www.demar.eel.usp.br/" target="_blank" id="no-ext-link">
@@ -159,28 +159,27 @@
     <h1 class="alert" style="text-align:left"></h1>
     
         
-
     
     <div class="container-fluid" style="margin-bottom: 5px; margin-top: -12mm;">
 
     <ul class="breadcrumb">
-        <li><a href="/en/">Home</a></li>
-        <li><a href="/en/#treatments">Information</a></li>
-        <li><a href="/en/disciplinas">Classes</a></li>
-        <li>PEM5135</li>
+        <li><a href="/">Início</a></li>
+        <li><a href="/#treatments">Informações</a></li>
+        <li><a href="/disciplinas">Disciplinas</a></li>
+        <li>PEM5108</li>
     </ul>
 
-    <h1 class="alert" style="text-align:left">PEM5135 - Technology of Refractory Ceramic Materials </h1>
+    <h1 class="alert" style="text-align:left">PEM5108 - Encruamento, Recuperação, Recristalização e Crescimento de Grão</h1>
 
-    <h4>Form professor</h4>
+    <h4>Docente Responsável</h4>
 
     <!-- usando dummy variable names to avoid possible clashes -->
 
 
-<a href="/en/docentes/fernando-vernilli-junior.html">Prof. Dr. Fernando Vernilli Junior</a>
+<a href="/docentes/hugo-ricardo-zschommler-sandim.html">Prof. Dr. Hugo Ricardo Zschommler Sandim</a>
 
 
-    <h4>Workload</h4>
+    <h4>Carga Horária</h4>
 
     <table class="table table-striped table-hover table-responsive table-condensed" style="width:100%">
         <!-- <colgroup>
@@ -190,135 +189,132 @@
        <col  span="1" style="width: 14%;">
         </colgroup> -->
         <tr>
-            <th>Theoretical</th>
-            <th>Practical</th>
-            <th>Study</th>
-            <th>Duration</th>
+            <th>Teórica</th>
+            <th>Prática</th>
+            <th>Estudos</th>
+            <th>Duração</th>
             <th>Total</th>
-            <th>Credits</th>
+            <th>Créditos</th>
         </tr>
         <tr>
-            <td>4 hours/week</td>
-            <td>0 hours/week</td>
-            <td>8 hours/week</td>
-            <td>15 weeks</td>
-            <td>180 hours</td>
+            <td>4 h/sem</td>
+            <td>0 h/sem</td>
+            <td>8 h/sem</td>
+            <td>15 semanas</td>
+            <td>180 horas</td>
             <td>12</td>
         </tr>
     </table>
 
-    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5135" target="_blank">See on Janus (pt-br)</a>
+    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5108" target="_blank">Ver no Janus</a>
 
-    <h4>Concentration area</h4>
+    <h4>Área de concentração</h4>
 
-        <p>97135 - Conventional and Advanced Materials</p>
-
-
-    <h4>Objectives</h4>
-
-        <p>Provide knowledge in Technology of Refractory Ceramic Materials involving raw materials, processing, application and main wear mechanisms in operation, in order to improve the formation of graduate students in Materials Science and Engineering applies in all segments industry.</p>
+        <p>97134 - Materiais Convencionais e Avançados</p>
 
 
-    <h4>Motivation</h4>
+    <h4>Objetivos</h4>
 
-        <p>Refractory materials are generic enablers of process industries transformation. Without them it wouldn’t be possible to generate and maintain heat or control reactions at high temperatures. Without them it we wouldn’t have developed any kind of technology and therefore would have been no advance in civilization. The field of Refractory Ceramic Materials Technology is a tool for the economic development of any country is sustainable, especially our industrial park is grounded in basic industry. It is for this purpose that the course of Refractory Ceramic Materials should be offered in PPGEM.</p>
+        <p>A disciplina objetiva propiciar ao aluno uma visão abrangente dos fenômenos que ocorrem durante o recozimento de metais e ligas encruadas. Partindo do entendimento do chamado estado encruado, o aluno poderá entender as transformações microestruturais importantes (reações no estado sólido) que ocorrem durante o recozimento. Fenômenos que ocorrem durante a recuperação da microestrutura como a poligonização, a formação de subgrãos e o crescimento de subgrãos são apresentados e discutidos, bem como a relação entre a recuperação e a recristalização. A nucleação da recristalização, as chamadas Leis da Recristalização (Johnson-Mehl), o efeito da energia de defeito de empilhamento no encruamento e na recristalização, o modelo JMAK para descrever a cinética de recristalização e as técnicas para a caracterização da recristalização são apresentados de modo didático e com o maior número de exemplos práticos possível (micrografias). No caso de amostras recozidas em temperaturas mais elevadas, fenômenos como crescimento normal e anormal de grãos podem ocorrer. Os potenciais termodinâmicos para a ocorrência destas reações no estado sólido, bem como os potenciais retardadores são apresentados. Atividades experimentais podem ser planejadas durante o curso visando fixar os conhecimentos teóricos. A técnica de difração de elétrons retroespalhados (EBSD) será apresentada enfatizando sua importância atual nos estudos sobre recristalização e crescimento de grão.</p>
 
 
-    <h4>Syllabus</h4>
+    <h4>Justificativa</h4>
+
+        <p>A importância industrial e tecnológica dos fenômenos abordados nesta disciplina é evidente. Encruamento, recuperação, recristalização e crescimento de grão ocorrem comumente na maioria dos processos industriais correntes. O entendimento dos mecanismos que controlam estes fenômenos (reações no estado sólido) é essencial aos profissionais da área de Engenharia de Materiais, em especial aqueles ligados ao segmento de materiais metálicos. As atividades práticas programadas ao longo do curso ajudam a consolidar os conceitos apresentados nas aulas expositivas. O curso é ricamente ilustrado e propicia ao aluno entender como as mudanças microestruturais que ocorrem durante o recozimento afetam as características dos materiais metálicos (propriedades mecânicas e textura cristalográfica).</p>
+
+
+    <h4>Conteúdo</h4>
 
         <ol>
-  <li>Introduction to Technology of Refractory Ceramic;</li>
-  <li>Raw materials used in refractories (characteristics and synthesis);</li>
-  <li>Refractory materials unformed (Characteristics, applications and processing);</li>
-  <li>Refractory materials formed (characteristics, applications and processing).</li>
-  <li>Fundamentals and behavior of corrosion in refractories;</li>
-  <li>Methodology to ‘’Post Mortem” studies;</li>
-  <li>Case studies.</li>
+  <li>Introdução: Histórico; Processamento termomecânico de metais e ligas (deformação a frio e a quente)</li>
+  <li>O estado encruado: Evolução microestrutural na deformação plástica; Estágios do encruamento; Fatores que influenciam o encruamento; Energia armazenada durante a deformação plástica; Texturas de deformação.</li>
+  <li>Estrutura e energia dos contornos: Contornos de baixo ângulo; Contornos de alto ângulo; Mobilidade dos contornos.</li>
+  <li>Recuperação: Definição; Determinação experimental da extensão da recuperação; Aniquilação de defeitos microestruturais (lacunas e discordâncias); Rearranjo de discordâncias (poligonização e formação de subgrãos); Recuperação dinâmica; Extended recovery Influência de solutos e de partículas de segunda fase na recuperação.</li>
+  <li>Recristalização: Definição Fatores que afetam a recristalização; Cinética da recristalização; “Nucleação” da recristalização; Texturas de recristalização. Técnicas experimentais para estudar a recristalização.</li>
+  <li>Crescimento de grão: Definição; Teorias e modelos para explicar o crescimento de grão; Cinética de crescimento de grão; Influência da orientação e da textura no crescimento de grão; Influência de partículas no crescimento de grão; Crescimento anormal de grão (recristalização secundária).</li>
+  <li>Difração de elétrons retroespalhados.</li>
 </ol>
 
 
-    <h4>Evaluation criteria</h4>
+    <h4>Forma de Avaliação</h4>
 
-        <p>The course evaluation will be by application of a manuscript test, experimental activities and analysis of several scientific papers related to the topics studied.</p>
+        <p>Duas provas escritas com notas de 0 a 10. A média aritmética será calculada e definida como nota final do aluno. Duas provas escritas com notas de 0 a 10. A mé</p>
 
 
     
 
-    <h4>References</h4>
+    <h4>Referências bibliográficas</h4>
 
         
-            
-                <p>1 - Carniglia, S.C.; Barna, G.L. Handbook of industrial refractories technology. Noyes Publications. 2004; 
-2 - Heinrich J.G. Introduction to the Principles of Ceramic Forming. CFI Publication. 1995; 
-3 - Plibrico Japan Company. Technology of Monolithic refractories. Toppan printing Company. 1984; 
-4 - BERGERON, CLIFTON G.; RISBUD, SUBHASH H. Introduction to phase 3. Levin, E.M. Phase Diagrams for Ceramists. The American Ceramic Society. 1964; 
-5 - Kingery, W.D. Introduction to Ceramics. John Wiley, 1970.; 
-6 - Kingery, W.D. Ceramic Fabrication Process. MIT Press e John Wiley, 1958; 
-7 - Reed, J.S. Introduction to the Principles of ceramics Processing, John Wiley, 1988; 
-8 - Kang, S.J.L. Sintering. Elsevier. 2005; 
-9 - Lee, B.I. Chemical Processing of Ceramics. Marcel Dekker Inc. 1994equilibria in ceramics. Westerville: The American Ceramic Society, 1984; 
-10 - R. J. Fordham; D.J. Baxter; T. Graziani corrosion of advanced ceramics Switzerland: Trans Tech Publications, c1996. 
-11 – Artigos científicos diversos</p>
+            <ol>
+  <li>HUMPHREYS, F.J., HATHERLY, M., Recrystallization and Related Annealing Phenomena. Pergamon, 2004.</li>
+  <li>HAESSNER, F. (ed.). Recrystallization of Metallic Materials. Dr. Riederer Verlag GmbH, Stuttgart, 1978.</li>
+  <li>DOHERTY, R. D. et al., Current Issues in Recrystallization: A Review, Mat. Science Engineering, v. A238, n. 7, p. 219, 1997.</li>
+  <li>MUGHRABI, H. (Ed.) Plastic Deformation and Fracture of Materials: Materials Science Technology, vol. 6, VCH, 1993.</li>
+  <li>PADILHA, A.F., SICILIANO, Jr., F., Encruamento, Recristalização, Crescimento de Grão e Textura. São Paulo: ABM, 1996.</li>
+  <li>Plastic Deformation Structures. In: ASM Handbook. Materials Park, Ohio: ASM International, 1990, v.9, p. 684-691.</li>
+  <li>NES, E. Recovery Revisited, Acta metallurgical, Materials. V. 43, p. 2189, 1995.</li>
+  <li>BLUM, W. and McQUEEN, H. J., Dynamics of Recovery and Recrystallization, Materials Science. Forum v. 217-222, p. 31, 1996.</li>
+</ol>
 
-            
         
 
 </div>
     <div id="treatments" class="treatments">
     <div class="container-fluid">
-        <h2 class="section-title">Information</h2>
+        <h2 class="section-title">Informações</h2>
         <div class="row">
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/linhas/" id="no-ext-link" >
+                        <a href="/linhas/" id="no-ext-link" >
                         <svg class="icon icon-flask"><use xlink:href="#icon-flask"></use></svg>
-                        <h4>Research Lines</h4>
+                        <h4>Linhas de Pesquisa</h4>
                         </a>
                     </div>
                 </div>
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/publicacoes/" id="no-ext-link" >
+                        <a href="/publicacoes/" id="no-ext-link" >
                         <svg class="icon icon-globe"><use xlink:href="#icon-globe"></use></svg>
-                        <h4>Recent Publications</h4>
+                        <h4>Publicações Recentes</h4>
                         </a>
                     </div>
                 </div>
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/disciplinas/" id="no-ext-link" >
+                        <a href="/disciplinas/" id="no-ext-link" >
                         <svg class="icon icon-briefcase"><use xlink:href="#icon-briefcase"></use></svg>
-                        <h4>Classes</h4>
+                        <h4>Disciplinas</h4>
                         </a>
                     </div>
                 </div>
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/CCP/" id="no-ext-link" >
+                        <a href="/CCP/" id="no-ext-link" >
                         <svg class="icon icon-group"><use xlink:href="#icon-group"></use></svg>
-                        <h4>Coordinating Committee</h4>
+                        <h4>Comissão de Coordenação</h4>
                         </a>
                     </div>
                 </div>
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/oportunidades/" id="no-ext-link" >
+                        <a href="/oportunidades/" id="no-ext-link" >
                         <svg class="icon icon-star"><use xlink:href="#icon-star"></use></svg>
-                        <h4>Opportunities</h4>
+                        <h4>Oportunidades</h4>
                         </a>
                     </div>
                 </div>
             
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: left;">
-                        <a href="/en/inscricao/" id="no-ext-link" >
+                        <a href="/inscricao/" id="no-ext-link" >
                         <svg class="icon icon-calendar"><use xlink:href="#icon-calendar"></use></svg>
-                        <h4>Registration and rules</h4>
+                        <h4>Inscrições e regimento</h4>
                         </a>
                     </div>
                 </div>

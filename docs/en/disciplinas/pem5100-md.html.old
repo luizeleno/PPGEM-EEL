@@ -20,7 +20,7 @@
 
     
 
-    <title>PPGEM EEL/USP - Eletroquímica Aplicada na Área de Materiais</title>
+    <title>PPGEM EEL/USP - Didática e Prática de Ensino de Engenharia</title>
     <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)">
     <link rel="alternate" type="application/rss+xml" href="/feed.xml">
 
@@ -36,21 +36,21 @@
     <link rel="shortcut icon" href="/favicon2.png">
 
     <!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>Eletroquímica Aplicada na Área de Materiais | PPGEM EEL/USP</title>
+<title>Didática e Prática de Ensino de Engenharia | PPGEM EEL/USP</title>
 <meta name="generator" content="Jekyll v4.3.3" />
-<meta property="og:title" content="Eletroquímica Aplicada na Área de Materiais" />
+<meta property="og:title" content="Didática e Prática de Ensino de Engenharia" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
 <meta property="og:description" content="Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)" />
-<link rel="canonical" href="www.ppgem.eel.usp.br/disciplinas/pem5148.html" />
-<meta property="og:url" content="www.ppgem.eel.usp.br/disciplinas/pem5148.html" />
+<link rel="canonical" href="www.ppgem.eel.usp.br/disciplinas/pem5100-md.html" />
+<meta property="og:url" content="www.ppgem.eel.usp.br/disciplinas/pem5100-md.html" />
 <meta property="og:site_name" content="PPGEM EEL/USP" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-07-14T16:00:14-03:00" />
+<meta property="article:published_time" content="2024-08-09T15:38:08-03:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Eletroquímica Aplicada na Área de Materiais" />
+<meta property="twitter:title" content="Didática e Prática de Ensino de Engenharia" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-07-14T16:00:14-03:00","datePublished":"2024-07-14T16:00:14-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","headline":"Eletroquímica Aplicada na Área de Materiais","mainEntityOfPage":{"@type":"WebPage","@id":"www.ppgem.eel.usp.br/disciplinas/pem5148.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"www.ppgem.eel.usp.br/img/logo-only.png"}},"url":"www.ppgem.eel.usp.br/disciplinas/pem5148.html"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-09T15:38:08-03:00","datePublished":"2024-08-09T15:38:08-03:00","description":"Programa de Pós-Graduação em Engenharia de Materiais (PPGEM) da Escola de Engenharia de Lorena (EEL) da Universidade de São Paulo (USP)","headline":"Didática e Prática de Ensino de Engenharia","mainEntityOfPage":{"@type":"WebPage","@id":"www.ppgem.eel.usp.br/disciplinas/pem5100-md.html"},"publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"www.ppgem.eel.usp.br/img/logo-only.png"}},"url":"www.ppgem.eel.usp.br/disciplinas/pem5100-md.html"}</script>
 <!-- End Jekyll SEO tag -->
 
     
@@ -137,7 +137,7 @@
 
                     
                         
-                        <li><a href="/disciplinas/pem5148.html" >
+                        <li><a href="/disciplinas/pem5100-md.html" >
                             <img src="/img/lang/br.svg" style="height:20px" title="Ir para a versão em português">
                         </a></li>
                     
@@ -159,7 +159,6 @@
     <h1 class="alert" style="text-align:left"></h1>
     
         
-
     
     <div class="container-fluid" style="margin-bottom: 5px; margin-top: -12mm;">
 
@@ -167,17 +166,25 @@
         <li><a href="/en/">Home</a></li>
         <li><a href="/en/#treatments">Information</a></li>
         <li><a href="/en/disciplinas">Classes</a></li>
-        <li>PEM5148</li>
+        <li>PEM5100</li>
     </ul>
 
-    <h1 class="alert" style="text-align:left">PEM5148 - Electrochemistry applied to materials</h1>
+    <h1 class="alert" style="text-align:left">PEM5100 - Didactic and Practice of Engineering Education</h1>
 
     <h4>Form professor</h4>
 
-    <!-- usando dummy variable names to avoid possible clashes -->
-
-
-<a href="/en/docentes/celia-regina-tomachuk-dos-santos-catuogno.html">Prof. Dr. Celia Regina Tomachuk dos Santos Catuogno</a>
+    ,
+        
+            Domingos Savio Giordani
+            , 
+        
+            Elisângela de Jesus Cândido Moraes
+            , 
+        
+            Maria Auxiliadora Motta Barreto
+            
+        
+    
 
 
     <h4>Workload</h4>
@@ -198,45 +205,66 @@
             <th>Credits</th>
         </tr>
         <tr>
-            <td>4 hours/week</td>
+            <td>2 hours/week</td>
             <td>0 hours/week</td>
-            <td>8 hours/week</td>
+            <td>2 hours/week</td>
             <td>15 weeks</td>
-            <td>180 hours</td>
-            <td>12</td>
+            <td>60 hours</td>
+            <td>4</td>
         </tr>
     </table>
 
-    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5148" target="_blank">See on Janus (pt-br)</a>
+    <a class='btn btn-primary' href="https://uspdigital.usp.br/janus/componente/catalogoDisciplinasInicial.jsf?action=3&sgldis=PEM5100" target="_blank">See on Janus (pt-br)</a>
 
     <h4>Concentration area</h4>
 
-        <p>97135 - Conventional and Advanced Materials</p>
+        <p>97499 - Lorena School of Engineering</p>
 
 
     <h4>Objectives</h4>
 
-        <p>To provide to the studentes the fundamentals on electrochemical characterization in probe scanning techniques and electrochemical impedance spectroscopy.</p>
+        <p>Develop competencies and skills related to teaching applied to engineering, through critical thinking. Stimulate the formation of active and creative educators, able to participate in the process of transformation of educational practices. Discuss embracing themes in education area for insertion of specific practices in the classroom.</p>
 
 
     <h4>Motivation</h4>
 
-        <p>The interpretation of voltmmograms and impedance diagrams will be correlated with observed behavior in electrochemical interfaces, and may be associated with corrosion and protection.</p>
+        <p>One of the main complaints of engineering teachers is the difficulty in pedagogical practice. The absence of a discipline of Teaching and Teaching Practice in their training, makes them ineffective at the transmission of knowledge. This difficulty is also perceived by the students, causing problems in the teacher-student relationship and therefore causing difficulties in learning. It justifies the presence of this discipline.</p>
 
 
     <h4>Syllabus</h4>
 
-        <ul>
-  <li>Electrochemical Characterization: Voltammetric Techniques; Amperometric and Electroanalytical Techniques</li>
-  <li>Scanning Probe Techniques: Applications Electrochemistry and Electrochemical Microscopy</li>
-  <li>Electrochemical Impedance Spectroscopy</li>
-</ul>
+        <ol>
+  <li>Education Concepts;</li>
+  <li>Elements and Goals of Education;</li>
+  <li>LDB and the higher education</li>
+  <li>Anthropological, philosophical, cultural and social view of education;</li>
+  <li>Theories and educational practices;</li>
+  <li>The importance of education and research;</li>
+  <li>Academic caeer: choice or vocation?</li>
+  <li>Peculiarities of technological education of engineering;</li>
+  <li>Teaching strategies.</li>
+  <li>The evaluation;</li>
+  <li>The teacher’s role as advisor and trainer;</li>
+  <li>The teacher-student relationship;</li>
+  <li>Contents, skills and abilities;</li>
+  <li>Innovation in teaching and teaching practice: paradigms break;</li>
+  <li>Distance teaching.</li>
+</ol>
 
 
     <h4>Evaluation criteria</h4>
 
-        <p>an oral presentation (weight 1) and  a written exam (weight 2).</p>
+        <p>Seminars: Classes developed and practiced by the students, evaluated by the teacher and colleagues. Article : Written based on two indicated articles and two chosen by the group. Written Evaluation: Applied and Corrected by the groups themselves. Final grade: arithmetic avarage.</p>
 
+
+    
+
+        <h4>Observations</h4>
+
+            
+                <p>Integrated PAE discipline</p>
+
+            
 
     
 
@@ -244,20 +272,36 @@
 
         
             
-                <ul>
-  <li>BARD A.J.; FAULKNER L.R. Electrochemical Methods:Fundamentals and Applications. New York: John Wiley &amp; Sons, 2ª Edição, 2011, 864p</li>
-  <li>BAGOTTZKY V. S. Fundamentals of Electrochemistry. New York: John Wiley &amp; Sons, 2ª Edição, 2005, 752p</li>
-  <li>BARSOUKOV E.; MACDONALD J.R. Impedance Spectroscopy: Theory, Experiment, and Applications. New Jersey: John Wiley &amp; Sons, 2ª Edição, 2005, 616p.</li>
-  <li>BOCKRIS J. O’M.; REDDY A.K.N.; GAMBOA-ALDECO A.M. Modern electrochemistry. New York: Kluwer Academic Publishers, 2ª Edição, vol 2A, 2002.</li>
-  <li>BRETT A.M.O.; BRETT C.M.A. Electroquímica: Princípios, Métodos e Aplicações. Coimbra: Livraria Almedina, 1993, 471p.</li>
-  <li>CROW D.R. Principles and Applications of Electrochemistry. London: CRC Press, 4ª Edição, 1996, 282p.</li>
-  <li>GILEADI E. Physical Electrochemistry: Fundamentals, Techniques and Applications. New York: Wiley-VCH, 2011, 394p.</li>
-  <li>GROSSER-Jr, D.K. Cyclic voltammetry: simulation and analysis of reactions mechanisms. New York: Wiley-VCH,1993, 156p.</li>
-  <li>SCULLY J.R.; SILVERMAN D.C.; KENDIG M.W. Electrochemical impedance: analysis and interpretation. Philadelphia, ASTM, 1993, 480 p.</li>
-  <li>TICIANELLI E.A.; GONZÁLEZ E.R. Eletroquímica, Princípios e Aplicações. São Paulo: Editora da Universidade de São Paulo, 2ª Edição, 2005. 220p.</li>
-  <li>WOLYNEC S. Técnicas Eletroquímicas em Corrosão. São Paulo: Editora da Universidade de São Paulo, 2003. 166p.</li>
-  <li>Análise de artigos atuais das revistas Electrochimica Acta, J. Applied Electrochemistry e Surface Coating Techonology</li>
-</ul>
+                <ol>
+  <li>ANASTASIOU, L. G. C. &amp; PESSATE, L. (ORGS). Processos de Ensinagem na Universidade – pressupostos para as estratégias de trabalho em aula. Joinvile: UNIVILLE, 2003.</li>
+  <li>CHAUI, Marilena. A universidade pública sob nova perspectiva. In Revista Brasileira de Educação. Rio de Janeiro: ANPED, n.24, 2003, p.1-12.</li>
+  <li>CONFERÊNCIA Mundial sobre o Ensino Superior (1998:Paris, França). Tendências da Educação Superior para o Século XXI - UNESCO/Conselho de Reitores das Universidades Brasileiras, 1998.</li>
+  <li>CUNHA, M. I. O professor universitário na transição de paradigmas. Araraquara: J. M. Editora, 1998.</li>
+  <li>DANTAS, S. H. G. Ensino ou Educação em Engenharia? A formação didático-pedagógica dos Engenheiros Professores. Revista de Ensino de Engenharia, 1993. UNIFOR. Br.</li>
+  <li>FREIRE, P. Pedagogia da Autonomia: saberes necessários à prática educativa. São Paulo: Paz e Terra, 1996.</li>
+  <li>MASETTO, M. O professor na hora da verdade – a prática docente no ensino superior. São Paulo: Avercamp. 2010.</li>
+  <li>MORIN, E. Complexidade e transdisciplinaridade – a reforma da universidade e do ensino fundamental. Natal: EDUFRN, 2000.</li>
+  <li>PIMENTA, S. G. e ANASTASIOU, L. G. Docência no ensino superior. São Paulo: Cortez, 2002.</li>
+  <li>PIMENTA, S. G. e ALMEIDA, M. I. Pedagogia Universitária – caminhos para a formação de professores. S. Paulo: Cortez Editora, 2011.</li>
+  <li>RODRIGUES, J. L. K. O professor do ensino superior, suas características e suas competências: Um profissional da educação. Tese de Doutorado. Doutorado em Educação: Currículo - Educação: Currículo, PUC-SP, São Paulo, 2005.</li>
+  <li>SANTOS, B. de S. Um discurso sobre as ciências. Edições Afrontamento. Porto. 1999.</li>
+  <li>ZABALZA, M. A. O ensino universitário: seu cenário e seus protagonistas. Porto Alegre: Artmed, 2004.</li>
+  <li>Vídeos available in (www.usp.br/prpg - Etapas de Preparação Pedagógica – Cadernos ou Vídeos de Pedagogia)
+    <ul>
+      <li>Vídeo no 1 - RUÉ, Joan. A Aprendizagem com autonomia: possibilidades e limites.</li>
+      <li>Vídeo no 2 - EZCURRA, Ana Maria. – Os estudantes recém-ingressados: democratização e responsabilidades das instituições universitárias.</li>
+      <li>Vídeo no 3 – SEVERINO – Ensino e pesquisa na docência universitária: caminhos para a integração.</li>
+      <li>Vídeo no 4 – KRASILCHIK, Myriam. Docência no ensino superior: tensões e mudanças.</li>
+      <li>Vídeo no 5 – MACHADO, Nilson José. Imagens do conhecimento e ação docente no ensino superior.</li>
+      <li>Vídeo no 6 – CUNHA, Maria Isabel da. O desafio da reconfiguração de saberes na docência universitária.</li>
+      <li>Video no 7 – KENSKI, Vany Moreira. Novos processos de interação e comunicação no ensino mediado pelas tecnologias.</li>
+      <li>Vídeo no 8 – FORMOSINHO, João Oliveira. Dilemas e tensões da atuação da universidade frente à formação de profissionais de desenvolvimento humano.</li>
+      <li>Vídeo no 9 – RIOS, Terezinha Azeredo. Ética na docência universitária: a caminho de uma universidade pedagógica?</li>
+      <li>Vídeo no 10 – FRANCO, Maria Amélia Rosário Santoro. Prática docente universitária e a construção coletiva de conhecimentos.</li>
+      <li>Vídeo no 11 – LIBÂNEO, José Carlos. Conteúdos, formação de competências cognitivas e ensino com pesquisa: unindo ensino e modos de investigação.</li>
+    </ul>
+  </li>
+</ol>
 
             
         
