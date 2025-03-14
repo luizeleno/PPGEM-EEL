@@ -15,7 +15,7 @@ Below is a list of supporting documents attesting to the activities carried out 
 <div id="treatments" class="treatments">
     <div class="container-fluid">
         <div class="row">
-            {% for doc in (1..12) %}
+            {% for doc in (1..14) %}
                 <div class="col-sm-6 col-md-4" >
                     <div class="icon-box" style="text-align: center;">
                         <p><a class="btn btn-lg btn-primary my-1" href="/assets/DOCS_FISICOS/Doc{{doc}}.pdf" target="_blank">Documento {{doc}}</a></p>
