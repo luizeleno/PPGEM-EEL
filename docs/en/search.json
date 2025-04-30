@@ -1,6 +1,116 @@
 [
   
     {
+      "titulo"    : "Avaliação da magnetostricção de ligas de (Fe0,70Co0,30)99-xGaxV1 com Ga = 12, 14, 16",
+      "titulo_en"    : "Evaluation of the magnetostriction of (Fe0,70Co0,30)99-xGaxV1 alloys with Ga = 12, 14, 16. ",
+      "aluno"    : "Paula Cristina Petriz Monteiro",
+      "orientador"    : "Cristina Bormio Nunes",
+      "data"    : "2025/05/09",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Síntese in silico de materiais supercondutores",
+      "titulo_en"    : "In silico synthesis of superconducting materials",
+      "aluno"    : "Pedro Nunes Ferreira",
+      "orientador"    : "Luiz Tadeu Fernandes Eleno",
+      "data"    : "2025/03/26",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Reciclagem de resíduos de polietileno de baixa densidade na forma de compósitos com subprodutos modificados da indústria de óleo de dendê",
+      "titulo_en"    : "Recycling of low-density polyethylene waste in the form of composites with modified by-products from the palm oil industry ",
+      "aluno"    : "Silma Barros de Sá",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2025/03/27",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo do desempenho metalúrgico de agentes fluxantes livres de flúor para lingotamento de aços peritéticos",
+      "titulo_en"    : "Study of the metallurgical performance of fluorine-free mold fluxes for peritectic steels casting",
+      "aluno"    : "Márcia Maria da Silva Monteiro Pereira",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2025/02/19",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Crescimento de cristais e supercondutividade em calcogenetos de zircônio intercalados com terras-raras",
+      "titulo_en"    : "Crystal growth and superconductivity of rare-earth intercalated zirconium chalcogenides ",
+      "aluno"    : "Leandro Rodrigues de Faria",
+      "orientador"    : "Antonio Jefferson da Silva Machado",
+      "data"    : "2025/01/17",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Síntese e caracterização de nanopartículas do espinélio de magnésio e alumínio, MgAl2O4, a partir do processo poliol",
+      "titulo_en"    : "Synthesis and characterization of nanoparticles of magnesium and aluminum spinel, MgAl2O4, prepared by polyolmediated synthesis",
+      "aluno"    : "Pedro Henrique Lopes Nunes Abreu dos Santos",
+      "orientador"    : "Sebastião Ribeiro",
+      "data"    : "2024/12/19",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Manufatura inovadora de um aço elétrico (Fe-3,5%Si) de grão orientado via fusão a laser em leito de pó e subsequente processamento termomecânico",
+      "titulo_en"    : "Innovative manufacturing of grain-oriented electrical steel (Fe-3.5%Si) via laser powder bed fusion and subsequent thermomechanical processing",
+      "aluno"    : "Mariana Sizenando Lyrio",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "data"    : "2024/09/26",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Reciclagem mecânica-química de resíduos de filmes poliméricos pós consumo de polietileno de baixa densidade em combinação com o polipropileno e presença de zeólita ZSM-5",
+      "titulo_en"    : "Mechanical-chemical recycling of post-consumer polymer film waste made from low-density polyethylene in combination with polypropylene and the presence of zeolite ZSM-5. ",
+      "aluno"    : "Emerson Ferreira da Silva",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2024/12/17",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da reversão da austenita e sua influência nas propriedades magnéticas e dilatométricas de um aço inoxidável duplex laminado a frio",
+      "titulo_en"    : "Study of austenite reversal and its influence on the magnetic and dilatometric properties of a cold-rolled duplex stainless steel. ",
+      "aluno"    : "Cristiane Fátima Guimarães Silveira Mota",
+      "orientador"    : "Maria José Ramos Sandim",
+      "data"    : "2024/12/09",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da deformação plástica, da reversão austenítica e da recristalização do aço inoxidável austenítico AISI 317L",
+      "titulo_en"    : "Estudo da deformação plástica, da reversão austenítica e da recristalização do aço inoxidável austenítico AISI 317L ",
+      "aluno"    : "Bárbara Corrêa Castanheira",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim",
+      "data"    : "2024/12/17",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Desenvolvimento e caracterização de compósitos Pb-Carbono e Pb-Carbetos para produção de grades metálicas de baterias chumbo-ácidas",
+      "titulo_en"    : "Development and characterization of Pb-Carbon and PbCarbide composites for the production of metal Grids in lead-acid batteries",
+      "aluno"    : "Caio Marcello Felbinger Azevedo Cossú",
+      "orientador"    : "Carlos Angelo Nunes",
+      "data"    : "2024/12/13",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
       "titulo"    : "Obtenção de Ligas de Alta Entropia a base de Fe, Co e Ni e Estudo de suas Propriedades Magnéticas",
       "titulo_en"    : "Alloying high entropy alloys based on Fe, Co and Ni and Magnetic Properties Studying. ",
       "aluno"    : "Fábio Martins Cardoso",
@@ -1391,6 +1501,66 @@
     } 
   
   ,
+  
+    {
+      "titulo"    : "Estudo para utilização do aço Dual Phase 980 em substituição ao aço microligado ARBL340 para aplicação em Componentes Automotivos",
+      "titulo_en"    : "Study on the use of Dual Phase 980 steel as a substitute for ARBL340 microalloyed steel in Automotive Componentes.",
+      "aluno"    : "Gláucio Ramos da Silva",
+      "orientador"    : "Carlos Antonio Reis Pereira Baptista",
+      "data"    : "2025/04/25",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Modelo em elementos finitos para processo de soldagem a laser de liga Ta-2,5W",
+      "titulo_en"    : "Finite element model for laser welding process of Ta- 2.5W alloy. ",
+      "aluno"    : "Miguel de Omena Lucas Vieira",
+      "orientador"    : "Luiz Tadeu Fernandes Eleno",
+      "data"    : "2025/01/21",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo de novas rotas de obtenção de carbono ativado a partir de bagaço de cana de açúcar para eletro geração de peróxido de hidrogênio",
+      "titulo_en"    : "Study of new routes for obtaining activated carbon from sugarcane bagasse for electro generation of hydrogen peroxide",
+      "aluno"    : "Túlio Pinheiro Pôrto",
+      "orientador"    : "Robson da Silva Rocha ",
+      "data"    : "2024/08/21",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Reciclagem termoquímica de resíduos industriais de compósitos pré-impregnados de fibra de carbono e matriz polimérica epóxi para utilização na fabricação de novos compósitos poliméricos",
+      "titulo_en"    : "Thermochemical recycling of industrial waste of pre-impregnated carbon fiber composites and epoxy polymer matrix for use in the manufacture of new polymer composites. ",
+      "aluno"    : "Marcos Vinícius Oliveira de Jesus",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2024/08/22",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Determinação de grandezas cinéticas e modelagem de mobilidade atômica na região CCC do sistema ternário Al-Nb-V",
+      "titulo_en"    : "Determination of kinetic quantities and atomic mobility modeling in the BCC region of the Al-Nb-V system",
+      "aluno"    : "Karoline Elerbrock Borowski",
+      "orientador"    : "Orientador: Prof. Dr. Gilberto Carvalho Coelho / Coorientador: Dr. Nabil ChaiaCo-orientador: Dr. Nabil Chaia ",
+      "data"    : "2024/08/05",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Compatibilização de polietileno/grafeno com peróxido de dicumila e polietileno graftizado com anidrido maleico por meio de extrusão reativa",
+      "titulo_en"    : "Compatibilization of polyethylene/graphene with dicumyl peroxide and polyethylene grafted with maleic anhydride by means of reactive extrusion",
+      "aluno"    : "Eduardo Ruiz Ferreira",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2024/08/23",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
   
     {
       "titulo"    : "Interdifusão em aluminetos de V e determinação de grandezas cinéticas",

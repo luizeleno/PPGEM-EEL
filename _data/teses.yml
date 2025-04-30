@@ -1,4 +1,103 @@
 -
+  titulo: "Avaliação da magnetostricção de ligas de (Fe0,70Co0,30)99-xGaxV1 com Ga = 12, 14, 16"
+  aluno: "Paula Cristina Petriz Monteiro"
+  orientador: "Cristina Bormio Nunes"
+  banca: "Presidente/Orientador(a): Cristina Bormio Nunes (EEL/USP)Titular: Cláudio Teodoro dos Santos (INT)Titular: Mateus Botani de Souza Dias (F. T. SENAI) Titular: Maria José Ramos Sandim (EEL/USP) "
+  data: "2025/05/09"
+  horario: "09h00"
+  titulo_en: "Evaluation of the magnetostriction of (Fe0,70Co0,30)99-xGaxV1 alloys with Ga = 12, 14, 16. "
+  tipo: D
+-
+  titulo: "Síntese in silico de materiais supercondutores"
+  aluno: "Pedro Nunes Ferreira"
+  orientador: "Luiz Tadeu Fernandes Eleno"
+  banca: "Presidente/Orientador(a): Luiz Tadeu Fernandes Eleno (EEL/USP) Titular: Helena Maria Petrilli (IF/USP) Titular: Adalberto Fazzio (LNNano/CNPEM)  Titular: Pascoal José Giglio Pagliuso (IFGW/UNICAMP) "
+  data: "2025/03/26"
+  horario: "14h00"
+  titulo_en: "In silico synthesis of superconducting materials"
+  tipo: D
+-
+  titulo: "Reciclagem de resíduos de polietileno de baixa densidade na forma de compósitos com subprodutos modificados da indústria de óleo de dendê"
+  aluno: "Silma Barros de Sá"
+  orientador: "Clodoaldo Saron"
+  banca: "Presidente/Orientador(a): Clodoaldo Saron (EEL/USP) Titular: Maria Lúcia Caetano Pinto da Silva (EEL/USP) Titular: Túlio Hallak Panzera (UFSJ)  Titular: Cassius Olívio Figueiredo Terra Ruchert (EEL/USP)  "
+  data: "2025/03/27"
+  horario: "14h00"
+  titulo_en: "Recycling of low-density polyethylene waste in the form of composites with modified by-products from the palm oil industry "
+  tipo: D
+-
+  titulo: "Estudo do desempenho metalúrgico de agentes fluxantes livres de flúor para lingotamento de aços peritéticos"
+  aluno: "Márcia Maria da Silva Monteiro Pereira"
+  orientador: "Fernando Vernilli Junior"
+  banca: "Presidente/Orientador(a): Fernando Vernilli Junior (EEL/USP) Titular: Wagner Viana Bielefeldt (UFRGS) Titular: Carlos Angelo Nunes (EEL/USP)  Titular: Tiago dos Santos Junior (Vesuvius Group)  "
+  data: "2025/02/19"
+  horario: "09h00"
+  titulo_en: "Study of the metallurgical performance of fluorine-free mold fluxes for peritectic steels casting"
+  tipo: D
+-
+  titulo: "Crescimento de cristais e supercondutividade em calcogenetos de zircônio intercalados com terras-raras"
+  aluno: "Leandro Rodrigues de Faria"
+  orientador: "Antonio Jefferson da Silva Machado"
+  banca: "Presidente/Orientador(a): Antonio Jefferson da Silva Machado (EEL/USP) Titular: Renato de Figueiredo Jardim (IF/USP) Titular: Enzo Granato (INPE)  Titular: Cristina Bormio Nunes (EEL/USP)"
+  data: "2025/01/17"
+  horario: "14h00"
+  titulo_en: "Crystal growth and superconductivity of rare-earth intercalated zirconium chalcogenides "
+  tipo: D
+-
+  titulo: "Síntese e caracterização de nanopartículas do espinélio de magnésio e alumínio, MgAl2O4, a partir do processo poliol"
+  aluno: "Pedro Henrique Lopes Nunes Abreu dos Santos"
+  orientador: "Sebastião Ribeiro"
+  banca: "Presidente/Orientador: Dr. Sebastião Ribeiro (EEL/USP) Titular: Dr. Paulo Atsushi Suzuki (EEL/USP)Titular: Drª. Lívia Melo Carneiro (EEL/USP)Titular: Drª. Adriana Maria da Silva (INMETRO) "
+  data: "2024/12/19"
+  horario: "14h00"
+  titulo_en: "Synthesis and characterization of nanoparticles of magnesium and aluminum spinel, MgAl2O4, prepared by polyolmediated synthesis"
+  tipo: D
+-
+  titulo: "Manufatura inovadora de um aço elétrico (Fe-3,5%Si) de grão orientado via fusão a laser em leito de pó e subsequente processamento termomecânico"
+  aluno: "Mariana Sizenando Lyrio"
+  orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Presidente/Orientador: Dr. Hugo Ricardo Zschommler Sandim (EEL/USP) Titular: Dr. Piter Gargarella (UFSCar)Titular: Dr. Éder Sócrates Najar Lopes (UNICAMP)Titular: Drª. Cristina Bormio Nunes (EEL/USP) "
+  data: "2024/09/26"
+  horario: "14h00"
+  titulo_en: "Innovative manufacturing of grain-oriented electrical steel (Fe-3.5%Si) via laser powder bed fusion and subsequent thermomechanical processing"
+  tipo: D
+-
+  titulo: "Reciclagem mecânica-química de resíduos de filmes poliméricos pós consumo de polietileno de baixa densidade em combinação com o polipropileno e presença de zeólita ZSM-5"
+  aluno: "Emerson Ferreira da Silva"
+  orientador: "Clodoaldo Saron"
+  banca: "Presidente/Orientador: Dr. Clodoaldo Saron (EEL/USP) Titular: Dr. Bruno Chaboli Gambarato (UNIFOA)Titular: Drª. Talita Martins Lacerda (EEL/USP)Titular: Drª. Daniella Regina Mulinari (UERJ) "
+  data: "2024/12/17"
+  horario: "14h00"
+  titulo_en: "Mechanical-chemical recycling of post-consumer polymer film waste made from low-density polyethylene in combination with polypropylene and the presence of zeolite ZSM-5. "
+  tipo: D
+-
+  titulo: "Estudo da reversão da austenita e sua influência nas propriedades magnéticas e dilatométricas de um aço inoxidável duplex laminado a frio"
+  aluno: "Cristiane Fátima Guimarães Silveira Mota"
+  orientador: "Maria José Ramos Sandim"
+  banca: "Presidente/Orientador: Drª. Maria José Ramos Sandim (EEL/USP) Titular: Dr. Sérgio Souto Maior Tavares (UFF)Titular: Dr. Luiz Carlos Camargo Miranda Nagamine (IF/USP)Titular: Drª. Cristina Bormio Nunes (EEL/USP) "
+  data: "2024/12/09"
+  horario: "14h00"
+  titulo_en: "Study of austenite reversal and its influence on the magnetic and dilatometric properties of a cold-rolled duplex stainless steel. "
+  tipo: D
+-
+  titulo: "Estudo da deformação plástica, da reversão austenítica e da recristalização do aço inoxidável austenítico AISI 317L"
+  aluno: "Bárbara Corrêa Castanheira"
+  orientador: "Hugo Ricardo Zschommler Sandim"
+  banca: "Presidente/Orientador: Dr. Hugo Ricardo Zschommler Sandim (EEL/USP) Titular: Dr. Dagoberto Brandão Santos (UFMG)Titular: Dr. Gláucio Soares da Fonseca (UFF)Titular: Drª. Cristina Bormio Nunes (EEL/USP) "
+  data: "2024/12/17"
+  horario: "14h00"
+  titulo_en: "Estudo da deformação plástica, da reversão austenítica e da recristalização do aço inoxidável austenítico AISI 317L "
+  tipo: D
+-
+  titulo: "Desenvolvimento e caracterização de compósitos Pb-Carbono e Pb-Carbetos para produção de grades metálicas de baterias chumbo-ácidas"
+  aluno: "Caio Marcello Felbinger Azevedo Cossú"
+  orientador: "Carlos Angelo Nunes"
+  banca: "Presidente/Orientador: Dr. Carlos Angelo Nunes (EEL/USP) Titular: Drª. Célia Regina Tomachuk dos Santos Catuogno (EEL/USP)Titular: Dr. Eduardo Gonçalves Ciapina (UNESP)Titular: Dr. Almir Oliveira Neto (IPEN) "
+  data: "2024/12/13"
+  horario: "08h30"
+  titulo_en: "Development and characterization of Pb-Carbon and PbCarbide composites for the production of metal Grids in lead-acid batteries"
+  tipo: D
+-
   titulo: "Obtenção de Ligas de Alta Entropia a base de Fe, Co e Ni e Estudo de suas Propriedades Magnéticas"
   aluno: "Fábio Martins Cardoso"
   orientador: "Cristina Bormio Nunes"
