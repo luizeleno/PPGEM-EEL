@@ -20,7 +20,7 @@ cd ../_scripts
 ssconvert -S  ../_Drive/Defesas/DEFESAS-PPGEM-EEL.xlsx defesas.csv
 python3 planilha-to-yaml.py
 
-echo '############################################################' 
+echo '############################################################'
 echo "# Atualizando o site no Github..."
 cd ..
 rake build
