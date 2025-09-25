@@ -11,7 +11,7 @@ rclone sync GoogleDrive:PPGEM-site .
 echo '############################################################' 
 echo '# Atualizando publicações...'
 cd ../_bibliography
-source .venv/bin/activate
+source /home/eleno/.venv/bin/activate
 python3 publicacoes.py
 
 echo '############################################################' 
