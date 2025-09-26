@@ -6,7 +6,7 @@ echo `date`
 echo '############################################################' 
 echo "# Sincronizando com o Google Drive..."
 cd /home/eleno/Dropbox/Lorena/Website/PPGEM-EEL/_Drive
-rclone sync GoogleDrive:PPGEM-site .
+rclone sync PPGEM-EEL:PPGEM-site .
 
 echo '############################################################' 
 echo '# Atualizando publicações...'
