@@ -1,6 +1,56 @@
 [
   
     {
+      "titulo"    : "Estudo das propriedades magnéticas da liga Fe65Co35 com adições de Cr e Cr-Ti",
+      "titulo_en"    : "Study of the magnetic properties of the Fe Co alloy with Cr and Cr-Ti additions. ",
+      "aluno"    : "Fernando Froes ",
+      "orientador"    : "Cristina Bormio Nunes ",
+      "data"    : "2026/03/30",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da utilização de escória LD beneficiada como agente fluxante em convertedores LD",
+      "titulo_en"    : "Study on the use of recycled slag as a fluxing agent in LD converters.",
+      "aluno"    : "Rafaela Pereira Batista Carvalho ",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2026/03/06",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Avaliação da resistência à corrosão de ligas de magnésio biodegradáveis com adição de elementos terras raras (Gd, Dy)",
+      "titulo_en"    : "Evaluation of the corrosion resistance of biodegradable magnesium alloys with the addition of rare earth elements (Gd, Dy)",
+      "aluno"    : "Paula Letícia Corrêa de Toledo Cury ",
+      "orientador"    : "Célia Regina Tomachuk dos Santos Catuogno ",
+      "data"    : "2025/09/26",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Pré-corrosão e efeitos da nitretação na vida em fadiga e na resistência à corrosão do titânio grau 2 em solução aquosa de HCl",
+      "titulo_en"    : "Pre-corrosion and effects of nitriding on fatigue life and corrosion resistance of titanium grade 2 in aqueous HCl solution",
+      "aluno"    : "Flávia Dias Fernandes",
+      "orientador"    : "Miguel Justino Ribeiro Barboza ",
+      "data"    : "2025/08/01",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
+      "titulo"    : "Estudo da microestrutura e do crescimento de trincas por corrosão-fadiga em cordão de solda obtido pelo processo TIG no aço inoxidável austenítico AISI 316L",
+      "titulo_en"    : "Microstructural Analysis and Corrosion-Fatigue Crack Growth Behavior in Weld Beads Produced by the TIG Process in AISI 316L Austenitic Stainless Steel.",
+      "aluno"    : "Érica Marcelino Freitas de Souza Silva ",
+      "orientador"    : "Carlos Antonio Reis Pereira Baptista ",
+      "data"    : "2025/10/08",
+      "tipo"    : "Tese de Doutorado",
+      "tipo_en"    : "PhD Thesis"
+    } ,
+  
+    {
       "titulo"    : "Avaliação da magnetostricção de ligas de (Fe0,70Co0,30)99-xGaxV1 com Ga = 12, 14, 16",
       "titulo_en"    : "Evaluation of the magnetostriction of (Fe0,70Co0,30)99-xGaxV1 alloys with Ga = 12, 14, 16. ",
       "aluno"    : "Paula Cristina Petriz Monteiro",
@@ -1501,6 +1551,76 @@
     } 
   
   ,
+  
+    {
+      "titulo"    : "Estudo ab-initio das propriedades estruturais, el´asticas e anisotropicas do sistema Fe-Nb",
+      "titulo_en"    : "Ab-initio study of structural, elastic and anisotropic properties of the Fe-Nb system",
+      "aluno"    : "Martin Díaz Choque ",
+      "orientador"    : "Luiz Tadeu Fernandes Eleno ",
+      "data"    : "2026/02/13",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Estudo comparativo da transformação martensítica do aço SAE 4140 a partir de distintas microestruturas iniciais via aquecimento em forno de indução, têmpera e revenimento",
+      "titulo_en"    : "Comparative study of the martensitic transformation of SAE 4140 steel from different initial microestructures from induction furnace heating, quenching, and tempering ",
+      "aluno"    : "João Marcelo Marçal Bocca ",
+      "orientador"    : "Hugo Ricardo Zschommler Sandim ",
+      "data"    : "2026/02/26",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Desenvolvimento de tubo refratário a base de mulita para vazamento de aço sob pressão",
+      "titulo_en"    : "Development of a Mulite-based Refractory Tube for Steel Ladle Pouring.",
+      "aluno"    : "Rafael Soares de Moraes ",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2025/08/22",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Investigação de supercondutividade em intermetálico de fase Laves de composição ZrAl2 hidrogenado",
+      "titulo_en"    : "Investigation of superconductivity in hydrogenated ZrAl2 composition Laves phase intermetallic",
+      "aluno"    : "Larissa Miki Ishikura ",
+      "orientador"    : "Antonio Jefferson da Silva Machado ",
+      "data"    : "2025/11/24",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Avaliação dos Efeitos da Substituição Parcial da Resina Fenólica por Piche Sintético nas Propriedades de Refratários de Magnésia-Carbono para Convertedores LD",
+      "titulo_en"    : "Evaluation of the Effects of Partial Substitution of Phenolic Resin with Synthetic Pitch on the Properties of Magnesia-Carbon Refractories for LD Converters",
+      "aluno"    : "Haylander Coelho de Ávila ",
+      "orientador"    : "Fernando Vernilli Junior",
+      "data"    : "2025/09/15",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Blendas a partir da reciclagem de resíduos de ABS de dispositivos eletroeletrônicos e de PLA de manufatura aditiva",
+      "titulo_en"    : "Blends from the recycling of ABS waste from electronic devices and PLA from additive manufacturing.",
+      "aluno"    : "Brandon Jair Medina Amado ",
+      "orientador"    : "Clodoaldo Saron",
+      "data"    : "2025/12/05",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
+  
+    {
+      "titulo"    : "Investigação da potencialidade do processo de anodização sulfúrico-tartárico para a liga Al7075-T6 visando aplicação no setor aeronáutico",
+      "titulo_en"    : "Investigation of the potential of the sulfuric-tartaric anodizing process for the Al7075-T6 alloy for application in the aeronautical sector.",
+      "aluno"    : "Elaine Bassanelli ",
+      "orientador"    : "Célia Regina Tomachuk dos Santos Catuogno ",
+      "data"    : "2025/06/16",
+      "tipo"    : "Dissertação de Mestrado",
+      "tipo_en"    : "Master Dissertation"
+    } ,
   
     {
       "titulo"    : "Estudo para utilização do aço Dual Phase 980 em substituição ao aço microligado ARBL340 para aplicação em Componentes Automotivos",

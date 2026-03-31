@@ -1,4 +1,67 @@
 -
+  titulo: "Estudo ab-initio das propriedades estruturais, el´asticas e anisotropicas do sistema Fe-Nb"
+  aluno: "Martin Díaz Choque "
+  orientador: "Luiz Tadeu Fernandes Eleno "
+  banca: "Presidente/Orientador(a): Luiz Tadeu Fernandes Eleno (EEL/USP)Titular: Cláudio Geraldo Schöen (EP/USP)Titular: Antonio Augusto Araújo Pinto da Silva (UNIFEI) "
+  data: "2026/02/13"
+  horario: "14h00"
+  titulo_en: "Ab-initio study of structural, elastic and anisotropic properties of the Fe-Nb system"
+  tipo: M
+-
+  titulo: "Estudo comparativo da transformação martensítica do aço SAE 4140 a partir de distintas microestruturas iniciais via aquecimento em forno de indução, têmpera e revenimento"
+  aluno: "João Marcelo Marçal Bocca "
+  orientador: "Hugo Ricardo Zschommler Sandim "
+  banca: "Presidente/Orientador(a): Hugo Ricardo Zschommler Sandim (EEL/USP)Titular: Paulo Henrique de Oliveira Monteiro Alves (IOCHPE/Maxion)Titular: Gláucio Soares da Fonseca (EEIMVR/UFF) "
+  data: "2026/02/26"
+  horario: "09h00"
+  titulo_en: "Comparative study of the martensitic transformation of SAE 4140 steel from different initial microestructures from induction furnace heating, quenching, and tempering "
+  tipo: M
+-
+  titulo: "Desenvolvimento de tubo refratário a base de mulita para vazamento de aço sob pressão"
+  aluno: "Rafael Soares de Moraes "
+  orientador: "Fernando Vernilli Junior"
+  banca: "Presidente/Orientador(a): Fernando Vernilli Junior (EEL/USP)Titular: Dimas Campos de Aguiar (AmstedMaxion)Titular: Paulo Henrique de Oliveira Monteiro Alves (Iochpe-Maxion) "
+  data: "2025/08/22"
+  horario: "09h00"
+  titulo_en: "Development of a Mulite-based Refractory Tube for Steel Ladle Pouring."
+  tipo: M
+-
+  titulo: "Investigação de supercondutividade em intermetálico de fase Laves de composição ZrAl2 hidrogenado"
+  aluno: "Larissa Miki Ishikura "
+  orientador: "Antonio Jefferson da Silva Machado "
+  banca: "Presidente/Orientador(a): Antonio Jefferson da Silva Machado (EEL/USP)Titular: Mário Sérgio da Luz (UFTM)Titular: Carlos Alberto Moreira dos Santos (EEL/USP) "
+  data: "2025/11/24"
+  horario: "14h00"
+  titulo_en: "Investigation of superconductivity in hydrogenated ZrAl2 composition Laves phase intermetallic"
+  tipo: M
+-
+  titulo: "Avaliação dos Efeitos da Substituição Parcial da Resina Fenólica por Piche Sintético nas Propriedades de Refratários de Magnésia-Carbono para Convertedores LD"
+  aluno: "Haylander Coelho de Ávila "
+  orientador: "Fernando Vernilli Junior"
+  banca: "Presidente/Orientador(a): Carlos Pagliosa Neto (RHIMag)Titular: Sidiney Nascimento Silva (CSN)Titular: Miguel Angel Ramirez Gil (UNESP) "
+  data: "2025/09/15"
+  horario: "09h30"
+  titulo_en: "Evaluation of the Effects of Partial Substitution of Phenolic Resin with Synthetic Pitch on the Properties of Magnesia-Carbon Refractories for LD Converters"
+  tipo: M
+-
+  titulo: "Blendas a partir da reciclagem de resíduos de ABS de dispositivos eletroeletrônicos e de PLA de manufatura aditiva"
+  aluno: "Brandon Jair Medina Amado "
+  orientador: "Clodoaldo Saron"
+  banca: "Presidente/Orientador(a): Clodoaldo Saron (EEL/USP)Titular: Maria Odila Hilário Cioffi (FEG/UNESP)Titular: Sandra Andrea Cruz (DEMA/UFSCar) "
+  data: "2025/12/05"
+  horario: "14h00"
+  titulo_en: "Blends from the recycling of ABS waste from electronic devices and PLA from additive manufacturing."
+  tipo: M
+-
+  titulo: "Investigação da potencialidade do processo de anodização sulfúrico-tartárico para a liga Al7075-T6 visando aplicação no setor aeronáutico"
+  aluno: "Elaine Bassanelli "
+  orientador: "Célia Regina Tomachuk dos Santos Catuogno "
+  banca: "Presidente/Orientador(a): Célia Regina Tomachuk dos Santos Catuogno (EEL/USP); Titular: Roberto Zenhei Nakazato (FEG/UNESP)Titular: Isolda Costa (IPEN/CCTM) "
+  data: "2025/06/16"
+  horario: "14h30"
+  titulo_en: "Investigation of the potential of the sulfuric-tartaric anodizing process for the Al7075-T6 alloy for application in the aeronautical sector."
+  tipo: M
+-
   titulo: "Estudo para utilização do aço Dual Phase 980 em substituição ao aço microligado ARBL340 para aplicação em Componentes Automotivos"
   aluno: "Gláucio Ramos da Silva"
   orientador: "Carlos Antonio Reis Pereira Baptista"

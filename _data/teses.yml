@@ -1,4 +1,49 @@
 -
+  titulo: "Estudo das propriedades magnéticas da liga Fe65Co35 com adições de Cr e Cr-Ti"
+  aluno: "Fernando Froes "
+  orientador: "Cristina Bormio Nunes "
+  banca: "Presidente/Orientador(a): Cristina Bormio Nunes (EEL/USP)Titular: Paulo Atsushi Suzuki (EEL/USP)Titular: Alexandre Magnus Gomes Carvalho (IFADT/UERJ) Titular: Cláudio Teodoro dos Santos (INT/MCTI) "
+  data: "2026/03/30"
+  horario: "14h00"
+  titulo_en: "Study of the magnetic properties of the Fe Co alloy with Cr and Cr-Ti additions. "
+  tipo: D
+-
+  titulo: "Estudo da utilização de escória LD beneficiada como agente fluxante em convertedores LD"
+  aluno: "Rafaela Pereira Batista Carvalho "
+  orientador: "Fernando Vernilli Junior"
+  banca: "Presidente/Orientador(a): André Luiz Vasconcellos da Costa e Silva (EEIMVR/UFF)Titular: Carlos Angelo Nunes (EEL/USP)Titular: Sidiney Nascimento Silva (CSN) Titular: Celso Luiz Moraes Alves (UFF) "
+  data: "2026/03/06"
+  horario: "14h00"
+  titulo_en: "Study on the use of recycled slag as a fluxing agent in LD converters."
+  tipo: D
+-
+  titulo: "Avaliação da resistência à corrosão de ligas de magnésio biodegradáveis com adição de elementos terras raras (Gd, Dy)"
+  aluno: "Paula Letícia Corrêa de Toledo Cury "
+  orientador: "Célia Regina Tomachuk dos Santos Catuogno "
+  banca: "Presidente/Orientador(a): Célia Regina Tomachuk dos Santos Catuogno (EEL/USP)Titular: José Antonio da Cunha Ponciano Gomes (COPPE/UFRJ)Titular: Haroldo Cavalcanti Pinto (EESC/USP) Titular: Ana Paula Rosifini Alves (FEG/UNESP) "
+  data: "2025/09/26"
+  horario: "09h00"
+  titulo_en: "Evaluation of the corrosion resistance of biodegradable magnesium alloys with the addition of rare earth elements (Gd, Dy)"
+  tipo: D
+-
+  titulo: "Pré-corrosão e efeitos da nitretação na vida em fadiga e na resistência à corrosão do titânio grau 2 em solução aquosa de HCl"
+  aluno: "Flávia Dias Fernandes"
+  orientador: "Miguel Justino Ribeiro Barboza "
+  banca: "Presidente/Orientador: Dr. Miguel Justino Ribeiro Barboza (EEL/USP)Titular: Drª. Danieli Aparecida Pereira Reis (UNIFESP)Titular: Drª. Aline Gonçalves Capella (UNIFESP)Titular: Drª. Gislene Valdete Martins (INPE) "
+  data: "2025/08/01"
+  horario: "14h00"
+  titulo_en: "Pre-corrosion and effects of nitriding on fatigue life and corrosion resistance of titanium grade 2 in aqueous HCl solution"
+  tipo: D
+-
+  titulo: "Estudo da microestrutura e do crescimento de trincas por corrosão-fadiga em cordão de solda obtido pelo processo TIG no aço inoxidável austenítico AISI 316L"
+  aluno: "Érica Marcelino Freitas de Souza Silva "
+  orientador: "Carlos Antonio Reis Pereira Baptista "
+  banca: "Presidente/Orientador: Dr. Carlos Antonio Reis Pereira Baptista (EEL/USP)Titular: Dr. Marcelino Pereira do Nascimento (UNESP)Titular: Dr. Jéferson Aparecido Moreto (EESC/USP)Titular: Drª. Maria Ismênia Sodero Toledo Faria (EEL/USP) "
+  data: "2025/10/08"
+  horario: "14h00"
+  titulo_en: "Microstructural Analysis and Corrosion-Fatigue Crack Growth Behavior in Weld Beads Produced by the TIG Process in AISI 316L Austenitic Stainless Steel."
+  tipo: D
+-
   titulo: "Avaliação da magnetostricção de ligas de (Fe0,70Co0,30)99-xGaxV1 com Ga = 12, 14, 16"
   aluno: "Paula Cristina Petriz Monteiro"
   orientador: "Cristina Bormio Nunes"
